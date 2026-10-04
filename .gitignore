@@ -85,3 +85,7 @@ __screenshots__
 # Playwright artifacts (baselines are committed, failures are not)
 test-results/
 playwright-report/
+
+# Next.js build output (integration/next-app fixture)
+.next/
+*.tsbuildinfo

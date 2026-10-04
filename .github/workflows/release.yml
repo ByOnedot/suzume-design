@@ -135,11 +135,15 @@ jobs:
         run: npm publish --provenance --access public
 
       - name: GitHub release
-        if: github.event_name == 'workflow_dispatch' && inputs.dry_run != true
+        if: steps.version.outputs.dry_run != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           v="${{ steps.version.outputs.version }}"
+          if gh release view "v$v" >/dev/null 2>&1; then
+            echo "release v$v already exists"
+            exit 0
+          fi
           gh release create "v$v" \
             --title "@suzume-design/web-react v$v" \
             --notes "See [CHANGELOG.md](https://github.com/byonedot/suzume-design/blob/main/CHANGELOG.md) for details." \

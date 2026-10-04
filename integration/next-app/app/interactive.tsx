@@ -89,7 +89,7 @@ export function InteractivePanel() {
 
         <Form
           layout="vertical"
-          onFinish={(values) => Message.success(JSON.stringify(values))}
+          onSubmit={(values) => Message.success(JSON.stringify(values))}
           initialValues={{ email: '', username: '' }}
         >
           <Space wrap>

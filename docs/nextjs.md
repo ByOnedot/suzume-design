@@ -88,6 +88,38 @@ export function Stat({ value }: { value: number }) {
 }
 ```
 
+### Destructure namespace members inside the client boundary
+
+Because the entry points carry `'use client'`, the value a Server Component
+imports is a **client reference**, not the real module object. Destructuring
+therefore returns `undefined`:
+
+```tsx
+// app/page.tsx (Server Component) - does not work
+import { Grid, Typography } from '@suzume-design/web-react';
+const { Row, Col } = Grid; // Grid is a client reference here
+```
+
+Keep the destructuring in a `'use client'` file and render that file from the
+Server Component:
+
+```tsx
+// app/server-grid.tsx
+'use client';
+import { Grid } from '@suzume-design/web-react';
+const { Row, Col } = Grid;
+export function ServerGrid() {
+  return (
+    <Row>
+      <Col span={12}>Rendered as a client boundary, still server-side rendered</Col>
+    </Row>
+  );
+}
+```
+
+Directly imported components (`<Alert>`, `<Card>`, ...) are fine in a Server
+Component - they become client boundaries automatically.
+
 Never pass functions, class instances or `dayjs` objects from a Server
 Component to a client component - they are not serialisable.
 
