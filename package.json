@@ -183,7 +183,6 @@
     "url": "https://github.com/byonedot/suzume-design/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
