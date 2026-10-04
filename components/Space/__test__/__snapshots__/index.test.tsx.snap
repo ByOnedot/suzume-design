@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Space > default 1`] = `"<div class="suzume-space suzume-space-horizontal suzume-space-align-center"></div>"`;
+
+exports[`ConfigProvider componentConfig.Space > set className globally 1`] = `"<div class="suzume-space suzume-space-horizontal suzume-space-align-center global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Space > set className globally and component set className itself. 1`] = `"<div class="suzume-space suzume-space-horizontal suzume-space-align-center component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Space > set data-* property 1`] = `"<div class="suzume-space suzume-space-horizontal suzume-space-align-center" data-test-name="Space"></div>"`;

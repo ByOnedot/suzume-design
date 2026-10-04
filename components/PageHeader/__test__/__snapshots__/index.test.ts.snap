@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.PageHeader > default 1`] = `"<div class="suzume-page-header"><div class="suzume-page-header-head-wrapper"><div class="suzume-page-header-head"><div class="suzume-page-header-head-main"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.PageHeader > set className globally 1`] = `"<div class="suzume-page-header global-default-class"><div class="suzume-page-header-head-wrapper"><div class="suzume-page-header-head"><div class="suzume-page-header-head-main"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.PageHeader > set className globally and component set className itself. 1`] = `"<div class="suzume-page-header component-class"><div class="suzume-page-header-head-wrapper"><div class="suzume-page-header-head"><div class="suzume-page-header-head-main"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.PageHeader > set data-* property 1`] = `"<div data-test-name="PageHeader" class="suzume-page-header"><div class="suzume-page-header-head-wrapper"><div class="suzume-page-header-head"><div class="suzume-page-header-head-main"></div></div></div></div>"`;

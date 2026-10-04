@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.BackTop > default 1`] = `"<div class="suzume-backtop"></div>"`;
+
+exports[`ConfigProvider componentConfig.BackTop > set className globally 1`] = `"<div class="suzume-backtop global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.BackTop > set className globally and component set className itself. 1`] = `"<div class="suzume-backtop component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.BackTop > set data-* property 1`] = `"<div data-test-name="BackTop" class="suzume-backtop"></div>"`;

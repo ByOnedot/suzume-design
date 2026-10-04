@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "rootDir": "./components",
+    "target": "ES2017",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "strict": false,
+    "paths": {
+      "@suzume-design/web-react": [
+        "./components/index.tsx"
+      ],
+      "@suzume-design/web-react/icon": [
+        "./icon/index.js"
+      ],
+      "test-utils": [
+        "./tests/util.ts"
+      ]
+    }
+  },
+  "include": [
+    "components/**/*.ts",
+    "components/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "components/**/*.test.tsx",
+    "components/**/*.test.ts",
+    "components/**/__test__/**",
+    "tests/**"
+  ]
+}

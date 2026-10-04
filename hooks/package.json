@@ -1,0 +1,20 @@
+{
+  "name": "@suzume-design/web-react-hooks",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "scripts": {
+    "build:es": "rm -rf ./es && npx tsc -p tsconfig.json",
+    "build:cjs": "rm -rf ./lib && npx tsc -p tsconfig.cjs.json",
+    "build:dist": "cd ../ && BUILD_TYPE=hooks node ./tools/build-scripts/lib/bin.js build:component:dist",
+    "generate": "rm -rf src-es/* && rm -rf src-lib/* &&  node ./scripts/generate.js ",
+    "build": "pnpm run generate && pnpm run build:cjs && pnpm run build:es"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {},
+  "sideEffects": false
+}

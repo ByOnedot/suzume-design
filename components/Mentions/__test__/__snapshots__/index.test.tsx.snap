@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Mentions > default 1`] = `"<div class="suzume-mentions suzume-mentions-align-textarea"><textarea rows="1" class="suzume-textarea suzume-mentions-textarea"></textarea><div class="suzume-mentions-measure"><span class="suzume-mentions-measure-trigger"></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Mentions > set className globally 1`] = `"<div class="suzume-mentions suzume-mentions-align-textarea global-default-class"><textarea rows="1" class="suzume-textarea suzume-mentions-textarea"></textarea><div class="suzume-mentions-measure"><span class="suzume-mentions-measure-trigger"></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Mentions > set className globally and component set className itself. 1`] = `"<div class="suzume-mentions suzume-mentions-align-textarea component-class"><textarea rows="1" class="suzume-textarea suzume-mentions-textarea"></textarea><div class="suzume-mentions-measure"><span class="suzume-mentions-measure-trigger"></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Mentions > set data-* property 1`] = `"<div class="suzume-mentions suzume-mentions-align-textarea"><textarea data-test-name="Mentions" rows="1" class="suzume-textarea suzume-mentions-textarea"></textarea><div class="suzume-mentions-measure"><span class="suzume-mentions-measure-trigger"></span></div></div>"`;

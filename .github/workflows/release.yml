@@ -1,0 +1,146 @@
+name: Release
+
+# Publishes @suzume-design/color and @suzume-design/web-react to npm.
+#
+# Preferred path is npm Trusted Publishing (OIDC): configure a trusted publisher
+# for both packages on npmjs.com pointing at this repository and this workflow
+# file, and no npm token is ever stored in GitHub. If a repository secret
+# `NPM_TOKEN` exists it is used instead, so the first release can go out before
+# the trusted publisher is linked.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Semver to release (both packages are version-locked)'
+        required: true
+      dry_run:
+        description: 'Verify + build + pack, but do not commit, tag or publish'
+        type: boolean
+        default: false
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Singapore
+
+jobs:
+  release:
+    name: verify, tag and publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 12.9.1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Branding regression scan
+        run: pnpm check:branding
+
+      - name: Lint (eslint + stylelint)
+        run: |
+          pnpm eslint
+          pnpm stylelint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Generate icons
+        run: pnpm icon
+
+      - name: Build (es / cjs / dist / css / hooks)
+        run: pnpm build
+
+      - name: Test
+        run: pnpm test
+
+      - name: Audit the npm tarball
+        run: pnpm pack:check
+
+      - name: Branding regression scan (build output)
+        run: |
+          node ./scripts/check-branding.js ./es
+          node ./scripts/check-branding.js ./lib
+          node ./scripts/check-branding.js ./dist
+
+      - name: Resolve version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            v="${GITHUB_REF_NAME#v}"
+          else
+            v="${{ inputs.version }}"
+          fi
+          if ! echo "$v" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$'; then
+            echo "invalid semver: $v" >&2
+            exit 1
+          fi
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          echo "dry_run=${{ inputs.dry_run || false }}" >> "$GITHUB_OUTPUT"
+
+      - name: Bump version and tag
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run != true
+        run: |
+          v="${{ steps.version.outputs.version }}"
+          node ./scripts/bump-version.js "$v"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json packages/color/package.json components/index.tsx
+          git commit -m "chore(release): v$v"
+          git tag -a "v$v" -m "v$v"
+          git push origin HEAD "v$v"
+
+      - name: Configure npm authentication
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm install -g npm@latest
+          if [ -n "$NPM_TOKEN" ]; then
+            printf '//registry.npmjs.org/:_authToken=%s\n' "$NPM_TOKEN" > "$HOME/.npmrc"
+          fi
+          npm whoami || echo "no interactive npm user - relying on trusted publishing (OIDC)"
+
+      - name: Publish @suzume-design/color
+        if: steps.version.outputs.dry_run != 'true'
+        run: npm publish --provenance --access public
+        working-directory: packages/color
+
+      - name: Publish @suzume-design/web-react
+        if: steps.version.outputs.dry_run != 'true'
+        run: npm publish --provenance --access public
+
+      - name: GitHub release
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v="${{ steps.version.outputs.version }}"
+          gh release create "v$v" \
+            --title "@suzume-design/web-react v$v" \
+            --notes "See [CHANGELOG.md](https://github.com/byonedot/suzume-design/blob/main/CHANGELOG.md) for details." \
+            --verify-tag

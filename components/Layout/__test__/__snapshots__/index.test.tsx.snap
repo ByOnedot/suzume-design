@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Layout > default 1`] = `"<section class="suzume-layout"></section>"`;
+
+exports[`ConfigProvider componentConfig.Layout > set className globally 1`] = `"<section class="suzume-layout global-default-class"></section>"`;
+
+exports[`ConfigProvider componentConfig.Layout > set className globally and component set className itself. 1`] = `"<section class="suzume-layout component-class"></section>"`;
+
+exports[`ConfigProvider componentConfig.Layout > set data-* property 1`] = `"<section data-test-name="Layout" class="suzume-layout"></section>"`;

@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Carousel > default 1`] = `"<div class="suzume-carousel suzume-carousel-indicator-position-bottom"><div class="suzume-carousel-slide suzume-carousel-horizontal"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Carousel > set className globally 1`] = `"<div class="suzume-carousel suzume-carousel-indicator-position-bottom global-default-class"><div class="suzume-carousel-slide suzume-carousel-horizontal"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Carousel > set className globally and component set className itself. 1`] = `"<div class="suzume-carousel suzume-carousel-indicator-position-bottom component-class"><div class="suzume-carousel-slide suzume-carousel-horizontal"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Carousel > set data-* property 1`] = `"<div class="suzume-carousel suzume-carousel-indicator-position-bottom" data-test-name="Carousel"><div class="suzume-carousel-slide suzume-carousel-horizontal"></div></div>"`;

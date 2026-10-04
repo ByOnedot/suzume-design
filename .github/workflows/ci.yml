@@ -1,0 +1,91 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Component tests assert local-time rendering against a GMT+8 mock date.
+  TZ: Asia/Singapore
+
+jobs:
+  verify:
+    name: verify (node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [20, 22]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 12.9.1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
+          registry-url: https://registry.npmjs.org
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Branding regression scan (source)
+        run: pnpm check:branding
+
+      - name: Lint (eslint)
+        run: pnpm eslint
+
+      - name: Lint (stylelint)
+        run: pnpm stylelint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Generate icons
+        run: pnpm icon
+
+      - name: Build (es / cjs / dist / css / hooks)
+        run: pnpm build
+
+      - name: Test
+        run: pnpm test
+
+      - name: Audit the npm tarball
+        run: pnpm pack:check
+
+      - name: Branding regression scan (build output)
+        run: |
+          node ./scripts/check-branding.js ./es
+          node ./scripts/check-branding.js ./lib
+          node ./scripts/check-branding.js ./dist
+
+      - name: Link check (documentation)
+        run: pnpm check:links
+
+      - name: npm publish --dry-run
+        run: |
+          npm publish --dry-run
+          (cd packages/color && npm publish --dry-run)
+
+      - name: Upload tarball
+        if: matrix.node == 22
+        uses: actions/upload-artifact@v4
+        with:
+          name: suzume-design-web-react-tarball
+          path: '*.tgz'
+          if-no-files-found: error

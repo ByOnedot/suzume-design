@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Breadcrumb > default 1`] = `"<div role="list" class="suzume-breadcrumb"></div>"`;
+
+exports[`ConfigProvider componentConfig.Breadcrumb > set className globally 1`] = `"<div role="list" class="suzume-breadcrumb global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Breadcrumb > set className globally and component set className itself. 1`] = `"<div role="list" class="suzume-breadcrumb component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Breadcrumb > set data-* property 1`] = `"<div role="list" class="suzume-breadcrumb" data-test-name="Breadcrumb"></div>"`;

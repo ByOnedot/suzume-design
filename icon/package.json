@@ -1,0 +1,13 @@
+{
+  "name": "@suzume-design/web-react-icon",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./index.js",
+  "module": "./index.es.js",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {},
+  "sideEffects": false
+}

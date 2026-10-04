@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Comment > default 1`] = `"<div class="suzume-comment"><div class="suzume-comment-inner"><div class="suzume-comment-inner-content"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Comment > set className globally 1`] = `"<div class="suzume-comment global-default-class"><div class="suzume-comment-inner"><div class="suzume-comment-inner-content"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Comment > set className globally and component set className itself. 1`] = `"<div class="suzume-comment component-class"><div class="suzume-comment-inner"><div class="suzume-comment-inner-content"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Comment > set data-* property 1`] = `"<div class="suzume-comment" data-test-name="Comment"><div class="suzume-comment-inner"><div class="suzume-comment-inner-content"></div></div></div>"`;

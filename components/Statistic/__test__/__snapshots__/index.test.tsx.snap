@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Statistic > default 1`] = `"<div class="suzume-statistic"><div class="suzume-statistic-content"><div class="suzume-statistic-value"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Statistic > set className globally 1`] = `"<div class="suzume-statistic global-default-class"><div class="suzume-statistic-content"><div class="suzume-statistic-value"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Statistic > set className globally and component set className itself. 1`] = `"<div class="suzume-statistic component-class"><div class="suzume-statistic-content"><div class="suzume-statistic-value"></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Statistic > set data-* property 1`] = `"<div class="suzume-statistic" data-test-name="Statistic"><div class="suzume-statistic-content"><div class="suzume-statistic-value"></div></div></div>"`;

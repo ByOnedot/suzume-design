@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Descriptions > default 1`] = `"<div class="suzume-descriptions suzume-descriptions-layout-horizontal suzume-descriptions-size-default"><div class="suzume-descriptions-body"><table class="suzume-descriptions-table" cellPadding="0" cellSpacing="0"><tbody></tbody></table></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Descriptions > set className globally 1`] = `"<div class="suzume-descriptions suzume-descriptions-layout-horizontal suzume-descriptions-size-default global-default-class"><div class="suzume-descriptions-body"><table class="suzume-descriptions-table" cellPadding="0" cellSpacing="0"><tbody></tbody></table></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Descriptions > set className globally and component set className itself. 1`] = `"<div class="suzume-descriptions suzume-descriptions-layout-horizontal suzume-descriptions-size-default component-class"><div class="suzume-descriptions-body"><table class="suzume-descriptions-table" cellPadding="0" cellSpacing="0"><tbody></tbody></table></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Descriptions > set data-* property 1`] = `"<div class="suzume-descriptions suzume-descriptions-layout-horizontal suzume-descriptions-size-default"><div class="suzume-descriptions-body"><table class="suzume-descriptions-table" cellPadding="0" cellSpacing="0"><tbody></tbody></table></div></div>"`;

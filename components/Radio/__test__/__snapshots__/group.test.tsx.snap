@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Radio.Group > default 1`] = `"<div class="suzume-radio-group suzume-radio-size-default suzume-radio-mode-outline" role="radiogroup"></div>"`;
+
+exports[`ConfigProvider componentConfig.Radio.Group > set className globally 1`] = `"<div class="suzume-radio-group suzume-radio-size-default suzume-radio-mode-outline global-default-class" role="radiogroup"></div>"`;
+
+exports[`ConfigProvider componentConfig.Radio.Group > set className globally and component set className itself. 1`] = `"<div class="suzume-radio-group suzume-radio-size-default suzume-radio-mode-outline component-class" role="radiogroup"></div>"`;
+
+exports[`ConfigProvider componentConfig.Radio.Group > set data-* property 1`] = `"<div class="suzume-radio-group suzume-radio-size-default suzume-radio-mode-outline" role="radiogroup" data-test-name="Radio.Group"></div>"`;

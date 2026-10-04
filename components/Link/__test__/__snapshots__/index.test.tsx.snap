@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Link > default 1`] = `"<span class="suzume-link"></span>"`;
+
+exports[`ConfigProvider componentConfig.Link > set className globally 1`] = `"<span class="suzume-link global-default-class"></span>"`;
+
+exports[`ConfigProvider componentConfig.Link > set className globally and component set className itself. 1`] = `"<span class="suzume-link component-class"></span>"`;
+
+exports[`ConfigProvider componentConfig.Link > set data-* property 1`] = `"<span class="suzume-link" data-test-name="Link"></span>"`;

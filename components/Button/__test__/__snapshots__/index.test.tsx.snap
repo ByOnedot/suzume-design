@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Button > default 1`] = `"<button class="suzume-btn suzume-btn-secondary suzume-btn-size-default suzume-btn-shape-square" type="button"></button>"`;
+
+exports[`ConfigProvider componentConfig.Button > set className globally 1`] = `"<button class="suzume-btn suzume-btn-secondary suzume-btn-size-default suzume-btn-shape-square global-default-class" type="button"></button>"`;
+
+exports[`ConfigProvider componentConfig.Button > set className globally and component set className itself. 1`] = `"<button class="suzume-btn suzume-btn-secondary suzume-btn-size-default suzume-btn-shape-square component-class" type="button"></button>"`;
+
+exports[`ConfigProvider componentConfig.Button > set data-* property 1`] = `"<button data-test-name="Button" class="suzume-btn suzume-btn-secondary suzume-btn-size-default suzume-btn-shape-square" type="button"></button>"`;
+
+exports[`ConfigProvider componentConfig.Button.Group > default 1`] = `"<div class="suzume-btn-group"></div>"`;
+
+exports[`ConfigProvider componentConfig.Button.Group > set className globally 1`] = `"<div class="suzume-btn-group"></div>"`;
+
+exports[`ConfigProvider componentConfig.Button.Group > set className globally and component set className itself. 1`] = `"<div class="suzume-btn-group component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Button.Group > set data-* property 1`] = `"<div class="suzume-btn-group" data-test-name="Button.Group"></div>"`;

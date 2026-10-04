@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Affix > default 1`] = `"<div class=""><div class=""><span></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Affix > set className globally 1`] = `"<div class="global-default-class"><div class=""><span></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Affix > set className globally and component set className itself. 1`] = `"<div class="component-class"><div class=""><span></span></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Affix > set data-* property 1`] = `"<div class="" data-test-name="Affix"><div class=""><span></span></div></div>"`;

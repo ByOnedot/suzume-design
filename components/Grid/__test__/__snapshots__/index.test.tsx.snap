@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Grid.Col > default 1`] = `"<div class="suzume-col suzume-col-24"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Col > set className globally 1`] = `"<div class="suzume-col suzume-col-24 global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Col > set className globally and component set className itself. 1`] = `"<div class="suzume-col suzume-col-24 component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Col > set data-* property 1`] = `"<div data-test-name="Grid.Col" class="suzume-col suzume-col-24"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Row > default 1`] = `"<div class="suzume-row suzume-row-align-start suzume-row-justify-start"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Row > set className globally 1`] = `"<div class="suzume-row suzume-row-align-start suzume-row-justify-start global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Row > set className globally and component set className itself. 1`] = `"<div class="suzume-row suzume-row-align-start suzume-row-justify-start component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Grid.Row > set data-* property 1`] = `"<div data-test-name="Grid.Row" class="suzume-row suzume-row-align-start suzume-row-justify-start"></div>"`;

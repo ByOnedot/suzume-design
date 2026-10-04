@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Slider > default 1`] = `"<div class="suzume-slider"><div class="suzume-slider-wrapper"><div class="suzume-slider-road"><div class="suzume-slider-bar" style="left:0%;right:100%"></div><div class="suzume-slider-button" style="left:0%" role="slider" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-disabled="false" tabindex="0" aria-valuetext="0"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Slider > set className globally 1`] = `"<div class="suzume-slider global-default-class"><div class="suzume-slider-wrapper"><div class="suzume-slider-road"><div class="suzume-slider-bar" style="left:0%;right:100%"></div><div class="suzume-slider-button" style="left:0%" role="slider" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-disabled="false" tabindex="0" aria-valuetext="0"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Slider > set className globally and component set className itself. 1`] = `"<div class="suzume-slider component-class"><div class="suzume-slider-wrapper"><div class="suzume-slider-road"><div class="suzume-slider-bar" style="left:0%;right:100%"></div><div class="suzume-slider-button" style="left:0%" role="slider" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-disabled="false" tabindex="0" aria-valuetext="0"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Slider > set data-* property 1`] = `"<div data-test-name="Slider" class="suzume-slider"><div class="suzume-slider-wrapper"><div class="suzume-slider-road"><div class="suzume-slider-bar" style="left:0%;right:100%"></div><div class="suzume-slider-button" style="left:0%" role="slider" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" aria-disabled="false" tabindex="0" aria-valuetext="0"></div></div></div></div>"`;

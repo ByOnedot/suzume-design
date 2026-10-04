@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Input > default 1`] = `"<input class="suzume-input suzume-input-size-default" value=""/>"`;
+
+exports[`ConfigProvider componentConfig.Input > set className globally 1`] = `"<input class="suzume-input suzume-input-size-default global-default-class" value=""/>"`;
+
+exports[`ConfigProvider componentConfig.Input > set className globally and component set className itself. 1`] = `"<input class="suzume-input suzume-input-size-default component-class" value=""/>"`;
+
+exports[`ConfigProvider componentConfig.Input > set data-* property 1`] = `"<input data-test-name="Input" class="suzume-input suzume-input-size-default" value=""/>"`;

@@ -1,0 +1,28 @@
+:root {
+  /* The harness itself must not introduce styling. It only guarantees that the
+     font stack declared by the library resolves to a pinned, bundled font so
+     screenshots are reproducible across machines. */
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body[suzume-theme='dark'] {
+  color-scheme: dark;
+  background: #17171a;
+}
+
+#stage {
+  box-sizing: border-box;
+  padding: 24px;
+  max-width: 100%;
+}
+
+#stage [data-act]:focus {
+  outline: none;
+}

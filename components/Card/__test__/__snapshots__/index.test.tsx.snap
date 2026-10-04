@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Card > default 1`] = `"<div class="suzume-card suzume-card-size-default suzume-card-bordered"><div class="suzume-card-body"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Card > set className globally 1`] = `"<div class="suzume-card suzume-card-size-default suzume-card-bordered global-default-class"><div class="suzume-card-body"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Card > set className globally and component set className itself. 1`] = `"<div class="suzume-card suzume-card-size-default suzume-card-bordered component-class"><div class="suzume-card-body"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Card > set data-* property 1`] = `"<div data-test-name="Card" class="suzume-card suzume-card-size-default suzume-card-bordered"><div class="suzume-card-body"></div></div>"`;

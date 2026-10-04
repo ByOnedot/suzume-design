@@ -1,0 +1,5 @@
+{
+  "_comment": "Repository-specific extension to scripts/check-branding.js. Legal attribution files of vendored sub-packages must keep upstream copyright/licence text.",
+  "packages/color/LICENSE": "Required MIT copyright + permission notice for the vendored colour package.",
+  "packages/color/THIRD_PARTY_NOTICES.md": "Required attribution / provenance record for the vendored colour package."
+}

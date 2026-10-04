@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Tree > default 1`] = `"<div role="tree" tabindex="0" class="suzume-tree"></div>"`;
+
+exports[`ConfigProvider componentConfig.Tree > set className globally 1`] = `"<div role="tree" tabindex="0" class="suzume-tree global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Tree > set className globally and component set className itself. 1`] = `"<div role="tree" tabindex="0" class="suzume-tree component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Tree > set data-* property 1`] = `"<div role="tree" tabindex="0" class="suzume-tree" data-test-name="Tree"></div>"`;

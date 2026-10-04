@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Switch > default 1`] = `"<button role="switch" aria-checked="false" class="suzume-switch suzume-switch-type-circle" type="button"><div class="suzume-switch-dot"></div></button>"`;
+
+exports[`ConfigProvider componentConfig.Switch > set className globally 1`] = `"<button role="switch" aria-checked="false" class="suzume-switch suzume-switch-type-circle global-default-class" type="button"><div class="suzume-switch-dot"></div></button>"`;
+
+exports[`ConfigProvider componentConfig.Switch > set className globally and component set className itself. 1`] = `"<button role="switch" aria-checked="false" class="suzume-switch suzume-switch-type-circle component-class" type="button"><div class="suzume-switch-dot"></div></button>"`;
+
+exports[`ConfigProvider componentConfig.Switch > set data-* property 1`] = `"<button role="switch" aria-checked="false" data-test-name="Switch" class="suzume-switch suzume-switch-type-circle" type="button"><div class="suzume-switch-dot"></div></button>"`;

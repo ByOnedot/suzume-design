@@ -1,0 +1,50 @@
+# Suzume Design is a pnpm workspace.
+#
+#   .                    the publishable library (@suzume-design/web-react)
+#   tools/build-scripts  vendored build tooling (private, never published)
+#   tests/visual         Playwright visual-regression harness (private)
+#
+# `hooks/` is deliberately NOT a workspace member: it is a sub-package of the
+# published library whose scripts are invoked from the root.
+packages:
+  - packages/*
+  - tools/build-scripts
+  - tests/visual
+
+# Shared versions. Referenced as `catalog:` from every workspace package so the
+# library and its harness can never drift apart.
+allowBuilds:
+  core-js: true
+  core-js-pure: true
+  es5-ext: true
+  fsevents: true
+
+catalog:
+  '@fontsource/inter': ^5.3.0
+  '@playwright/test': ^1.63.0
+  react: ^19.3.0
+  react-dom: ^19.3.0
+  typescript: 6.0.3
+  vite: ^8.3.2
+
+minimumReleaseAgeExclude:
+  - '@pnpm/exe.android-arm64@12.9.1'
+  - '@pnpm/exe.android-x64@12.9.1'
+  - '@pnpm/exe.darwin-arm64@12.9.1'
+  - '@pnpm/exe.darwin-x64@12.9.1'
+  - '@pnpm/exe.freebsd-x64@12.9.1'
+  - '@pnpm/exe.linux-arm64-musl@12.9.1'
+  - '@pnpm/exe.linux-arm64@12.9.1'
+  - '@pnpm/exe.linux-ppc64@12.9.1'
+  - '@pnpm/exe.linux-riscv64@12.9.1'
+  - '@pnpm/exe.linux-s390x@12.9.1'
+  - '@pnpm/exe.linux-x64-musl@12.9.1'
+  - '@pnpm/exe.linux-x64@12.9.1'
+  - '@pnpm/exe.win32-arm64@12.9.1'
+  - '@pnpm/exe.win32-x64@12.9.1'
+  - pnpm@12.9.1
+
+# pnpm-only settings (kept out of .npmrc so npm/yarn do not warn about them)
+strictPeerDependencies: false
+autoInstallPeers: true
+saveWorkspaceProtocol: false

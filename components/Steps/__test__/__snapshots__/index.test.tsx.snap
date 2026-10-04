@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Steps > default 1`] = `"<div class="suzume-steps suzume-steps-horizontal suzume-steps-label-horizontal suzume-steps-size-default"></div>"`;
+
+exports[`ConfigProvider componentConfig.Steps > set className globally 1`] = `"<div class="suzume-steps suzume-steps-horizontal suzume-steps-label-horizontal suzume-steps-size-default global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Steps > set className globally and component set className itself. 1`] = `"<div class="suzume-steps suzume-steps-horizontal suzume-steps-label-horizontal suzume-steps-size-default component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Steps > set data-* property 1`] = `"<div class="suzume-steps suzume-steps-horizontal suzume-steps-label-horizontal suzume-steps-size-default" data-test-name="Steps"></div>"`;

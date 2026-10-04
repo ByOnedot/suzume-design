@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Badge > default 1`] = `"<span class="suzume-badge suzume-badge-no-children"></span>"`;
+
+exports[`ConfigProvider componentConfig.Badge > set className globally 1`] = `"<span class="suzume-badge suzume-badge-no-children global-default-class"></span>"`;
+
+exports[`ConfigProvider componentConfig.Badge > set className globally and component set className itself. 1`] = `"<span class="suzume-badge suzume-badge-no-children component-class"></span>"`;
+
+exports[`ConfigProvider componentConfig.Badge > set data-* property 1`] = `"<span class="suzume-badge suzume-badge-no-children" data-test-name="Badge"></span>"`;

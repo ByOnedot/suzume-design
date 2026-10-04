@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Watermark > default 1`] = `""`;
+
+exports[`ConfigProvider componentConfig.Watermark > set className globally 1`] = `""`;
+
+exports[`ConfigProvider componentConfig.Watermark > set className globally and component set className itself. 1`] = `""`;
+
+exports[`ConfigProvider componentConfig.Watermark > set data-* property 1`] = `""`;

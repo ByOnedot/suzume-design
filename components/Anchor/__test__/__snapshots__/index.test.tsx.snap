@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Anchor > default 1`] = `"<div class=""><div class=""><div class="suzume-anchor"><div class="suzume-anchor-list"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Anchor > set className globally 1`] = `"<div class=""><div class=""><div class="suzume-anchor global-default-class"><div class="suzume-anchor-list"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Anchor > set className globally and component set className itself. 1`] = `"<div class=""><div class=""><div class="suzume-anchor component-class"><div class="suzume-anchor-list"></div></div></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Anchor > set data-* property 1`] = `"<div class=""><div class=""><div class="suzume-anchor" data-test-name="Anchor"><div class="suzume-anchor-list"></div></div></div></div>"`;

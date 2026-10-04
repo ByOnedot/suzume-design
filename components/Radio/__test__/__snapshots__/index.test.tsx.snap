@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Radio > default 1`] = `"<label class="suzume-radio"><input type="radio" value=""/><span class="suzume-icon-hover suzume-radio-icon-hover suzume-radio-mask-wrapper"><div class="suzume-radio-mask"></div></span></label>"`;
+
+exports[`ConfigProvider componentConfig.Radio > set className globally 1`] = `"<label class="suzume-radio global-default-class"><input type="radio" value=""/><span class="suzume-icon-hover suzume-radio-icon-hover suzume-radio-mask-wrapper"><div class="suzume-radio-mask"></div></span></label>"`;
+
+exports[`ConfigProvider componentConfig.Radio > set className globally and component set className itself. 1`] = `"<label class="suzume-radio component-class"><input type="radio" value=""/><span class="suzume-icon-hover suzume-radio-icon-hover suzume-radio-mask-wrapper"><div class="suzume-radio-mask"></div></span></label>"`;
+
+exports[`ConfigProvider componentConfig.Radio > set data-* property 1`] = `"<label data-test-name="Radio" class="suzume-radio"><input type="radio" value=""/><span class="suzume-icon-hover suzume-radio-icon-hover suzume-radio-mask-wrapper"><div class="suzume-radio-mask"></div></span></label>"`;

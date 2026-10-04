@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Image > default 1`] = `"<div class="suzume-image suzume-image-before-load"><img class="suzume-image-img" tabindex="0"/><div class="suzume-image-overlay"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Image > set className globally 1`] = `"<div class="suzume-image suzume-image-before-load global-default-class"><img class="suzume-image-img" tabindex="0"/><div class="suzume-image-overlay"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Image > set className globally and component set className itself. 1`] = `"<div class="suzume-image suzume-image-before-load component-class"><img class="suzume-image-img" tabindex="0"/><div class="suzume-image-overlay"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Image > set data-* property 1`] = `"<div class="suzume-image suzume-image-before-load"><img class="suzume-image-img" tabindex="0" data-test-name="Image"/><div class="suzume-image-overlay"></div></div>"`;

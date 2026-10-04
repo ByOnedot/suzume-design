@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Skeleton > default 1`] = `"<div class="suzume-skeleton"><div class="suzume-skeleton-content"><ul class="suzume-skeleton-text"><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row" style="width:60%"></li></ul></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Skeleton > set className globally 1`] = `"<div class="suzume-skeleton global-default-class"><div class="suzume-skeleton-content"><ul class="suzume-skeleton-text"><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row" style="width:60%"></li></ul></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Skeleton > set className globally and component set className itself. 1`] = `"<div class="suzume-skeleton component-class"><div class="suzume-skeleton-content"><ul class="suzume-skeleton-text"><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row" style="width:60%"></li></ul></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Skeleton > set data-* property 1`] = `"<div data-test-name="Skeleton" class="suzume-skeleton"><div class="suzume-skeleton-content"><ul class="suzume-skeleton-text"><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row"></li><li class="suzume-skeleton-text-row" style="width:60%"></li></ul></div></div>"`;

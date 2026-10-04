@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Timeline > default 1`] = `"<div role="list" class="suzume-timeline suzume-timeline-left suzume-timeline-direction-vertical"></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline > set className globally 1`] = `"<div role="list" class="suzume-timeline suzume-timeline-left suzume-timeline-direction-vertical global-default-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline > set className globally and component set className itself. 1`] = `"<div role="list" class="suzume-timeline suzume-timeline-left suzume-timeline-direction-vertical component-class"></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline > set data-* property 1`] = `"<div role="list" data-test-name="Timeline" class="suzume-timeline suzume-timeline-left suzume-timeline-direction-vertical"></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline.Item > default 1`] = `"<div role="listitem" class="suzume-timeline-item"><div class="suzume-timeline-item-dot-wrapper"><div class="suzume-timeline-item-dot-line suzume-timeline-item-dot-line-is-undefined" style="border-left-style:solid"></div><div class="suzume-timeline-item-dot-content"><div class="suzume-timeline-item-dot suzume-timeline-item-dot-solid"></div></div></div><div class="suzume-timeline-item-content-wrapper"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline.Item > set className globally 1`] = `"<div role="listitem" class="suzume-timeline-item global-default-class"><div class="suzume-timeline-item-dot-wrapper"><div class="suzume-timeline-item-dot-line suzume-timeline-item-dot-line-is-undefined" style="border-left-style:solid"></div><div class="suzume-timeline-item-dot-content"><div class="suzume-timeline-item-dot suzume-timeline-item-dot-solid"></div></div></div><div class="suzume-timeline-item-content-wrapper"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline.Item > set className globally and component set className itself. 1`] = `"<div role="listitem" class="suzume-timeline-item component-class"><div class="suzume-timeline-item-dot-wrapper"><div class="suzume-timeline-item-dot-line suzume-timeline-item-dot-line-is-undefined" style="border-left-style:solid"></div><div class="suzume-timeline-item-dot-content"><div class="suzume-timeline-item-dot suzume-timeline-item-dot-solid"></div></div></div><div class="suzume-timeline-item-content-wrapper"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Timeline.Item > set data-* property 1`] = `"<div role="listitem" data-test-name="Timeline.Item" class="suzume-timeline-item"><div class="suzume-timeline-item-dot-wrapper"><div class="suzume-timeline-item-dot-line suzume-timeline-item-dot-line-is-undefined" style="border-left-style:solid"></div><div class="suzume-timeline-item-dot-content"><div class="suzume-timeline-item-dot suzume-timeline-item-dot-solid"></div></div></div><div class="suzume-timeline-item-content-wrapper"></div></div>"`;

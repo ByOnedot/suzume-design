@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfigProvider componentConfig.Menu > default 1`] = `"<div role="menu" class="suzume-menu suzume-menu-light suzume-menu-vertical"><div class="suzume-menu-inner"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Menu > set className globally 1`] = `"<div role="menu" class="suzume-menu suzume-menu-light suzume-menu-vertical global-default-class"><div class="suzume-menu-inner"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Menu > set className globally and component set className itself. 1`] = `"<div role="menu" class="suzume-menu suzume-menu-light suzume-menu-vertical component-class"><div class="suzume-menu-inner"></div></div>"`;
+
+exports[`ConfigProvider componentConfig.Menu > set data-* property 1`] = `"<div role="menu" data-test-name="Menu" class="suzume-menu suzume-menu-light suzume-menu-vertical"><div class="suzume-menu-inner"></div></div>"`;
