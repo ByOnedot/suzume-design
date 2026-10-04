@@ -15,7 +15,7 @@ If `autoUpload` equals `false`, files will not be uploaded automatically after b
 
 ```js
 import React from 'react';
-import { Upload, Button, Space } from '@suzume-design/web-react';
+import { Upload, Button, Space } from '@byonedot/web-react';
 
 function App() {
   const uploadRef = React.useRef();

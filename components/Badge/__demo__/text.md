@@ -13,8 +13,8 @@ title:
 Customize the content.
 
 ```js
-import { Badge, Avatar, Space } from '@suzume-design/web-react';
-import { IconUser } from '@suzume-design/web-react/icon';
+import { Badge, Avatar, Space } from '@byonedot/web-react';
+import { IconUser } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

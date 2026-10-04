@@ -14,7 +14,7 @@ title:
 Through the `triggerRegion`, set the region that can trigger collapsing.
 
 ```js
-import { Collapse, Divider } from '@suzume-design/web-react';
+import { Collapse, Divider } from '@byonedot/web-react';
 const CollapseItem = Collapse.Item;
 
 const App = () => {

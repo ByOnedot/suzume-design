@@ -14,7 +14,7 @@ title:
 Use `showIcon=false` to hide the icon.
 
 ```js
-import { Alert, Grid } from '@suzume-design/web-react';
+import { Alert, Grid } from '@byonedot/web-react';
 const { Row, Col } = Grid;
 
 const App = () => {

@@ -22,7 +22,7 @@ The same breakpoints are available as Less variables
 ## Grid
 
 ```tsx
-import { Grid } from '@suzume-design/web-react';
+import { Grid } from '@byonedot/web-react';
 const { Row, Col } = Grid;
 
 <Row gutter={[16, 16]}>
@@ -47,7 +47,7 @@ const { Row, Col } = Grid;
 ## Responsive building blocks
 
 ```tsx
-import { Grid, Layout, Menu, Table, Typography, Card } from '@suzume-design/web-react';
+import { Grid, Layout, Menu, Table, Typography, Card } from '@byonedot/web-react';
 ```
 
 | Component | Responsive behaviour |
@@ -84,7 +84,7 @@ const [collapsed, setCollapsed] = useState(false);
 ## Conditional rendering in JS
 
 ```tsx
-import { useResponsiveState } from '@suzume-design/web-react/es/Grid/hooks/useResponsiveState';
+import { useResponsiveState } from '@byonedot/web-react/es/Grid/hooks/useResponsiveState';
 
 // or implement it yourself with matchMedia:
 function useMedia(query: string) {

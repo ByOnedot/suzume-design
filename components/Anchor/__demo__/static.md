@@ -14,7 +14,7 @@ title:
 Setting `affix=false`, the anchor is on a fixed position and does't scroll with the page.
 
 ```js
-import { Anchor } from '@suzume-design/web-react';
+import { Anchor } from '@byonedot/web-react';
 const AnchorLink = Anchor.Link;
 
 const App = () => {

@@ -15,8 +15,8 @@ You can jump to different steps by modifying the `current` parameter.
 
 ```js
 import { useState } from 'react';
-import { Steps, Button } from '@suzume-design/web-react';
-import { IconLeft, IconRight } from '@suzume-design/web-react/icon';
+import { Steps, Button } from '@byonedot/web-react';
+import { IconLeft, IconRight } from '@byonedot/web-react/icon';
 const Step = Steps.Step;
 
 function App() {

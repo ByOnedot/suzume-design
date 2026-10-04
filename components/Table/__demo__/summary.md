@@ -14,7 +14,7 @@ title:
 The usage of summary.
 
 ```js
-import { Table, Typography, Button } from '@suzume-design/web-react';
+import { Table, Typography, Button } from '@byonedot/web-react';
 const columns = [
   {
     title: 'Name',

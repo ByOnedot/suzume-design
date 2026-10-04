@@ -15,7 +15,7 @@ You can easily open or close the properties of the table.
 
 ```js
 import React from 'react';
-import { Table, Grid, Switch, Form, Radio } from '@suzume-design/web-react';
+import { Table, Grid, Switch, Form, Radio } from '@byonedot/web-react';
 
 const FormItem = Form.Item;
 const { Row, Col } = Grid;

@@ -14,7 +14,7 @@ title:
 You can add operation buttons by specifying the `btn` field.
 
 ```js
-import { Notification, Button } from '@suzume-design/web-react';
+import { Notification, Button } from '@byonedot/web-react';
 
 function updateNotification() {
   const id = `${Date.now()}`;

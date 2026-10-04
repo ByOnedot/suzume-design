@@ -14,7 +14,7 @@ title:
 Render radio nodes can be customized by passing a function of type 'children'.(`2.29.0`)
 
 ```js
-import { Radio, Button, Space, Typography } from '@suzume-design/web-react';
+import { Radio, Button, Space, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

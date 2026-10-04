@@ -14,7 +14,7 @@ title:
 Use `boundary` to customize the scrolling offset of the anchor.
 
 ```js
-import { Anchor } from '@suzume-design/web-react';
+import { Anchor } from '@byonedot/web-react';
 const AnchorLink = Anchor.Link;
 
 const App = () => {

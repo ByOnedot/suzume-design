@@ -14,7 +14,7 @@ title:
 Use the native `position: sticky` to achieve the effect of header sticky.
 
 ```js
-import { Table } from '@suzume-design/web-react';
+import { Table } from '@byonedot/web-react';
 const columns = [
   {
     title: 'Name',

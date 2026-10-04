@@ -14,8 +14,8 @@ title:
 You can add icons before menu items.
 
 ```js
-import { Dropdown, Menu, Button } from '@suzume-design/web-react';
-import { IconDown, IconLocation } from '@suzume-design/web-react/icon';
+import { Dropdown, Menu, Button } from '@byonedot/web-react';
+import { IconDown, IconLocation } from '@byonedot/web-react/icon';
 const iconStyle = {
   marginRight: 8,
   fontSize: 16,

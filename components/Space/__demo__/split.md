@@ -14,7 +14,7 @@ title:
 Set separators for adjacent child elements.
 
 ```js
-import { Space, Link, Divider } from '@suzume-design/web-react';
+import { Space, Link, Divider } from '@byonedot/web-react';
 
 const App = () => {
   return (

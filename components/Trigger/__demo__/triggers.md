@@ -14,7 +14,7 @@ title:
 the `trigger` property can be an array.
 
 ```js
-import { Trigger, Button, Input, Skeleton, Typography, Space } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton, Typography, Space } from '@byonedot/web-react';
 
 function Popup() {
   return (

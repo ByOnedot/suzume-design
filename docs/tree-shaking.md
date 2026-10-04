@@ -26,20 +26,20 @@ may drop unused modules.
 
 ```ts
 // good - one import, bundler drops what you do not use
-import { Button, Table, Space } from '@suzume-design/web-react';
+import { Button, Table, Space } from '@byonedot/web-react';
 
 // also fine
-import Button from '@suzume-design/web-react/es/Button';
+import Button from '@byonedot/web-react/es/Button';
 
 // icons: import only what you use
-import { IconSearch, IconPlus } from '@suzume-design/web-react/icon';
+import { IconSearch, IconPlus } from '@byonedot/web-react/icon';
 ```
 
 Avoid:
 
 ```ts
 // pulls the whole barrel before tree shaking, and defeats older bundlers
-import * as Suzume from '@suzume-design/web-react';
+import * as Suzume from '@byonedot/web-react';
 ```
 
 ## CSS
@@ -68,7 +68,7 @@ entry point and are individually importable, so a typical page adds only a few
 hundred bytes:
 
 ```ts
-import { IconLeft, IconRight } from '@suzume-design/web-react/icon';
+import { IconLeft, IconRight } from '@byonedot/web-react/icon';
 ```
 
 The UMD bundle `dist/suzume-icon.min.js` contains all of them - do not load it

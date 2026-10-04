@@ -19,7 +19,7 @@ Use `timezone` to set timezone, if set the `utcOffset`, `utcOffset` takes effect
 
 ```js
 import { useState } from 'react';
-import { TimePicker, Space, Select, Typography, Alert } from '@suzume-design/web-react';
+import { TimePicker, Space, Select, Typography, Alert } from '@byonedot/web-react';
 const zoneList = ['America/Los_Angeles', 'Europe/London', 'Africa/Cairo', 'Asia/Shanghai'];
 const defaultValue = new Date('2022-02-22');
 

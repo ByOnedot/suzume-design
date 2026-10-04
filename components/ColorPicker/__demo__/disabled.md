@@ -14,7 +14,7 @@ title:
 Set `disabled` to disable the selector. 
 
 ```js
-import { ColorPicker, Radio } from '@suzume-design/web-react';
+import { ColorPicker, Radio } from '@byonedot/web-react';
 
 const RadioGroup = Radio.Group;
 

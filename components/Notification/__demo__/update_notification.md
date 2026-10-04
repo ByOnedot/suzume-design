@@ -14,7 +14,7 @@ title:
 Specifying `id` to update the existing notification.
 
 ```js
-import { Notification, Button } from '@suzume-design/web-react';
+import { Notification, Button } from '@byonedot/web-react';
 
 function updateNotification() {
   Notification.warning({

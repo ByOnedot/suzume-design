@@ -13,7 +13,7 @@ title:
 The treeNode occupy the remaining horizontal space.
 
 ```js
-import { Tree } from '@suzume-design/web-react';
+import { Tree } from '@byonedot/web-react';
 const TreeNode = Tree.Node;
 
 const App = () => {

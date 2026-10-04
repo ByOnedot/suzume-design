@@ -14,8 +14,8 @@ title:
 The components `loadingIcon`, `dragIcon`, and `switcherIcon` can be set through the `icons` property.
 
 ```js
-import { Tree } from '@suzume-design/web-react';
-import { IconDown, IconDragArrow, IconDriveFile } from '@suzume-design/web-react/icon';
+import { Tree } from '@byonedot/web-react';
+import { IconDown, IconDragArrow, IconDriveFile } from '@byonedot/web-react/icon';
 const TreeNode = Tree.Node;
 
 function App() {

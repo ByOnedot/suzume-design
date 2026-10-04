@@ -14,8 +14,8 @@ title:
 Customize the interactive button through `triggerIcon` and `triggerType`. Two types are available: `mask` and `button`. Callbacks can be added through the `onClick` parameter.
 
 ```js
-import { Avatar, Message, Space } from '@suzume-design/web-react';
-import { IconUser, IconCamera, IconEdit, IconClose } from '@suzume-design/web-react/icon';
+import { Avatar, Message, Space } from '@byonedot/web-react';
+import { IconUser, IconCamera, IconEdit, IconClose } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

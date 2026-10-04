@@ -14,7 +14,7 @@ title:
 The label text can either be left-aligned, right-aligned, or vertical-aligned.
 
 ```js
-import { Descriptions } from '@suzume-design/web-react';
+import { Descriptions } from '@byonedot/web-react';
 const data = [
   {
     label: 'Name',

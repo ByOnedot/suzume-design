@@ -16,11 +16,11 @@ require a build plugin.
 ## Install
 
 ```bash
-npm i @suzume-design/web-react
+npm i @byonedot/web-react
 # yarn
-yarn add @suzume-design/web-react
+yarn add @byonedot/web-react
 # pnpm
-pnpm add @suzume-design/web-react
+pnpm add @byonedot/web-react
 ```
 
 `react` and `react-dom` stay **peer** dependencies - they are never bundled.
@@ -33,7 +33,7 @@ Pick **one** of these. Loading more than one will duplicate CSS.
 
 ```ts
 // main.tsx / app/layout.tsx / _app.tsx
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 ```
 
 | File | Purpose |
@@ -45,8 +45,8 @@ import '@suzume-design/web-react/dist/css/suzume.css';
 ### 2. Per-component Less (on-demand)
 
 ```ts
-import '@suzume-design/web-react/es/Button/style/index.less';
-import '@suzume-design/web-react/es/Table/style/index.less';
+import '@byonedot/web-react/es/Button/style/index.less';
+import '@byonedot/web-react/es/Table/style/index.less';
 ```
 
 Each component ships `style/index.less`, `style/token.less` and
@@ -57,9 +57,9 @@ compile-time `modifyVars` theming.
 ### 3. UMD / CDN
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@suzume-design/web-react@latest/dist/css/suzume.min.css" />
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume.min.js"></script>
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume-icon.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@byonedot/web-react@latest/dist/css/suzume.min.css" />
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume.min.js"></script>
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume-icon.min.js"></script>
 ```
 
 Globals: `window.suzume`, `window.suzumeicon`, `window.suzumehooks`.
@@ -67,7 +67,7 @@ Globals: `window.suzume`, `window.suzumeicon`, `window.suzumehooks`.
 ## First component
 
 ```tsx
-import { Button, Space, message } from '@suzume-design/web-react';
+import { Button, Space, message } from '@byonedot/web-react';
 
 export function Example() {
   return (
@@ -84,7 +84,7 @@ export function Example() {
 ## Icons
 
 ```tsx
-import { IconSearch, IconPlus } from '@suzume-design/web-react/icon';
+import { IconSearch, IconPlus } from '@byonedot/web-react/icon';
 
 <IconSearch />;
 ```
@@ -95,8 +95,8 @@ individually. See [icons.md](./icons.md).
 ## Global configuration
 
 ```tsx
-import { ConfigProvider } from '@suzume-design/web-react';
-import enUS from '@suzume-design/web-react/es/locale/en-US';
+import { ConfigProvider } from '@byonedot/web-react';
+import enUS from '@byonedot/web-react/es/locale/en-US';
 
 <ConfigProvider
   locale={enUS}
@@ -114,7 +114,7 @@ import enUS from '@suzume-design/web-react/es/locale/en-US';
 Types come from the package itself:
 
 ```ts
-import type { TableProps, FormInstance, ButtonProps } from '@suzume-design/web-react';
+import type { TableProps, FormInstance, ButtonProps } from '@byonedot/web-react';
 ```
 
 `tsconfig.json` needs `"jsx": "react"` (or `react-jsx`) and

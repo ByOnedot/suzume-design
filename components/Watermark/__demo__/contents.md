@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```js
-import { Watermark } from '@suzume-design/web-react';
+import { Watermark } from '@byonedot/web-react';
 
 const App = () => {
   return <Watermark

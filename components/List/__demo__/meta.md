@@ -14,7 +14,7 @@ title:
 Use `List.Item.Meta` to quickly specify avatar, title, and text.
 
 ```js
-import { List, Avatar } from '@suzume-design/web-react';
+import { List, Avatar } from '@byonedot/web-react';
 
 const App = () => {
   return (

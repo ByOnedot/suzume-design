@@ -14,7 +14,7 @@ title:
 Input content via mouse or keyboard.
 
 ```js
-import { Input } from '@suzume-design/web-react';
+import { Input } from '@byonedot/web-react';
 
 const App = () => {
   return <Input style={{ width: 350 }} allowClear  placeholder="Enter something" />;

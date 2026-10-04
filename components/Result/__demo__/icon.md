@@ -14,8 +14,8 @@ title:
 Custom icon.
 
 ```js
-import { Result, Button } from '@suzume-design/web-react';
-import { IconFaceSmileFill } from '@suzume-design/web-react/icon';
+import { Result, Button } from '@byonedot/web-react';
+import { IconFaceSmileFill } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

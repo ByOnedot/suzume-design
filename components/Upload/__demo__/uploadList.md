@@ -14,7 +14,7 @@ title:
 Default upload list.
 
 ```js
-import { Upload, Radio, Modal } from '@suzume-design/web-react';
+import { Upload, Radio, Modal } from '@byonedot/web-react';
 const defaultFileList = [
   {
     uid: '-1',

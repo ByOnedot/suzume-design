@@ -15,8 +15,8 @@ You can customize the node by setting `customDot`, and you can add pop-up or any
 
 ```js
 import { useState } from 'react';
-import { Button, Steps, Popover } from '@suzume-design/web-react';
-import { IconLeft, IconRight } from '@suzume-design/web-react/icon';
+import { Button, Steps, Popover } from '@byonedot/web-react';
+import { IconLeft, IconRight } from '@byonedot/web-react/icon';
 const Step = Steps.Step;
 
 function App() {

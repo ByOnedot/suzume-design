@@ -15,7 +15,7 @@ If you rely on user input to dynamically update options, override the default op
 
 ```js
 import { useState } from 'react';
-import { AutoComplete } from '@suzume-design/web-react';
+import { AutoComplete } from '@byonedot/web-react';
 
 function App() {
   const [data, setData] = useState([]);

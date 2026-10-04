@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 /**
- * Keeps the local-development copy of `@suzume-design/color` in sync with the
- * publishable dependency range.
+ * Keeps `@byonedot/web-react`'s publishable metadata consistent.
  *
- * - `dev` mode (postpack / local checkout): point the dependency at the
- *   sibling `suzume-color` repository so `yarn install` works before the
- *   package is published to the registry.
- * - `publish` mode (prepack): rewrite the dependency to a normal semver range
- *   so the published tarball never contains a `file:` specifier.
+ * The `@byonedot/color` dependency always stays a plain semver range
+ * (`^<color version>`) so the published tarball never contains a
+ * `workspace:` specifier; pnpm resolves the sibling copy locally via
+ * `linkWorkspacePackages`.
+ *
+ * - `publish` mode (prepack): normalise the range to `^<color version>` and
+ *   drop the development-only `prepare` script (husky must not run in
+ *   consumers' node_modules).
+ * - `dev` mode (postpack / local checkout): restore the `prepare` script.
  *
  * Usage: node scripts/sync-color-dep.js [dev|publish]
  */
@@ -21,7 +24,6 @@ const MODE = (process.argv[2] || 'dev').toLowerCase();
 const DEV_PREPARE = 'husky install >/dev/null 2>&1 || true';
 const PKG_PATH = path.resolve(__dirname, '../package.json');
 const COLOR_PKG = path.resolve(__dirname, '../packages/color/package.json');
-const LOCAL_SPEC = 'workspace:^';
 
 function readColorVersion() {
   try {
@@ -32,22 +34,24 @@ function readColorVersion() {
 }
 
 const pkg = JSON.parse(fs.readFileSync(PKG_PATH, 'utf8'));
-const current = pkg.dependencies && pkg.dependencies['@suzume-design/color'];
+const current = pkg.dependencies && pkg.dependencies['@byonedot/color'];
 if (typeof current !== 'string') {
-  console.error('[sync-color-dep] @suzume-design/color is not declared in dependencies');
+  console.error('[sync-color-dep] @byonedot/color is not declared in dependencies');
   process.exit(1);
 }
 
 const version = readColorVersion() || '1.0.0';
 const range = `^${version}`;
-const target = MODE === 'publish' ? range : LOCAL_SPEC;
 
 let dirty = false;
 
-if (current !== target) {
-  pkg.dependencies['@suzume-design/color'] = target;
+// The dependency is pinned to a plain semver range at all times so the
+// published tarball never contains a `workspace:` specifier. pnpm resolves
+// the sibling copy locally via `linkWorkspacePackages`.
+if (current !== range) {
+  pkg.dependencies['@byonedot/color'] = range;
   dirty = true;
-  console.error(`[sync-color-dep] @suzume-design/color -> ${target}`);
+  console.error(`[sync-color-dep] @byonedot/color -> ${range}`);
 }
 
 pkg.scripts = pkg.scripts || {};

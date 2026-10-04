@@ -18,7 +18,7 @@ The display value of the input box can be defined through the use of `formatter`
 Use the `userTyping` parameter in the `formatter` to determine whether the input is in progress. You can delay the display of the value after the `formatter`
 ```js
 import { useState } from 'react';
-import { InputNumber } from '@suzume-design/web-react';
+import { InputNumber } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState(12000);

@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```js
-import { Switch } from '@suzume-design/web-react';
+import { Switch } from '@byonedot/web-react';
 
 const App = () => {
   return <Switch />;

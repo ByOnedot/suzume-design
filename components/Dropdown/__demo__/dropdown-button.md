@@ -15,8 +15,8 @@ Use `<Dropdown.Button>` to use the Dropdown with button on its right side which 
 
 ```js
 import React from 'react';
-import { Dropdown, Menu, Tooltip, Space } from '@suzume-design/web-react';
-import { IconDown } from '@suzume-design/web-react/icon';
+import { Dropdown, Menu, Tooltip, Space } from '@byonedot/web-react';
+import { IconDown } from '@byonedot/web-react/icon';
 
 const dropList = (
   <Menu>

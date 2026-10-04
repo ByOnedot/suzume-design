@@ -16,7 +16,7 @@ Specify `addBefore` to add elements before the select box.  (`2.41.0`)
 
 
 ```js
-import { Cascader, Space } from '@suzume-design/web-react';
+import { Cascader, Space } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

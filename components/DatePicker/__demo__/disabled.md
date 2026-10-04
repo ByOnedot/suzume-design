@@ -14,7 +14,7 @@ title:
 Disabled.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 import dayjs from 'dayjs';
 
 const App = () => {

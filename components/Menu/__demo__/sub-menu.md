@@ -14,8 +14,8 @@ title:
 Multiple sub-items can be embedded in the menu, and the items that are opened by default can be set through `defaultOpenKeys`.
 
 ```js
-import { Menu } from '@suzume-design/web-react';
-import { IconApps, IconBug, IconBulb } from '@suzume-design/web-react/icon';
+import { Menu } from '@byonedot/web-react';
+import { IconApps, IconBug, IconBulb } from '@byonedot/web-react/icon';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;

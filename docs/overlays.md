@@ -9,7 +9,7 @@ safe during SSR.
 ```tsx
 'use client';
 
-import { Modal, Button } from '@suzume-design/web-react';
+import { Modal, Button } from '@byonedot/web-react';
 
 function Example() {
   const [visible, setVisible] = useState(false);
@@ -38,7 +38,7 @@ function Example() {
 Imperative confirm:
 
 ```tsx
-import { Modal } from '@suzume-design/web-react';
+import { Modal } from '@byonedot/web-react';
 
 Modal.confirm({
   title: 'Discard changes?',
@@ -73,7 +73,7 @@ Same API as `Modal`, with `placement` (`'left' | 'right' | 'top' | 'bottom'`),
 ## Message (transient, top)
 
 ```tsx
-import { Message } from '@suzume-design/web-react';
+import { Message } from '@byonedot/web-react';
 
 Message.info('Saved');
 Message.success('Published');
@@ -86,7 +86,7 @@ Message.clear(); // dismiss everything
 Scoped (recommended inside Client Components with a local container):
 
 ```tsx
-import { Message } from '@suzume-design/web-react';
+import { Message } from '@byonedot/web-react';
 
 const [messageHolder, messageApi] = Message.useMessage();
 
@@ -105,7 +105,7 @@ modal hooks.
 ## Notification (persistent, corner)
 
 ```tsx
-import { Notification } from '@suzume-design/web-react';
+import { Notification } from '@byonedot/web-react';
 
 Notification.info({ title: 'Deployment finished', content: 'v1.4.0 is live' });
 Notification.success({ title: 'Saved', duration: 0 });

@@ -14,7 +14,7 @@ The width adaptation of `Select` can be set through the `autoWidth` property
 
 
 ```js
-import { Select, Typography, Space, Divider } from '@suzume-design/web-react';
+import { Select, Typography, Space, Divider } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = ['AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', 'BBBBBBBBBBBBBBBBBBBB', 'CCCCCCCCCCCC', 'DDDD', 'EEE', 'FF'];
 

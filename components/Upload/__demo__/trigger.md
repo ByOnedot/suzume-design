@@ -14,8 +14,8 @@ title:
 Customize the node that triggers the upload operation.
 
 ```js
-import { Upload } from '@suzume-design/web-react';
-import { IconLink } from '@suzume-design/web-react/icon';
+import { Upload } from '@byonedot/web-react';
+import { IconLink } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

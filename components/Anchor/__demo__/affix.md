@@ -18,7 +18,7 @@ The anchor in the example will appear on the right side of the page.
 Use `affix=true` to wrap the anchor within [Affix](../../Affix/README.en-US.md) component. `affixStyle` can be used to set the style of `Affix` component.
 
 ```js
-import { Anchor } from '@suzume-design/web-react';
+import { Anchor } from '@byonedot/web-react';
 const AnchorLink = Anchor.Link;
 
 const App = () => {

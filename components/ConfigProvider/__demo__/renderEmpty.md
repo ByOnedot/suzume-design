@@ -25,7 +25,7 @@ import {
   Space,
   Empty,
   Typography,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
 function renderEmpty(componentName) {
   switch (componentName) {

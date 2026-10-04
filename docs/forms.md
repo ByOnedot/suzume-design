@@ -8,7 +8,7 @@ helpers on top of controlled inputs.
 ```tsx
 'use client';
 
-import { Form, Input, Button, message } from '@suzume-design/web-react';
+import { Form, Input, Button, message } from '@byonedot/web-react';
 
 export function LoginForm() {
   const [form] = Form.useForm();

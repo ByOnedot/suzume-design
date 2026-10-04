@@ -14,7 +14,7 @@ title:
 By specifying the `id`, the existing Message can be updated.
 
 ```js
-import { Message, Button } from '@suzume-design/web-react';
+import { Message, Button } from '@byonedot/web-react';
 
 function updateMessage() {
   Message.loading({

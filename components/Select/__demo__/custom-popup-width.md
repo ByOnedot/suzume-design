@@ -20,7 +20,7 @@ The `triggerProps.autoAlignPopupMinWidth` property is to keep the minimum width 
 They can be freely combined.
 
 ```js
-import { Select, Space } from '@suzume-design/web-react';
+import { Select, Space } from '@byonedot/web-react';
 const Option = Select.Option;
 
 const App = () => {

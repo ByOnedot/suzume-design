@@ -15,8 +15,8 @@ Use `dropdownRender` to freely expand the drop-down menu.
 
 ```js
 import { useState } from 'react';
-import { TreeSelect, Divider, Input, Button } from '@suzume-design/web-react';
-import { IconPlus } from '@suzume-design/web-react/icon';
+import { TreeSelect, Divider, Input, Button } from '@byonedot/web-react';
+import { IconPlus } from '@byonedot/web-react/icon';
 
 const defaultTreeData = [
   {

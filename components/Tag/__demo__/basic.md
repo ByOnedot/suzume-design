@@ -14,8 +14,8 @@ title:
 Basic usage of tags.
 
 ```js
-import { Tag, Space } from '@suzume-design/web-react';
-import { IconCheckCircleFill } from '@suzume-design/web-react/icon';
+import { Tag, Space } from '@byonedot/web-react';
+import { IconCheckCircleFill } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

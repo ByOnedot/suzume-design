@@ -14,8 +14,8 @@ title:
 `Form.Item` can be nested.
 
 ```js
-import { Form, Input, Button, Grid, Select, InputNumber, Tooltip, Space } from '@suzume-design/web-react';
-import { IconExclamationCircle } from '@suzume-design/web-react/icon';
+import { Form, Input, Button, Grid, Select, InputNumber, Tooltip, Space } from '@byonedot/web-react';
+import { IconExclamationCircle } from '@byonedot/web-react/icon';
 import { useRef, useState } from 'react';
 
 function App() {

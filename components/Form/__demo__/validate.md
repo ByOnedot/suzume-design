@@ -14,7 +14,7 @@ title:
 The form field can be validated through the `form.validate` method. You can specify to verify specific fields through parameters.
 
 ```js
-import { Form, Input, Button, Message, InputNumber } from '@suzume-design/web-react';
+import { Form, Input, Button, Message, InputNumber } from '@byonedot/web-react';
 const FormItem = Form.Item;
 
 function App() {

@@ -14,8 +14,8 @@ title:
 You can pass in custom icons through the `icon` parameter, and `description` to modify the description.
 
 ```js
-import { Empty } from '@suzume-design/web-react';
-import { IconExclamation } from '@suzume-design/web-react/icon';
+import { Empty } from '@byonedot/web-react';
+import { IconExclamation } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

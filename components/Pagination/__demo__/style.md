@@ -14,7 +14,7 @@ title:
 Customize style to get different visual styles.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return (

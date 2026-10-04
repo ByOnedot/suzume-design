@@ -14,8 +14,8 @@ title:
 Prefix / addBefore / addAfter
 
 ```js
-import { InputTag, Grid } from '@suzume-design/web-react';
-import { IconUser } from '@suzume-design/web-react/icon';
+import { InputTag, Grid } from '@byonedot/web-react';
+import { IconUser } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

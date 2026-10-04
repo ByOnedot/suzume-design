@@ -3,7 +3,7 @@
 Suzume Design ships **277 React icon components** across 7 categories.
 
 ```tsx
-import { IconSearch, IconPlus, IconDelete } from '@suzume-design/web-react/icon';
+import { IconSearch, IconPlus, IconDelete } from '@byonedot/web-react/icon';
 
 <IconSearch />;
 <IconPlus style={{ fontSize: 20, color: '#165DFF' }} />;
@@ -47,7 +47,7 @@ All icons accept `IconProps`:
 The icon prefix follows `ConfigProvider`:
 
 ```tsx
-import { ConfigProvider, IconHome } from '@suzume-design/web-react';
+import { ConfigProvider, IconHome } from '@byonedot/web-react';
 
 <ConfigProvider prefixCls="my-app">
   <IconHome /> {/* class="my-app-icon" */}
@@ -78,7 +78,7 @@ and writes both ESM and CJS variants. The generated entry points start with
 ## CDN
 
 ```html
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume-icon.min.js"></script>
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume-icon.min.js"></script>
 ```
 
 Global: `window.suzumeicon`.

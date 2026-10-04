@@ -15,8 +15,8 @@ You can add mark by passing in `marks`. When setting `onlyMarkValue`, only node 
 
 ```js
 import React from 'react';
-import { Slider } from '@suzume-design/web-react';
-import { IconClockCircle } from '@suzume-design/web-react/icon';
+import { Slider } from '@byonedot/web-react';
+import { IconClockCircle } from '@byonedot/web-react/icon';
 
 class App extends React.Component {
   render() {

@@ -14,8 +14,8 @@ title:
 Customize the icon displayed on the switch button.
 
 ```js
-import { Switch, Space } from '@suzume-design/web-react';
-import { IconCheck, IconClose } from '@suzume-design/web-react/icon';
+import { Switch, Space } from '@byonedot/web-react';
+import { IconCheck, IconClose } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

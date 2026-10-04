@@ -15,8 +15,8 @@ A variety of status are available: `default`, `processing`, `success`, `warning`
 
 
 ```js
-import { Badge, Divider, Space } from '@suzume-design/web-react';
-import { IconMessage } from '@suzume-design/web-react/icon';
+import { Badge, Divider, Space } from '@byonedot/web-react';
+import { IconMessage } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

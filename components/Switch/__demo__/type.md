@@ -14,7 +14,7 @@ title:
 There are three types of switches to choose from.
 
 ```js
-import { Switch, Space } from '@suzume-design/web-react';
+import { Switch, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

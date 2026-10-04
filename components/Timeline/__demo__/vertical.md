@@ -15,7 +15,7 @@ The vertical time axis.
 
 ```js
 import React from 'react';
-import { Timeline, Grid, Radio, Typography } from '@suzume-design/web-react';
+import { Timeline, Grid, Radio, Typography } from '@byonedot/web-react';
 
 const TimelineItem = Timeline.Item;
 const { Row, Col } = Grid;

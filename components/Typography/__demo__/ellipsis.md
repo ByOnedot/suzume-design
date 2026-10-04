@@ -30,7 +30,7 @@ Omit multiple lines of text when there is insufficient space.
 The component uses `React.Fragement` to cause problems. React native issues ([Issue link](https://github.com/facebook/react/issues/17256)). It can be solved by setting `ellipsis.wrapper`. For example `ellipsis={{ wrapper: 'span' }}`.
 
 ```js
-import { Typography } from '@suzume-design/web-react';
+import { Typography } from '@byonedot/web-react';
 
 const mockText =
   'A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design. A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design.';

@@ -14,8 +14,8 @@ title:
 Custom rendering of each item through `render`.
 
 ```js
-import { Transfer } from '@suzume-design/web-react';
-import { IconStar } from '@suzume-design/web-react/icon';
+import { Transfer } from '@byonedot/web-react';
+import { IconStar } from '@byonedot/web-react/icon';
 
 function App() {
   const dataSource = new Array(8).fill(null).map((_, index) => ({

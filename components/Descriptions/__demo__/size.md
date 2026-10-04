@@ -15,7 +15,7 @@ Descriptions in different sizes.
 
 ```js
 import { useState } from 'react';
-import { Descriptions, Radio } from '@suzume-design/web-react';
+import { Descriptions, Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 const data = [
   {

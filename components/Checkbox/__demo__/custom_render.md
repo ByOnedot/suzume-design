@@ -15,7 +15,7 @@ title:
 Render nodes can be customized by passing a function of type 'children'( `v2.29.0`)。.
 
 ```js
-import { Checkbox, Tag, Space, Typography } from '@suzume-design/web-react';
+import { Checkbox, Tag, Space, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

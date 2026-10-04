@@ -14,7 +14,7 @@ title:
 The disabled state of the button.
 
 ```js
-import { Button, Space } from '@suzume-design/web-react';
+import { Button, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

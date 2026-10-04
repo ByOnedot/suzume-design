@@ -15,7 +15,7 @@ The responsive configuration format of the Grid component is `{ xs: 1, sm: 2, md
 
 ```js
 import { useState } from 'react';
-import { Grid, Switch, Typography } from '@suzume-design/web-react';
+import { Grid, Switch, Typography } from '@byonedot/web-react';
 
 const { GridItem } = Grid;
 

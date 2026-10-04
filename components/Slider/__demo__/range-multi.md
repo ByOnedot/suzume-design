@@ -16,7 +16,7 @@ Select multiple points within the range. (in `2.61.0`)
 
 ```js
 import { useState } from 'react';
-import { Slider, Typography } from '@suzume-design/web-react';
+import { Slider, Typography } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState([0, 20, 50]);

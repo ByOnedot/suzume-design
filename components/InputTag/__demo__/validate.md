@@ -14,7 +14,7 @@ title:
 Use `validate` to enable custom validator for input value. Additionally, **non-boolean** can be returned to format user-entered strings in a specific `value` format.
 
 ```js
-import { InputTag, Message, Space } from '@suzume-design/web-react';
+import { InputTag, Message, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

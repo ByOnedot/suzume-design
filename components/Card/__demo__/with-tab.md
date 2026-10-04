@@ -14,7 +14,7 @@ title:
 `Tabs` component can be used in card.
 
 ```js
-import { Card, Tabs, Link } from '@suzume-design/web-react';
+import { Card, Tabs, Link } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 
 const App = () => {

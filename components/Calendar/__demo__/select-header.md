@@ -14,7 +14,7 @@ title:
 In addition to the default head switch, it also supports dropdown selection of heads for faster positioning.
 
 ```js
-import { Calendar } from '@suzume-design/web-react';
+import { Calendar } from '@byonedot/web-react';
 
 const App = () => {
   return (

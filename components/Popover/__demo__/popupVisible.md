@@ -15,7 +15,7 @@ Manual close popover. For more examples, see the [Trigger](../../Trigger/README.
 
 ```js
 import React from 'react';
-import { Popover, Button, Link,Space } from '@suzume-design/web-react';
+import { Popover, Button, Link,Space } from '@byonedot/web-react';
 
 const style = {
   margin: 0,

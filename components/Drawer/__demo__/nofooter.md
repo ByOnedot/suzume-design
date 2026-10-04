@@ -15,7 +15,7 @@ The content can be customized through `title` and `footer`. When set to `null`, 
 
 ```js
 import { useState } from 'react';
-import { Drawer, Button, Checkbox } from '@suzume-design/web-react';
+import { Drawer, Button, Checkbox } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = useState(false);

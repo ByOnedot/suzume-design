@@ -14,7 +14,7 @@ title:
 The basic usage of the YearPicker.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 const { YearPicker } = DatePicker;
 
 const App = () => {

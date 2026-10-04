@@ -17,7 +17,7 @@ When `maxTagCount=responsive` is used, the number of tags will be dynamically di
 
 
 ```js
-import { Select, Space, Divider } from '@suzume-design/web-react';
+import { Select, Space, Divider } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = [...new Array(20)].map((_, index) => `label ${index}`);
 

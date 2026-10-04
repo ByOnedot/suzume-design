@@ -19,7 +19,7 @@ If `target` is specified as a non-window container, the fixed element may escape
 
 ```js
 import React from 'react';
-import { Affix, Button } from '@suzume-design/web-react';
+import { Affix, Button } from '@byonedot/web-react';
 
 class App extends React.Component {
   container = null;

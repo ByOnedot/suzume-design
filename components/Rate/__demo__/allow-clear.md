@@ -16,7 +16,7 @@ Specify `allowClear` to allow clearing of ratings.
 指定 `allowClear` 来允许清除评分。
 
 ```js
-import { Rate, Typography } from '@suzume-design/web-react';
+import { Rate, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

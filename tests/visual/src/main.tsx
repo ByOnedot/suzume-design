@@ -8,7 +8,7 @@ import '@fontsource/inter/500.css';
 import '@fontsource/inter/600.css';
 import '@fontsource/inter/700.css';
 
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 import './harness.css';
 
 import { App } from './app';
@@ -78,10 +78,7 @@ async function loadFonts() {
     const faces = ['400 14px Inter', '500 14px Inter', '600 14px Inter', '700 14px Inter'];
     // Bounded: a font request that never settles must never block the mount,
     // otherwise the harness would hang instead of failing loudly.
-    await withTimeout(
-      Promise.all(faces.map((f) => document.fonts.load(f))),
-      FONT_WAIT_MS
-    );
+    await withTimeout(Promise.all(faces.map((f) => document.fonts.load(f))), FONT_WAIT_MS);
     await withTimeout(document.fonts.ready, FONT_WAIT_MS);
   } catch {
     // `document.fonts` is absent in exotic environments; the ready flag below

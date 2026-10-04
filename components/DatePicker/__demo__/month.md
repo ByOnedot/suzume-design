@@ -14,7 +14,7 @@ title:
 The basic usage of MonthPicker.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 const { MonthPicker } = DatePicker;
 
 const App = () => {

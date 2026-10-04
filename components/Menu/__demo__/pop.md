@@ -14,8 +14,8 @@ title:
 Specify `mode` as `pop` to use floating menu.
 
 ```js
-import { Menu } from '@suzume-design/web-react';
-import { IconApps, IconSafe, IconBulb, IconRobot, IconFire } from '@suzume-design/web-react/icon';
+import { Menu } from '@byonedot/web-react';
+import { IconApps, IconSafe, IconBulb, IconRobot, IconFire } from '@byonedot/web-react/icon';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 

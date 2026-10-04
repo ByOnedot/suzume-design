@@ -14,7 +14,7 @@ title:
 You can add a prefix or a suffix.
 
 ```js
-import { InputNumber } from '@suzume-design/web-react';
+import { InputNumber } from '@byonedot/web-react';
 
 function App() {
   return (

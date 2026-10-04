@@ -15,7 +15,7 @@ The preset color and history color areas can be opened through `showPreset` and 
 
 ```js
 import { useState } from 'react';
-import { ColorPicker } from '@suzume-design/web-react';
+import { ColorPicker } from '@byonedot/web-react';
 
 const App = () => {
   const [color, setColor] = useState('#165DFF')

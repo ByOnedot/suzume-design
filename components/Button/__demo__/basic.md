@@ -14,7 +14,7 @@ title:
 There are `primary`, `secondary`, `dashed`, `outline` and `text` button types.
 
 ```js
-import { Button, Space } from '@suzume-design/web-react';
+import { Button, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

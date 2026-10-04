@@ -15,7 +15,7 @@ title:
 
 
 ```js
-import { useWatermark } from '@suzume-design/web-react/hooks';
+import { useWatermark } from '@byonedot/web-react/hooks';
 
 const CustomWatermark = (props) => {
   const { setWatermark } = useWatermark({});

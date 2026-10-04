@@ -1,23 +1,23 @@
-# @suzume-design/color
+# @byonedot/color
 
 Color palette generation and color utilities for **Suzume Design**.
 
-`@suzume-design/color` generates the 1–10 light and dark palettes used by the
+`@byonedot/color` generates the 1–10 light and dark palettes used by the
 Suzume Design token system, and exposes a few small helpers for reading color
 channels.
 
 ## Install
 
 ```bash
-npm i @suzume-design/color
+npm i @byonedot/color
 # or
-yarn add @suzume-design/color
+yarn add @byonedot/color
 ```
 
 ## Usage
 
 ```js
-const { generate, getRgbStr, getPresetColors } = require('@suzume-design/color');
+const { generate, getRgbStr, getPresetColors } = require('@byonedot/color');
 
 // A single step of a palette (index 1 - 10, default 6)
 generate('#165DFF', { index: 1 }); // '#EDF3FF'
@@ -59,7 +59,7 @@ entry for every preset:
 ## TypeScript
 
 The package ships plain CommonJS source with no build step; types are not
-bundled. It is consumed by `@suzume-design/web-react` for theme generation.
+bundled. It is consumed by `@byonedot/web-react` for theme generation.
 
 ## License
 

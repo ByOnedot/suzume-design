@@ -14,7 +14,7 @@ title:
 Suitable for small scenes or digital bubble styles.
 
 ```js
-import { Tooltip, Typography } from '@suzume-design/web-react';
+import { Tooltip, Typography } from '@byonedot/web-react';
 const { Text } = Typography;
 
 const App = () => {

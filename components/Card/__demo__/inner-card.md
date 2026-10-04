@@ -14,7 +14,7 @@ title:
 Other card components can be nested in the card.
 
 ```js
-import { Card, Link } from '@suzume-design/web-react';
+import { Card, Link } from '@byonedot/web-react';
 
 const App = () => {
   return (

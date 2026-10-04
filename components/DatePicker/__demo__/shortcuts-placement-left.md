@@ -14,7 +14,7 @@ title:
 Use `shortcutsPlacementLeft` to place the shortcuts to the left.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 import dayjs from 'dayjs';
 
 const App = () => {

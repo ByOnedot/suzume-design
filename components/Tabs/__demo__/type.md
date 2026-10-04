@@ -15,7 +15,7 @@ Use `type` to set the type of the tab.
 
 ```js
 import { useState } from 'react';
-import { Tabs, Radio, Typography } from '@suzume-design/web-react';
+import { Tabs, Radio, Typography } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

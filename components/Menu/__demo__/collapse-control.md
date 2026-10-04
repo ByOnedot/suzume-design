@@ -15,7 +15,7 @@ Use `collapse` to specify the menu to collapse. Use `renderItemInTooltip` to spe
 
 ```js
 import { useState } from 'react';
-import { Menu, Button } from '@suzume-design/web-react';
+import { Menu, Button } from '@byonedot/web-react';
 import {
   IconMenuFold,
   IconMenuUnfold,
@@ -23,7 +23,7 @@ import {
   IconBug,
   IconBulb,
   IconBook,
-} from '@suzume-design/web-react/icon';
+} from '@byonedot/web-react/icon';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 

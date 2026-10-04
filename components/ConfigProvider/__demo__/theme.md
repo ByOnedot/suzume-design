@@ -10,7 +10,7 @@ skip: true
 
 ```js
 import { useState } from 'react';
-import { ConfigProvider, Button, Input, Radio } from '@suzume-design/web-react';
+import { ConfigProvider, Button, Input, Radio } from '@byonedot/web-react';
 const themes = {
   blue: {
     primaryColor: '#3370ff',

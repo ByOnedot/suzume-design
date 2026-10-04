@@ -15,7 +15,7 @@ Setting `size` can use four sizes (`mini`, `small`, `default`, `large`) number i
 
 ```js
 import { useState } from 'react';
-import { InputNumber, Radio } from '@suzume-design/web-react';
+import { InputNumber, Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 
 function App() {

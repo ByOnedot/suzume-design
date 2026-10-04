@@ -15,7 +15,7 @@ Show loading effect in dialog.
 
 ```js
 import React from 'react';
-import { Modal, Button, Table, Spin } from '@suzume-design/web-react';
+import { Modal, Button, Table, Spin } from '@byonedot/web-react';
 
 function getDataFromServer() {
   return new Promise((resolve, reject) => {

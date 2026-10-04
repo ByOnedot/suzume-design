@@ -14,8 +14,8 @@ Basic usage. Just specify `count` to display the badge.
 
 
 ```js
-import { Badge, Avatar, Space } from '@suzume-design/web-react';
-import { IconClockCircle } from '@suzume-design/web-react/icon';
+import { Badge, Avatar, Space } from '@byonedot/web-react';
+import { IconClockCircle } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

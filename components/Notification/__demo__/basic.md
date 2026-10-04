@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```js
-import { Notification, Button } from '@suzume-design/web-react';
+import { Notification, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

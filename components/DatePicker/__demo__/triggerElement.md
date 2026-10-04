@@ -15,7 +15,7 @@ Customize trigger element.
 
 ```js
 import { useState } from 'react';
-import { DatePicker, Button, Space } from '@suzume-design/web-react';
+import { DatePicker, Button, Space } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState();

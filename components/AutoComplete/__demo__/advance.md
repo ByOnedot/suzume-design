@@ -15,7 +15,7 @@ This example shows: `1. Add Tooltip`, `2. Custom display`, `3. Manipulate values
 
 ```js
 import { useState } from 'react';
-import { AutoComplete, Tooltip } from '@suzume-design/web-react';
+import { AutoComplete, Tooltip } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState('Beijing');

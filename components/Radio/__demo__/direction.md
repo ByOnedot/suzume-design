@@ -14,7 +14,7 @@ title:
 If direction is 'vertical', the vertical Radio.Group will be displayed.
 
 ```js
-import { Radio } from '@suzume-design/web-react';
+import { Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 
 const App = () => {

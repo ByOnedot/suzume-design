@@ -15,7 +15,7 @@ The simplest usage.
 
 ```tsx
 import React from 'react';
-import { Table, TableColumnProps } from "@suzume-design/web-react";
+import { Table, TableColumnProps } from "@byonedot/web-react";
 
 const columns: TableColumnProps[] = [
   {

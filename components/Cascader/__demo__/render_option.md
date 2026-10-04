@@ -14,7 +14,7 @@ title:
 Customize option node.
 
 ```js
-import { Cascader, Space } from '@suzume-design/web-react';
+import { Cascader, Space } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

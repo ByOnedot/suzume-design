@@ -15,7 +15,7 @@ Divide a panel into two parts with adjustable width or height. Use `direction` t
 
 ```js
 import { useState } from 'react';
-import { ResizeBox, Tag, Space, Radio } from '@suzume-design/web-react';
+import { ResizeBox, Tag, Space, Radio } from '@byonedot/web-react';
 
 function App() {
   const [direction, setDirection] = useState('horizontal');

@@ -18,7 +18,7 @@ Use `maxTagCount=responsive` to dynamically display the number of Tags based on 
 Drag and animation effects are not available at this time.
 
 ```js
-import { InputTag, Space } from '@suzume-design/web-react';
+import { InputTag, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

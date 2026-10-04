@@ -15,7 +15,7 @@ browser: true
 You can customize the button to return to the top.
 
 ```js
-import { BackTop, Button, Typography } from '@suzume-design/web-react';
+import { BackTop, Button, Typography } from '@byonedot/web-react';
 const { Paragraph } = Typography;
 
 const App = () => {

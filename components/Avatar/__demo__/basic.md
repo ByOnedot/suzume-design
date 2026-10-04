@@ -14,8 +14,8 @@ title:
 Basic usage. If the avatar content is text, the font size will be automatically adjusted to fit the content in the avatar.
 
 ```js
-import { Avatar, Typography, Space } from '@suzume-design/web-react';
-import { IconUser } from '@suzume-design/web-react/icon';
+import { Avatar, Typography, Space } from '@byonedot/web-react';
+import { IconUser } from '@byonedot/web-react/icon';
 const { Text } = Typography;
 
 const App = () => {

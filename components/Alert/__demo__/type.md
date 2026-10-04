@@ -14,7 +14,7 @@ title:
 There are four types of warnings: `info`, `success`, `warning`, and `error`.
 
 ```js
-import { Alert, Grid } from '@suzume-design/web-react';
+import { Alert, Grid } from '@byonedot/web-react';
 const { Row, Col } = Grid;
 
 const App = () => {

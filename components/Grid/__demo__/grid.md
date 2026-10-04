@@ -15,7 +15,7 @@ A layout component implemented by CSS-based Grid layout, supports folding, and c
 
 ```js
 import { useState } from 'react';
-import { Grid, Switch, Typography } from '@suzume-design/web-react';
+import { Grid, Switch, Typography } from '@byonedot/web-react';
 
 const { GridItem } = Grid;
 

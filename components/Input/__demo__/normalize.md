@@ -14,7 +14,7 @@ title:
 Format the value entered by the user at the specified time, and when the previous and subsequent values are inconsistent, onChange will be triggered
 
 ```js
-import { Input, Space,Typography } from '@suzume-design/web-react';
+import { Input, Space,Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

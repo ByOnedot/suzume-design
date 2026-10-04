@@ -14,7 +14,7 @@ title:
 The color picker panel synchronizes the values in the input boxes when opened.
 
 ```js
-import { Button, ColorPicker } from '@suzume-design/web-react';
+import { Button, ColorPicker } from '@byonedot/web-react';
 import { useState } from 'react';
 
 const App = () => {

@@ -5,10 +5,10 @@ and from the dedicated hooks entry point.
 
 ```tsx
 // from the package root
-import { useWatermark, useVerificationCode } from '@suzume-design/web-react';
+import { useWatermark, useVerificationCode } from '@byonedot/web-react';
 
 // from the hooks entry point (smaller graph, separate ESM/CJS builds)
-import { useWatermark, useVerificationCode } from '@suzume-design/web-react/hooks';
+import { useWatermark, useVerificationCode } from '@byonedot/web-react/hooks';
 ```
 
 The `hooks` entry resolves to `hooks/es` (`module`) and `hooks/lib` (`main`),
@@ -24,7 +24,7 @@ Draws a repeating watermark into a canvas and inserts it into a container.
 'use client';
 
 import { useRef } from 'react';
-import { useWatermark } from '@suzume-design/web-react';
+import { useWatermark } from '@byonedot/web-react';
 
 export function Panel() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -66,7 +66,7 @@ State machine for a segmented one-time-code input (email / SMS codes).
 'use client';
 
 import { useRef } from 'react';
-import { useVerificationCode } from '@suzume-design/web-react';
+import { useVerificationCode } from '@byonedot/web-react';
 
 export function CodeInput() {
   const refs = useRef<(HTMLInputElement | HTMLTextAreaElement)[]>([]);

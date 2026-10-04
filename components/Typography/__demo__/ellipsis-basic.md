@@ -24,7 +24,7 @@ import {
   Form,
   Descriptions,
   Space, ResizeBox
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 import { useState } from 'react';
 
 const defaultText = 'A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design. A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design.';

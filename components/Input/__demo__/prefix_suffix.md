@@ -14,8 +14,8 @@ title:
 Add a prefix(suffix) in the input box by specifying `prefix`(`suffix`).
 
 ```js
-import { Input, Space } from '@suzume-design/web-react';
-import { IconUser, IconSearch, IconInfoCircle } from '@suzume-design/web-react/icon';
+import { Input, Space } from '@byonedot/web-react';
+import { IconUser, IconSearch, IconInfoCircle } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

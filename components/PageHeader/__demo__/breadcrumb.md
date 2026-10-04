@@ -14,7 +14,7 @@ title:
 Basic page header, suitable for use in scenarios that require a simple description. The default is no background color.
 
 ```js
-import { PageHeader, Radio } from '@suzume-design/web-react';
+import { PageHeader, Radio } from '@byonedot/web-react';
 
 const App = () => {
   return (

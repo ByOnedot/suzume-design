@@ -13,7 +13,7 @@ title:
 Display animation effects. Only work when `type` is `'line'`.
 
 ```js
-import { Progress } from '@suzume-design/web-react';
+import { Progress } from '@byonedot/web-react';
 
 const App = () => {
   return (

@@ -16,7 +16,7 @@ In functional components, you can use `Form.useFormContext` to get a form contex
 
 ```js
 import React, { useEffect, useRef } from 'react';
-import { Form, Input, Button, Switch, InputNumber, Message } from '@suzume-design/web-react';
+import { Form, Input, Button, Switch, InputNumber, Message } from '@byonedot/web-react';
 
 const FormItem = Form.Item;
 

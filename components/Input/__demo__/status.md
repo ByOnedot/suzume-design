@@ -14,7 +14,7 @@ title:
 Different Input status.
 
 ```js
-import { Input, Space } from '@suzume-design/web-react';
+import { Input, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

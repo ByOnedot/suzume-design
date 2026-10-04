@@ -14,7 +14,7 @@ title:
 Basic usage of Rate.
 
 ```js
-import { Rate } from '@suzume-design/web-react';
+import { Rate } from '@byonedot/web-react';
 
 const App = () => {
   return <Rate />;

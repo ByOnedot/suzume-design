@@ -14,7 +14,7 @@ title:
 A simple progress bar.
 
 ```js
-import { Progress } from '@suzume-design/web-react';
+import { Progress } from '@byonedot/web-react';
 
 const App = () => {
   return (

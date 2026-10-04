@@ -15,8 +15,8 @@ The Sider on the left can be used with together Menu and set to expand/collapse.
 
 ```js
 import React from 'react';
-import { Layout, Menu, Breadcrumb, Message } from '@suzume-design/web-react';
-import { IconHome, IconCalendar } from '@suzume-design/web-react/icon';
+import { Layout, Menu, Breadcrumb, Message } from '@byonedot/web-react';
+import { IconHome, IconCalendar } from '@byonedot/web-react/icon';
 
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;

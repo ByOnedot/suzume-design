@@ -15,7 +15,7 @@ You can customize the trigger element of the color picker, and the properties re
 
 ```js
 import { useState } from 'react';
-import { Button, ColorPicker } from '@suzume-design/web-react';
+import { Button, ColorPicker } from '@byonedot/web-react';
 
 const App = () => {
   const [value, setValue] = useState('#165DFF');

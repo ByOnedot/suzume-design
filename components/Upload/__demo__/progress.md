@@ -14,7 +14,7 @@ Use `progressProps` for customize progress bar.
 
 ```js
 import React from 'react';
-import { Upload, Radio, Button } from '@suzume-design/web-react';
+import { Upload, Radio, Button } from '@byonedot/web-react';
 
 function App() {
   const [fileList, setFileList] = React.useState([

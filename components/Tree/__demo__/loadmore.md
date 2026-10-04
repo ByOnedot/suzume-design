@@ -15,7 +15,7 @@ Load nodes dynamically.
 
 ```js
 import React from 'react';
-import { Tree } from '@suzume-design/web-react';
+import { Tree } from '@byonedot/web-react';
 
 const TreeNode = Tree.Node;
 const defaultTreeData = [

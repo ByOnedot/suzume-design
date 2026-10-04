@@ -28,7 +28,7 @@ import {
   Select,
   InputNumber,
   Space,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
 const defaultData = [...new Array(5)].map((_, index) => {
   return {

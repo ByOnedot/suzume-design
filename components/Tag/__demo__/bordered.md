@@ -14,7 +14,7 @@ title:
 Through the prop `bordered` to display a bordered tag.
 
 ```js
-import { Tag, Space } from '@suzume-design/web-react';
+import { Tag, Space } from '@byonedot/web-react';
 const COLORS = [
   'red',
   'orangered',

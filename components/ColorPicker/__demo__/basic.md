@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```js
-import { ColorPicker } from '@suzume-design/web-react';
+import { ColorPicker } from '@byonedot/web-react';
 
 const App = () => {
   return (

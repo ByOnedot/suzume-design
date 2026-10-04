@@ -15,7 +15,7 @@ Generate a group of checkboxes. If direction is `vertical`, the vertical checkbo
 
 
 ```js
-import { Checkbox } from '@suzume-design/web-react';
+import { Checkbox } from '@byonedot/web-react';
 const CheckboxGroup = Checkbox.Group;
 const options = [
   {

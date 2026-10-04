@@ -15,7 +15,7 @@ Use `size` to select the size of Select (`mini`, `small`, `default`, `large`), t
 
 ```js
 import React from 'react';
-import { Select, Radio } from '@suzume-design/web-react';
+import { Select, Radio } from '@byonedot/web-react';
 
 const Option = Select.Option;
 const RadioGroup = Radio.Group;

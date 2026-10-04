@@ -15,7 +15,7 @@ You can customize the rendering dialog through `modalRender` to realize the drag
 
 ```js
 import React from 'react';
-import { Modal, Button } from '@suzume-design/web-react';
+import { Modal, Button } from '@byonedot/web-react';
 import Draggable from 'react-draggable';
 
 function App() {

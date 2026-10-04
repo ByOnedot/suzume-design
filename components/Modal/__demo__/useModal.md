@@ -15,7 +15,7 @@ useModal。
 
 ```js
 import { createContext } from 'react';
-import { Modal, Button, Space } from '@suzume-design/web-react';
+import { Modal, Button, Space } from '@byonedot/web-react';
 
 const ConfigContext = createContext({});
 

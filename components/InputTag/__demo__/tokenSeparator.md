@@ -14,7 +14,7 @@ title:
 Set `tokenSeparators` to use automatic word segmentation. Try copying text below into the input box.
 
 ```js
-import { InputTag, Typography } from '@suzume-design/web-react';
+import { InputTag, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

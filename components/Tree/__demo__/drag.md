@@ -15,7 +15,7 @@ Draggable nodes.
 
 ```js
 import { useState } from 'react';
-import { Tree, Checkbox } from '@suzume-design/web-react';
+import { Tree, Checkbox } from '@byonedot/web-react';
 const TreeNode = Tree.Node;
 const TreeData = [
   {

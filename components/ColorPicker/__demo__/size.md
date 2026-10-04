@@ -15,7 +15,7 @@ ColorPicker defines four sizes (`mini`, `small`, `default`, `large`), which are 
 
 
 ```js
-import { ColorPicker, Radio } from '@suzume-design/web-react';
+import { ColorPicker, Radio } from '@byonedot/web-react';
 
 const RadioGroup = Radio.Group;
 

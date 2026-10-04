@@ -14,7 +14,7 @@ title:
 Message has 2 different positions.
 
 ```js
-import { Message, Button, Space } from '@suzume-design/web-react';
+import { Message, Button, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

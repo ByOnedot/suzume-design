@@ -15,7 +15,7 @@ You can set `onReachBottom` to dynamically loading data when the list is scrolli
 
 ```js
 import { useState, useEffect } from 'react';
-import { List, Avatar, Spin } from '@suzume-design/web-react';
+import { List, Avatar, Spin } from '@byonedot/web-react';
 
 function App() {
   const [mockData, setMockData] = useState([]);

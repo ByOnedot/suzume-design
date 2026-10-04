@@ -14,7 +14,7 @@ title:
 Default state and disabled state.
 
 ```js
-import { Slider, Space } from '@suzume-design/web-react';
+import { Slider, Space } from '@byonedot/web-react';
 
 function App() {
   return (

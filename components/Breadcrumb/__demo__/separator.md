@@ -14,8 +14,8 @@ title:
 Custom separator.
 
 ```js
-import { Breadcrumb, Space } from '@suzume-design/web-react';
-import { IconRight } from '@suzume-design/web-react/icon';
+import { Breadcrumb, Space } from '@byonedot/web-react';
+import { IconRight } from '@byonedot/web-react/icon';
 const BreadcrumbItem = Breadcrumb.Item;
 
 const App = () => {

@@ -14,7 +14,7 @@ title:
 Use `style` to customize style of panel.
 
 ```js
-import { Collapse, Divider } from '@suzume-design/web-react';
+import { Collapse, Divider } from '@byonedot/web-react';
 const CollapseItem = Collapse.Item;
 const customStyle = {
   borderRadius: 2,

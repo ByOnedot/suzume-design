@@ -1,4 +1,4 @@
-const { getRgbStr } = require('@suzume-design/color');
+const { getRgbStr } = require('@byonedot/color');
 
 module.exports = {
   install(_, __, functions) {

@@ -15,7 +15,7 @@ Basic usage of Slider.
 
 ```js
 import { useState } from 'react';
-import { Slider } from '@suzume-design/web-react';
+import { Slider } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState(30);

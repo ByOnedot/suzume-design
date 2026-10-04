@@ -14,7 +14,7 @@ title:
 The theme is specified by `theme`, which can be divided into two types: `light` and `dark`.
 
 ```js
-import { Menu } from '@suzume-design/web-react';
+import { Menu } from '@byonedot/web-react';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 

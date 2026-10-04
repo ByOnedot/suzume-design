@@ -14,8 +14,8 @@ title:
 The button width adapts to the container width.
 
 ```js
-import { Button, Space } from '@suzume-design/web-react';
-import { IconUpload } from '@suzume-design/web-react/icon';
+import { Button, Space } from '@byonedot/web-react';
+import { IconUpload } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

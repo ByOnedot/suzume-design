@@ -14,7 +14,7 @@ title:
 Set `bordered` to `false` to use borderless cards.
 
 ```js
-import { Card, Link, Space } from '@suzume-design/web-react';
+import { Card, Link, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

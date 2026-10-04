@@ -27,7 +27,7 @@ import {
   Message,
   InputNumber,
   DatePicker,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 const FormItem = Form.Item;
 const cascaderOptions = [
   {

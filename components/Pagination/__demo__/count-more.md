@@ -14,7 +14,7 @@ title:
 More pages.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return <Pagination defaultCurrent={5} total={200} sizeCanChange />;

@@ -15,7 +15,7 @@ Enable strict mode with `strictMode` to support higher precision, `onChange` wil
 
 ```js
 import { useState } from 'react';
-import { InputNumber } from '@suzume-design/web-react';
+import { InputNumber } from '@byonedot/web-react';
 
 const App = () => {
   const [value, setValue] = useState(1e20);

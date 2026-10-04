@@ -14,7 +14,7 @@ title:
 Components can be nested.
 
 ```js
-import { Tabs, Typography } from '@suzume-design/web-react';
+import { Tabs, Typography } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

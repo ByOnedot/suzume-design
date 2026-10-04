@@ -14,7 +14,7 @@ title:
 By setting `trigger`, you can specify different trigger methods.
 
 ```js
-import { Popover, Button, Space } from '@suzume-design/web-react';
+import { Popover, Button, Space } from '@byonedot/web-react';
 const style = {
   margin: 0,
 };

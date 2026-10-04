@@ -8,15 +8,21 @@ export default defineConfig({
   plugins: [],
   resolve: {
     alias: [
-      { find: /^@suzume-design\/web-react$/, replacement: path.join(root, 'es/index.js') },
-      { find: /^@suzume-design\/web-react\/icon$/, replacement: path.join(root, 'icon/index.es.js') },
-      { find: /^@suzume-design\/web-react\/hooks$/, replacement: path.join(root, 'hooks/es/index.js') },
-      { find: /^@suzume-design\/web-react\/(.*)$/, replacement: path.join(root, '$1') },
+      { find: /^@byonedot\/web-react$/, replacement: path.join(root, 'es/index.js') },
+      { find: /^@byonedot\/web-react\/icon$/, replacement: path.join(root, 'icon/index.es.js') },
+      { find: /^@byonedot\/web-react\/hooks$/, replacement: path.join(root, 'hooks/es/index.js') },
+      { find: /^@byonedot\/web-react\/(.*)$/, replacement: path.join(root, '$1') },
       { find: /^test-utils$/, replacement: path.join(root, 'tests/util.ts') },
       { find: /^react$/, replacement: path.join(root, 'node_modules/react') },
-      { find: /^react-dom\/client$/, replacement: path.join(root, 'node_modules/react-dom/client') },
+      {
+        find: /^react-dom\/client$/,
+        replacement: path.join(root, 'node_modules/react-dom/client'),
+      },
       { find: /^react-dom$/, replacement: path.join(root, 'node_modules/react-dom') },
-      { find: /^react\/jsx-runtime$/, replacement: path.join(root, 'node_modules/react/jsx-runtime') },
+      {
+        find: /^react\/jsx-runtime$/,
+        replacement: path.join(root, 'node_modules/react/jsx-runtime'),
+      },
     ],
   },
   esbuild: { jsx: 'automatic', jsxImportSource: 'react' },

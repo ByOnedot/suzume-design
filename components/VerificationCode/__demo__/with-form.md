@@ -14,7 +14,7 @@ title:
 Use with forms to implement verification
 
 ```js
-import { Form, Button, Typography, VerificationCode } from '@suzume-design/web-react';
+import { Form, Button, Typography, VerificationCode } from '@byonedot/web-react';
 const App = () => {
   return (
     <div className="demo-verify-code-wrapper">

@@ -14,7 +14,7 @@ title:
 Steps progress will be displayed if you set steps property.
 
 ```js
-import { Progress } from '@suzume-design/web-react';
+import { Progress } from '@byonedot/web-react';
 
 function Demo() {
   return (

@@ -14,7 +14,7 @@ title:
 The radio group of button type has four sizes available: `mini`, `small`, `default`, `large`.
 
 ```js
-import { Radio } from '@suzume-design/web-react';
+import { Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 const options = [
   {

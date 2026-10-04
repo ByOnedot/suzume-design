@@ -14,7 +14,7 @@ title:
 Horizontal Anchor, does not support nesting
 
 ```js
-import { Anchor,Typography } from '@suzume-design/web-react';
+import { Anchor,Typography } from '@byonedot/web-react';
 const AnchorLink = Anchor.Link;
 
 const App = () => {

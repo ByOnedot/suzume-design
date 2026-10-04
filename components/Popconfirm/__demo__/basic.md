@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```js
-import { Popconfirm, Message, Button } from '@suzume-design/web-react';
+import { Popconfirm, Message, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

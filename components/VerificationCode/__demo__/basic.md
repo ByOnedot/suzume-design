@@ -14,7 +14,7 @@ title:
 Basic uasge.
 
 ```js
-import { VerificationCode, Message } from '@suzume-design/web-react';
+import { VerificationCode, Message } from '@byonedot/web-react';
 
 const App = () => {
   return <VerificationCode

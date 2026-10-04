@@ -14,7 +14,7 @@ title:
 When the amount of data is large, specify `pagination` to display the data in pages.
 
 ```js
-import { Transfer } from '@suzume-design/web-react';
+import { Transfer } from '@byonedot/web-react';
 
 function App() {
   const dataSource = new Array(30).fill(null).map((_, index) => ({

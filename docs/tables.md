@@ -8,7 +8,7 @@ fixed columns, virtual scrolling and tree data.
 ```tsx
 'use client';
 
-import { Table } from '@suzume-design/web-react';
+import { Table } from '@byonedot/web-react';
 
 interface Row {
   key: string;

@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ```js
-import { TreeSelect } from '@suzume-design/web-react';
+import { TreeSelect } from '@byonedot/web-react';
 const TreeNode = TreeSelect.Node;
 
 const App = () => {

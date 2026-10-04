@@ -14,7 +14,7 @@ title:
 The `Switch` is in the loading state and cannot be clicked.
 
 ```js
-import { Switch, Divider, Space } from '@suzume-design/web-react';
+import { Switch, Divider, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

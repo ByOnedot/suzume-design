@@ -14,8 +14,8 @@ title:
 Display as a reply editor.
 
 ```js
-import { Comment, Avatar, Button, Input } from '@suzume-design/web-react';
-import { IconMessage } from '@suzume-design/web-react/icon';
+import { Comment, Avatar, Button, Input } from '@byonedot/web-react';
+import { IconMessage } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

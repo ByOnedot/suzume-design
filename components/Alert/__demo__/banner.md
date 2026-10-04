@@ -15,7 +15,7 @@ browser: true
 Use `banner = true` to display Alert as a banner on top of the page.
 
 ```js
-import { Alert } from '@suzume-design/web-react';
+import { Alert } from '@byonedot/web-react';
 
 const App = () => {
   return (

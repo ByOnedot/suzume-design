@@ -15,7 +15,7 @@ Display animation effects.
 
 ```js
 import React from 'react';
-import { Skeleton, Switch, Avatar, Typography } from '@suzume-design/web-react';
+import { Skeleton, Switch, Avatar, Typography } from '@byonedot/web-react';
 
 class App extends React.Component {
   constructor(props) {

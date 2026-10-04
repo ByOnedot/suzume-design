@@ -14,7 +14,7 @@ title:
 A mini progress bar.
 
 ```js
-import { Progress, Slider } from '@suzume-design/web-react';
+import { Progress, Slider } from '@byonedot/web-react';
 
 function Demo() {
   return (

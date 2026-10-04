@@ -2,11 +2,7 @@
   "compilerOptions": {
     "rootDir": "./components",
     "target": "ES2017",
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "jsx": "react-jsx",
     "declaration": true,
@@ -19,21 +15,12 @@
     "isolatedModules": true,
     "strict": false,
     "paths": {
-      "@suzume-design/web-react": [
-        "./components/index.tsx"
-      ],
-      "@suzume-design/web-react/icon": [
-        "./icon/index.js"
-      ],
-      "test-utils": [
-        "./tests/util.ts"
-      ]
+      "@byonedot/web-react": ["./components/index.tsx"],
+      "@byonedot/web-react/icon": ["./icon/index.js"],
+      "test-utils": ["./tests/util.ts"]
     }
   },
-  "include": [
-    "components/**/*.ts",
-    "components/**/*.tsx"
-  ],
+  "include": ["components/**/*.ts", "components/**/*.tsx"],
   "exclude": [
     "node_modules",
     "components/**/*.test.tsx",

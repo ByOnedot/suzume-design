@@ -12,7 +12,7 @@ Suzume Design exposes its design system as **CSS custom properties** defined on
 | Component tokens | `--color-text-1`, `--color-bg-1`, `--color-border`, `--btn-*`, `--modal-*` ... | Always |
 | Runtime overrides | inline `style` on `body` | Via `ConfigProvider` `theme` |
 
-The palette ramps come from [`@suzume-design/color`](./color.md). The primary
+The palette ramps come from [`@byonedot/color`](./color.md). The primary
 blue is **`suzumeblue`** (`#165DFF`).
 
 ## Inspecting tokens
@@ -34,7 +34,7 @@ another library on the page already owns the unprefixed names:
 
 ```less
 @suzume-vars-prefix: 'suzume';
-@import '@suzume-design/web-react/dist/css/index.less';
+@import '@byonedot/web-react/dist/css/index.less';
 ```
 
 This produces `--suzume-color-text-1` instead of `--color-text-1`.
@@ -44,8 +44,8 @@ This produces `--suzume-color-text-1` instead of `--color-text-1`.
 Only works when you compile the library's Less yourself:
 
 ```ts
-import '@suzume-design/web-react/es/Button/style/index.less';
-import '@suzume-design/web-react/es/Table/style/index.less';
+import '@byonedot/web-react/es/Button/style/index.less';
+import '@byonedot/web-react/es/Table/style/index.less';
 ```
 
 ```js
@@ -83,7 +83,7 @@ runtime API below instead.
 ## Runtime theming (works with prebuilt CSS)
 
 ```tsx
-import { ConfigProvider } from '@suzume-design/web-react';
+import { ConfigProvider } from '@byonedot/web-react';
 
 <ConfigProvider
   theme={{

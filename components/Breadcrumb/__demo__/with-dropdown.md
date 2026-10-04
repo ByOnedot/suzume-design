@@ -14,7 +14,7 @@ title:
 Use `droplist` or `routes` to specify the drop-down menu.
 
 ```js
-import { Breadcrumb, Menu } from '@suzume-design/web-react';
+import { Breadcrumb, Menu } from '@byonedot/web-react';
 const BreadcrumbItem = Breadcrumb.Item;
 const menu = (
   <Menu>

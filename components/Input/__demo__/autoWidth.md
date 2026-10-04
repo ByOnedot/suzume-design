@@ -14,7 +14,7 @@ title:
 Through the `autoWidth` attribute, you can set the width of `Input` to adapt to the text.
 
 ```js
-import { Input, Divider, Space,Typography, Popover } from '@suzume-design/web-react';
+import { Input, Divider, Space,Typography, Popover } from '@byonedot/web-react';
 
 const App = () => {
   return (

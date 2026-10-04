@@ -14,7 +14,7 @@ title:
 Basic usage of skeleton screen.
 
 ```js
-import { Skeleton } from '@suzume-design/web-react';
+import { Skeleton } from '@byonedot/web-react';
 
 const App = () => {
   return <Skeleton></Skeleton>;

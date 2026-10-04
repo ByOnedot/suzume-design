@@ -14,7 +14,7 @@ title:
 List can carry text, pictures, and paragraphs, and is often used to display data.
 
 ```js
-import { List } from '@suzume-design/web-react';
+import { List } from '@byonedot/web-react';
 
 const App = () => {
   return (

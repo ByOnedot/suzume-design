@@ -14,7 +14,7 @@ title:
 Set `Switch` to be disabled by `disabled`.
 
 ```js
-import { Switch, Space } from '@suzume-design/web-react';
+import { Switch, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

@@ -14,7 +14,7 @@ title:
 You can pass in the image URL through the `imgSrc` parameter.
 
 ```js
-import { Empty, Button } from '@suzume-design/web-react';
+import { Empty, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

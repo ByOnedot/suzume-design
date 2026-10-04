@@ -14,7 +14,7 @@ title:
 Whether to render `children` until the first expansion of `Collapse.Item`.
 
 ```js
-import { Collapse } from '@suzume-design/web-react';
+import { Collapse } from '@byonedot/web-react';
 const CollapseItem = Collapse.Item;
 
 const App = () => {

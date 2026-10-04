@@ -1,4 +1,4 @@
-import { Alert, Space } from '@suzume-design/web-react';
+import { Alert, Space } from '@byonedot/web-react';
 import { ServerGrid } from './server-grid';
 
 /**

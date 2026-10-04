@@ -14,7 +14,7 @@ title:
 Surround type spacing, there are spacing on all sides, generally used in the scene of line wrapping.
 
 ```js
-import { Space, Button } from '@suzume-design/web-react';
+import { Space, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

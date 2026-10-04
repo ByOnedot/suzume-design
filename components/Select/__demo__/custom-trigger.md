@@ -15,7 +15,7 @@ Set `triggerElement` to customize the node that triggers the drop-down box. When
 
 ```js
 import { useState, useRef } from 'react';
-import { Select, Typography, Link } from '@suzume-design/web-react';
+import { Select, Typography, Link } from '@byonedot/web-react';
 const Option = Select.Option;
 
 const DemoSelect = () => {

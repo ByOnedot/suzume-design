@@ -15,7 +15,7 @@ Customize the popup content by `dropdownRender`
 
 
 ```js
-import { Cascader, Divider, Space } from '@suzume-design/web-react';
+import { Cascader, Divider, Space } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

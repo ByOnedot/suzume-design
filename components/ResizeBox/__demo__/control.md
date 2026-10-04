@@ -15,7 +15,7 @@ The height and width of the `ResizeBox` can be controlled, corresponding to the 
 
 ```js
 import React from 'react';
-import { ResizeBox, Divider, Typography } from '@suzume-design/web-react';
+import { ResizeBox, Divider, Typography } from '@byonedot/web-react';
 
 const { Paragraph } = Typography;
 

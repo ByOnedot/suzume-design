@@ -14,7 +14,7 @@ title: useCheckbox
 
 ```js
 import { useState } from 'react';
-import { Checkbox, Divider, Button, Typography } from '@suzume-design/web-react';
+import { Checkbox, Divider, Button, Typography } from '@byonedot/web-react';
 const CheckboxGroup = Checkbox.Group;
 const useCheckbox = Checkbox.useCheckbox;
 const options = [...Array(6)].map((_, i) => ({

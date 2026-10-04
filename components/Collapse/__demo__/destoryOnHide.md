@@ -14,7 +14,7 @@ title:
 The collapsed panel can be destroyed through the `destroyOnHide` property.
 
 ```js
-import { Collapse } from '@suzume-design/web-react';
+import { Collapse } from '@byonedot/web-react';
 const CollapseItem = Collapse.Item;
 
 const App = () => {

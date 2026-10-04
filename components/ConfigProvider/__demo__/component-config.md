@@ -24,7 +24,7 @@ import {
   Radio,
   Table,
   Tag,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 const columns = [
   {
     title: 'Name',

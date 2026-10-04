@@ -14,8 +14,8 @@ title:
 Dropdown with SubMenu.
 
 ```js
-import { Dropdown, Menu, Button } from '@suzume-design/web-react';
-import { IconDown } from '@suzume-design/web-react/icon';
+import { Dropdown, Menu, Button } from '@byonedot/web-react';
+import { IconDown } from '@byonedot/web-react/icon';
 const SubMenu = Menu.SubMenu;
 const MenuItem = Menu.Item;
 const data = [

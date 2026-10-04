@@ -15,8 +15,8 @@ You can customize the operation column through `components`, including adding ne
 
 ```js
 import { useState } from 'react';
-import { Table } from '@suzume-design/web-react';
-import { IconDragDotVertical } from '@suzume-design/web-react/icon';
+import { Table } from '@byonedot/web-react';
+import { IconDragDotVertical } from '@byonedot/web-react/icon';
 const columns = [
   {
     title: 'Name',

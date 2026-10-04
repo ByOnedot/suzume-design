@@ -17,7 +17,7 @@ linear-gradient progress bar.
 
 
 ```js
-import { Progress } from '@suzume-design/web-react';
+import { Progress } from '@byonedot/web-react';
 
 const App = () => {
   return (

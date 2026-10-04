@@ -15,7 +15,7 @@ Load nodes dynamically via `loadMore`. At this time, `isLeaf` can be set to indi
 
 ```js
 import { useState } from 'react';
-import { TreeSelect } from '@suzume-design/web-react';
+import { TreeSelect } from '@byonedot/web-react';
 const defaultData = [
   {
     key: 'node1',

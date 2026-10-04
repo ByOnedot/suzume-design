@@ -14,7 +14,7 @@ title:
 Show titles of different levels.
 
 ```js
-import { Typography } from '@suzume-design/web-react';
+import { Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

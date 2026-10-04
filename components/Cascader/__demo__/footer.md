@@ -12,7 +12,7 @@ title:
 Custom rendering the footer of each level menu 。
 
 ```js
-import { Cascader, Message, Link, Space } from '@suzume-design/web-react';
+import { Cascader, Message, Link, Space } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

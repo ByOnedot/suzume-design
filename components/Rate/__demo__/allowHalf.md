@@ -14,7 +14,7 @@ title:
 Specify `allowHalf` to support half selection.
 
 ```js
-import { Rate } from '@suzume-design/web-react';
+import { Rate } from '@byonedot/web-react';
 
 const App = () => {
   return <Rate allowHalf defaultValue={2.5} />;

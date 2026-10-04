@@ -15,7 +15,7 @@ The function will be executed when user click remove icon. Remove actions will b
 
 ```js
 import React from 'react';
-import { Upload, Modal } from '@suzume-design/web-react';
+import { Upload, Modal } from '@byonedot/web-react';
 
 class App extends React.Component {
   render() {

@@ -14,8 +14,8 @@ title:
 You can add an icon to the tab through a custom title.
 
 ```js
-import { Tabs, Typography } from '@suzume-design/web-react';
-import { IconCalendar, IconClockCircle, IconUser } from '@suzume-design/web-react/icon';
+import { Tabs, Typography } from '@byonedot/web-react';
+import { IconCalendar, IconClockCircle, IconUser } from '@byonedot/web-react/icon';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

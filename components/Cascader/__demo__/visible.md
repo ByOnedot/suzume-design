@@ -17,7 +17,7 @@ More examples can be found in [Trigger](../../Trigger/README.en-US.md).
 
 ```js
 import React from 'react';
-import { Cascader, Message, Link, Button } from '@suzume-design/web-react';
+import { Cascader, Message, Link, Button } from '@byonedot/web-react';
 
 const options = [
   {

@@ -15,8 +15,8 @@ When `labelInValue` is `true`, the format of `value` is: `{ label: string, value
 
 ```js
 import React from 'react';
-import { TreeSelect } from '@suzume-design/web-react';
-import { IconStar  } from '@suzume-design/web-react/icon';
+import { TreeSelect } from '@byonedot/web-react';
+import { IconStar  } from '@byonedot/web-react/icon';
 
 const treeData = [
   {

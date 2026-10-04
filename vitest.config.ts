@@ -5,10 +5,10 @@ import { stubAssets } from './tests/vitest/stub-assets';
 
 const root = __dirname;
 const alias = [
-  { find: /^@suzume-design\/web-react$/, replacement: path.join(root, 'components/index.tsx') },
-  { find: /^@suzume-design\/web-react\/icon$/, replacement: path.join(root, 'icon/index.es.js') },
-  { find: /^@suzume-design\/web-react\/hooks$/, replacement: path.join(root, 'hooks/es/index.js') },
-  { find: /^@suzume-design\/web-react\/(.*)$/, replacement: path.join(root, '$1') },
+  { find: /^@byonedot\/web-react$/, replacement: path.join(root, 'components/index.tsx') },
+  { find: /^@byonedot\/web-react\/icon$/, replacement: path.join(root, 'icon/index.es.js') },
+  { find: /^@byonedot\/web-react\/hooks$/, replacement: path.join(root, 'hooks/es/index.js') },
+  { find: /^@byonedot\/web-react\/(.*)$/, replacement: path.join(root, '$1') },
   { find: /^test-utils$/, replacement: path.join(root, 'tests/util.ts') },
 ];
 

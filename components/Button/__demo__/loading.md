@@ -15,8 +15,8 @@ A button can be on loading state by setting `loading`. Click events are not trig
 
 ```js
 import { useState } from 'react';
-import { Button, Divider } from '@suzume-design/web-react';
-import { IconPlus } from '@suzume-design/web-react/icon';
+import { Button, Divider } from '@byonedot/web-react';
+import { IconPlus } from '@byonedot/web-react/icon';
 
 function App() {
   const [loading1, setLoading1] = useState(false);

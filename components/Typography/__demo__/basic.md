@@ -14,7 +14,7 @@ title:
 Display headings, paragraphs, and text content.
 
 ```js
-import { Typography } from '@suzume-design/web-react';
+import { Typography } from '@byonedot/web-react';
 const { Title, Paragraph, Text } = Typography;
 
 const App = () => {

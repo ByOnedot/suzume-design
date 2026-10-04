@@ -14,7 +14,7 @@ title:
 Disabled Status、 Error status
 
 ```js
-import { VerificationCode, Space, Typography } from '@suzume-design/web-react';
+import { VerificationCode, Space, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return <Pagination total={200} />;

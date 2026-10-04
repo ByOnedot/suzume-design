@@ -14,7 +14,7 @@ title:
 You can get switches of different sizes by specifying `size`.
 
 ```js
-import { Switch, Space } from '@suzume-design/web-react';
+import { Switch, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

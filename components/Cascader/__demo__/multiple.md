@@ -14,7 +14,7 @@ title:
 Allow multiple selection. Set the 'checkedStrategy' property to set the data echo mode(`2.31.0`).
 
 ```js
-import { Cascader, Space } from '@suzume-design/web-react';
+import { Cascader, Space } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

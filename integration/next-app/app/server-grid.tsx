@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid, Layout, Typography, Card, Space, Divider, Tag, Badge } from '@suzume-design/web-react';
+import { Grid, Layout, Typography, Card, Space, Divider, Tag, Badge } from '@byonedot/web-react';
 
 const { Row, Col } = Grid;
 const { Text, Paragraph } = Typography;

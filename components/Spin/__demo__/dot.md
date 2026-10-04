@@ -14,7 +14,7 @@ title:
 The dot type indicator can be displayed by specifying the `dot` property.
 
 ```js
-import { Spin } from '@suzume-design/web-react';
+import { Spin } from '@byonedot/web-react';
 
 const App = () => {
   return <Spin dot />;

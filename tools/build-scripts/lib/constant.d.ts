@@ -1,18 +1,21 @@
-export declare const BUILD_ENV_MODE: "development" | "production", BUILD_ENV_TS_COMPILER: "babel" | "tsc", BUILD_ENV_DIST_FILENAME_JS: string, BUILD_ENV_DIST_FILENAME_CSS: string;
+export declare const BUILD_ENV_MODE: 'development' | 'production',
+  BUILD_ENV_TS_COMPILER: 'babel' | 'tsc',
+  BUILD_ENV_DIST_FILENAME_JS: string,
+  BUILD_ENV_DIST_FILENAME_CSS: string;
 export declare const CWD: string;
-export declare const DIR_NAME_ESM = "es";
-export declare const DIR_NAME_CJS = "lib";
-export declare const DIR_NAME_UMD = "dist";
-export declare const DIR_NAME_ICON = "icon";
-export declare const DIR_NAME_SITE = "site";
-export declare const DIR_NAME_TEST = "tests";
-export declare const DIR_NAME_SOURCE = "src";
-export declare const DIR_NAME_ASSET = "asset";
-export declare const DIR_NAME_DEMO = "demo";
-export declare const DIR_NAME_COMPONENT_LIBRARY = "components";
-export declare const FILENAME_DIST_LESS = "index.less";
-export declare const FILENAME_DIST_CSS = "index.css";
-export declare const FILENAME_STYLE_ENTRY_RAW = "index.js";
-export declare const FILENAME_STYLE_ENTRY_CSS = "css.js";
-export declare const FILENAME_README = "README.md";
-export declare const SUZUME_LIBRARY_PACKAGE_NAME_REACT = "@suzume-design/web-react";
+export declare const DIR_NAME_ESM = 'es';
+export declare const DIR_NAME_CJS = 'lib';
+export declare const DIR_NAME_UMD = 'dist';
+export declare const DIR_NAME_ICON = 'icon';
+export declare const DIR_NAME_SITE = 'site';
+export declare const DIR_NAME_TEST = 'tests';
+export declare const DIR_NAME_SOURCE = 'src';
+export declare const DIR_NAME_ASSET = 'asset';
+export declare const DIR_NAME_DEMO = 'demo';
+export declare const DIR_NAME_COMPONENT_LIBRARY = 'components';
+export declare const FILENAME_DIST_LESS = 'index.less';
+export declare const FILENAME_DIST_CSS = 'index.css';
+export declare const FILENAME_STYLE_ENTRY_RAW = 'index.js';
+export declare const FILENAME_STYLE_ENTRY_CSS = 'css.js';
+export declare const FILENAME_README = 'README.md';
+export declare const SUZUME_LIBRARY_PACKAGE_NAME_REACT = '@byonedot/web-react';

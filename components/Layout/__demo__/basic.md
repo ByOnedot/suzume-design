@@ -14,7 +14,7 @@ title:
 A typical page layout.
 
 ```js
-import { Layout } from '@suzume-design/web-react';
+import { Layout } from '@byonedot/web-react';
 const Sider = Layout.Sider;
 const Header = Layout.Header;
 const Footer = Layout.Footer;

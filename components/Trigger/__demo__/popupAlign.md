@@ -18,7 +18,7 @@ Specify moving a few pixels in some directions.
 For example, when `position` is `'top'`, set popupAlign to `{ top: 20}`, the popup will move up by `20px`, and set popupAlign to `{top: [100, 20]}`, the popup will move horizontally `100px` right and `20px` up.
 
 ```js
-import { Trigger, Button, Input, Skeleton, Space } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton, Space } from '@byonedot/web-react';
 
 function Popup() {
   return <Skeleton className="demo-trigger-popup" style={{ width: 300 }} />;

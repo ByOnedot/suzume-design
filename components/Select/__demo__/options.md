@@ -14,7 +14,7 @@ title:
 Specify optional options by passing in `options`.
 
 ```js
-import { Select, Message, Space } from '@suzume-design/web-react';
+import { Select, Message, Space } from '@byonedot/web-react';
 const options = ['Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Chengdu', 'Wuhan'];
 
 const App = () => {

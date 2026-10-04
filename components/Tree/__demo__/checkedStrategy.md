@@ -15,7 +15,7 @@ Add `checkedStrategy` to set the return value when selected.
 
 ```js
 import { useState } from 'react';
-import { Tree, Radio, Typography } from '@suzume-design/web-react';
+import { Tree, Radio, Typography } from '@byonedot/web-react';
 const TreeNode = Tree.Node;
 const TreeData = [
   {

@@ -7,7 +7,7 @@ title:
 
 ```js
 import React from 'react';
-import { Trigger, Button, Input, Skeleton, Typography } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton, Typography } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = React.useState(false);

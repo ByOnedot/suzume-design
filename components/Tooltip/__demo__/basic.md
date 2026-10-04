@@ -14,7 +14,7 @@ title:
 When the mouse is moved in, the bubble appears, and when the mouse is moved out, the bubble disappears.
 
 ```js
-import { Tooltip, Typography } from '@suzume-design/web-react';
+import { Tooltip, Typography } from '@byonedot/web-react';
 const { Text } = Typography;
 
 const App = () => {

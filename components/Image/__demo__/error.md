@@ -14,7 +14,7 @@ title:
 Content displayed when the image fails to load. 
 
 ```js
-import { Image, Space } from '@suzume-design/web-react';
+import { Image, Space } from '@byonedot/web-react';
 
 function App() {
   return (

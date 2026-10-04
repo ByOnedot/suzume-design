@@ -14,8 +14,8 @@ title:
 An icon can be added to the label by setting `icon`.
 
 ```js
-import { Tag, Space } from '@suzume-design/web-react';
-import { IconGitlab, IconTwitter, IconGithub, IconFacebook } from '@suzume-design/web-react/icon';
+import { Tag, Space } from '@byonedot/web-react';
+import { IconGitlab, IconTwitter, IconGithub, IconFacebook } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

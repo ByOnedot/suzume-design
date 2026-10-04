@@ -17,7 +17,7 @@ title:
 
 ```js
 import { useState } from 'react';
-import { Table } from '@suzume-design/web-react';
+import { Table } from '@byonedot/web-react';
 
 const App = () => {
   const columns = [

@@ -13,7 +13,7 @@ title:
 Used in standalone when children is empty.
 
 ```js
-import { Badge, Space } from '@suzume-design/web-react';
+import { Badge, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

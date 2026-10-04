@@ -14,8 +14,8 @@ title:
 Customize icon.
 
 ```js
-import { Popconfirm, Message, Button, Space } from '@suzume-design/web-react';
-import { IconFaceSmileFill } from '@suzume-design/web-react/icon';
+import { Popconfirm, Message, Button, Space } from '@byonedot/web-react';
+import { IconFaceSmileFill } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

@@ -14,7 +14,7 @@ title:
 If `onClose` returns a `Promise`, the tag can be closed asynchronously and the loading effect will be displayed when it is not closed.
 
 ```js
-import { Tag, Message } from '@suzume-design/web-react';
+import { Tag, Message } from '@byonedot/web-react';
 
 const App = () => {
   return (

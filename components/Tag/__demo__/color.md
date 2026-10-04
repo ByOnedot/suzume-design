@@ -14,7 +14,7 @@ title:
 We provide a variety of label styles with preset colors, and set different colors through `color`. If the preset value cannot meet your needs, you can also set a custom color value in the `color` field.
 
 ```js
-import { Tag } from '@suzume-design/web-react';
+import { Tag } from '@byonedot/web-react';
 const COLORS = [
   'red',
   'orangered',

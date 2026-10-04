@@ -14,8 +14,8 @@ Comments 组件可以嵌套。
 Comments can be nested.
 
 ```js
-import { Comment, Avatar } from '@suzume-design/web-react';
-import { IconHeart, IconMessage, IconStar } from '@suzume-design/web-react/icon';
+import { Comment, Avatar } from '@byonedot/web-react';
+import { IconHeart, IconMessage, IconStar } from '@byonedot/web-react/icon';
 
 const App = () => {
   const actions = (

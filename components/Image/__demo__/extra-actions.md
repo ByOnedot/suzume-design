@@ -15,8 +15,8 @@ The extra operations are set by `actions` and arranged horizontally by default. 
 
 ```js
 import React from 'react';
-import { Image, Tooltip, Space} from '@suzume-design/web-react';
-import { IconEye, IconDownload, IconInfoCircle } from '@suzume-design/web-react/icon';
+import { Image, Tooltip, Space} from '@byonedot/web-react';
+import { IconEye, IconDownload, IconInfoCircle } from '@byonedot/web-react/icon';
 
 function DemoImage(props) {
   const [visible, setVisible] = React.useState(false);

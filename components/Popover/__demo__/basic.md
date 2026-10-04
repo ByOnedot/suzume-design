@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```js
-import { Popover, Button } from '@suzume-design/web-react';
+import { Popover, Button } from '@byonedot/web-react';
 const style = {
   margin: 0,
 };

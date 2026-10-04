@@ -14,8 +14,8 @@ title:
 This example shows the addition of prefix and suffix, and the style of displaying values can be customized.
 
 ```js
-import { Statistic } from '@suzume-design/web-react';
-import { IconArrowRise, IconArrowFall } from '@suzume-design/web-react/icon';
+import { Statistic } from '@byonedot/web-react';
+import { IconArrowRise, IconArrowFall } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

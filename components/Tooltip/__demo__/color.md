@@ -14,7 +14,7 @@ title:
 Set tooltip with different background colors through the `color` property
 
 ```js
-import { Tooltip, Button } from '@suzume-design/web-react';
+import { Tooltip, Button } from '@byonedot/web-react';
 const colors = ['#3491FA', '#165DFF', '#722ED1'];
 
 const App = () => {

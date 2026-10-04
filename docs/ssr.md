@@ -27,7 +27,7 @@ guarantees and the two things you must still get right.
 ```tsx
 'use client';
 import { useEffect, useState } from 'react';
-import { Modal } from '@suzume-design/web-react';
+import { Modal } from '@byonedot/web-react';
 
 export function Welcome() {
   const [open, setOpen] = useState(false);
@@ -80,8 +80,8 @@ already renders the right locale:
 
 ```tsx
 import { cookies } from 'next/headers';
-import zhCN from '@suzume-design/web-react/es/locale/zh-CN';
-import enUS from '@suzume-design/web-react/es/locale/en-US';
+import zhCN from '@byonedot/web-react/es/locale/zh-CN';
+import enUS from '@byonedot/web-react/es/locale/en-US';
 
 const locale = (await cookies()).get('locale')?.value === 'zh-CN' ? zhCN : enUS;
 

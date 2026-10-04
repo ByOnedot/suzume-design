@@ -14,7 +14,7 @@ title:
 Fill in the necessary information to register a new user
 
 ```js
-import { Form, Input, Button, Message } from '@suzume-design/web-react';
+import { Form, Input, Button, Message } from '@byonedot/web-react';
 const FormItem = Form.Item;
 
 function App() {

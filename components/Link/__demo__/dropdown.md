@@ -14,8 +14,8 @@ title:
 Display a drop-down menu by the Dropdown component.
 
 ```js
-import { Link, Dropdown, Menu, Divider } from '@suzume-design/web-react';
-import { IconDown } from '@suzume-design/web-react/icon';
+import { Link, Dropdown, Menu, Divider } from '@byonedot/web-react';
+import { IconDown } from '@byonedot/web-react/icon';
 const Droplist = (
   <Menu>
     <Menu.Item key="1">Beijing</Menu.Item>

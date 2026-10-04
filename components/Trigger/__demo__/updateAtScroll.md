@@ -14,7 +14,7 @@ title:
 Listen for container scrolling by setting `updateOnScroll`.
 
 ```js
-import { Trigger, Button, Input, Skeleton } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton } from '@byonedot/web-react';
 
 function Popup() {
   return <Skeleton className="demo-trigger-popup" style={{ width: 300 }} />;

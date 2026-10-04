@@ -14,7 +14,7 @@ title:
 By setting the `flex` property of the `Col` component, you can configure the flex layout arbitrarily.
 
 ```js
-import { Grid } from '@suzume-design/web-react';
+import { Grid } from '@byonedot/web-react';
 const Row = Grid.Row;
 const Col = Grid.Col;
 

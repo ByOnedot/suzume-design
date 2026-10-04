@@ -14,8 +14,8 @@ title:
 Specify `addBefore`/`addAfter` to add elements before/after the input box.
 
 ```js
-import { Input, Select, Space } from '@suzume-design/web-react';
-import { IconClockCircle, IconSearch, IconInfoCircle } from '@suzume-design/web-react/icon';
+import { Input, Select, Space } from '@byonedot/web-react';
+import { IconClockCircle, IconSearch, IconInfoCircle } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

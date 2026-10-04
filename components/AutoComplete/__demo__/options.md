@@ -15,7 +15,7 @@ Pass in `AutoComplete.Option` as the `children` of the component instead of usin
 
 ```js
 import { useState } from 'react';
-import { AutoComplete } from '@suzume-design/web-react';
+import { AutoComplete } from '@byonedot/web-react';
 const { Option } = AutoComplete;
 
 function App() {

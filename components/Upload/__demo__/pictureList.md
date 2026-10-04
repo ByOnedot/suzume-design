@@ -14,7 +14,7 @@ title:
 Pictures with list style.
 
 ```js
-import { Upload, Radio } from '@suzume-design/web-react';
+import { Upload, Radio } from '@byonedot/web-react';
 const defaultFileList = [
   {
     uid: '-3',

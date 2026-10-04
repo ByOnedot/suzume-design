@@ -17,7 +17,7 @@ Loading
 
 ```js
 import React from 'react';
-import { Image, Button, Space } from '@suzume-design/web-react';
+import { Image, Button, Space } from '@byonedot/web-react';
 
 function App() {
   const [timestamp, setTimestamp] = React.useState('');

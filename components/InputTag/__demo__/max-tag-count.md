@@ -14,7 +14,7 @@ title:
 Set the maximum number of displayed tags through `maxTagCount`, and customize the `+x` partially rendered nodes through `maxTagCount.render`.
 
 ```js
-import { InputTag, Space } from '@suzume-design/web-react';
+import { InputTag, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

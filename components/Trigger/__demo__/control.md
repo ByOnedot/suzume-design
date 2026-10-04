@@ -16,7 +16,7 @@ Control the visibility of the popup.
 
 ```js
 import React from 'react';
-import { Trigger, Button, Input, Skeleton,Space } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton,Space } from '@byonedot/web-react';
 
 function Popup() {
   return (

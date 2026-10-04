@@ -14,7 +14,7 @@ title:
 When the content is too long, you can set the expanded row by `expandedRowRender`. If the return value is `null`, the expand button will not be rendered.
 
 ```js
-import { Table } from '@suzume-design/web-react';
+import { Table } from '@byonedot/web-react';
 const columns = [
   {
     title: 'Name',

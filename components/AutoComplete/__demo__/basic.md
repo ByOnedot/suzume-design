@@ -15,7 +15,7 @@ Show input suggestions based on current input (drop-down selection).
 
 ```js
 import { useState } from 'react';
-import { AutoComplete } from '@suzume-design/web-react';
+import { AutoComplete } from '@byonedot/web-react';
 
 function App() {
   const [data, setData] = useState([]);

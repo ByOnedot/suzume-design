@@ -19,7 +19,7 @@ title:
 
 ```js
 import React, { useState } from 'react';
-import { Button, Space, ConfigProvider, Modal, Typography,Tabs } from '@suzume-design/web-react';
+import { Button, Space, ConfigProvider, Modal, Typography,Tabs } from '@byonedot/web-react';
 
 function App() {
   const confirm = () => {

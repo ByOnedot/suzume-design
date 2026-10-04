@@ -14,7 +14,7 @@ title:
 Enter the page number to quickly jump to the specified page.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return <Pagination total={200} showJumper />;

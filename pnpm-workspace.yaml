@@ -1,6 +1,6 @@
 # Suzume Design is a pnpm workspace.
 #
-#   .                    the publishable library (@suzume-design/web-react)
+#   .                    the publishable library (@byonedot/web-react)
 #   tools/build-scripts  vendored build tooling (private, never published)
 #   tests/visual         Playwright visual-regression harness (private)
 #
@@ -48,3 +48,4 @@ minimumReleaseAgeExclude:
 strictPeerDependencies: false
 autoInstallPeers: true
 saveWorkspaceProtocol: false
+linkWorkspacePackages: true

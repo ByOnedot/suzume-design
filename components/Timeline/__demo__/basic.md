@@ -15,7 +15,7 @@ Basic usage
 
 ```js
 import React from 'react';
-import { Switch, Timeline, Typography } from '@suzume-design/web-react';
+import { Switch, Timeline, Typography } from '@byonedot/web-react';
 
 const TimelineItem = Timeline.Item;
 

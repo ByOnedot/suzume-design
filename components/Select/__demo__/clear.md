@@ -14,7 +14,7 @@ title:
 With built-in clear button.
 
 ```js
-import { Select } from '@suzume-design/web-react';
+import { Select } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = ['Beijing', 'Shanghai', 'Guangzhou', 'Disabled'];
 

@@ -14,7 +14,7 @@ title:
 By setting `title` and `description`, the title and description of the picture can be displayed inside or at the bottom of the picture. The display position is controlled by `footerPosition`.
 
 ```js
-import { Image, Space } from '@suzume-design/web-react';
+import { Image, Space } from '@byonedot/web-react';
 
 function App() {
   const src =

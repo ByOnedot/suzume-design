@@ -15,7 +15,7 @@ Hide selected items in the drop-down menu.
 
 ```js
 import { useState } from 'react';
-import { Select } from '@suzume-design/web-react';
+import { Select } from '@byonedot/web-react';
 const Option = Select.Option;
 const OPTIONS = new Array(10).fill(null).map((_, index) => `Option ${index + 1}`);
 

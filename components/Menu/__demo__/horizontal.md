@@ -14,7 +14,7 @@ title:
 By setting `mode` to `horizontal`, you can use the horizontal menu.
 
 ```js
-import { Menu } from '@suzume-design/web-react';
+import { Menu } from '@byonedot/web-react';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 

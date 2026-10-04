@@ -14,7 +14,7 @@ title:
 Use `formatterTooltip` to format the content of Tooltip.
 
 ```js
-import { Slider } from '@suzume-design/web-react';
+import { Slider } from '@byonedot/web-react';
 
 function App() {
   function formatTooltip(val) {

@@ -1,7 +1,7 @@
 # Component inventory
 
 Generated from the `components/` directory of this repository. Every entry below is
-exported from the package root (`@suzume-design/web-react`).
+exported from the package root (`@byonedot/web-react`).
 
 **71 components**, **2 hooks**, 19 locales.
 
@@ -81,8 +81,8 @@ exported from the package root (`@suzume-design/web-react`).
 
 ## Hooks
 
-- `useUseVerificationCode` (from `components/_hooks/useVerificationCode`, re-exported by `@suzume-design/web-react/hooks`)
-- `useUseWatermark` (from `components/_hooks/useWatermark`, re-exported by `@suzume-design/web-react/hooks`)
+- `useUseVerificationCode` (from `components/_hooks/useVerificationCode`, re-exported by `@byonedot/web-react/hooks`)
+- `useUseWatermark` (from `components/_hooks/useWatermark`, re-exported by `@byonedot/web-react/hooks`)
 
 ## Locales
 
@@ -106,4 +106,4 @@ exported from the package root (`@suzume-design/web-react`).
 | general | fill | 8 |
 | general | outline | 81 |
 
-**277 icons total**, exported from `@suzume-design/web-react/icon` (e.g. `import { IconSearch } from "@suzume-design/web-react/icon"`).
+**277 icons total**, exported from `@byonedot/web-react/icon` (e.g. `import { IconSearch } from "@byonedot/web-react/icon"`).

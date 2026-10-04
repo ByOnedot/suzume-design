@@ -15,7 +15,7 @@ A circular progress bar.
 
 ```js
 import React from 'react';
-import { Progress, Slider } from '@suzume-design/web-react';
+import { Progress, Slider } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = React.useState(20);

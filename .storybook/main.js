@@ -31,8 +31,8 @@ module.exports = {
     config.resolve.alias['@self/icon'] = dirIcon;
     config.resolve.alias['@self/hooks'] = dirHooks;
     config.resolve.alias['@self'] = dirComponent;
-    config.resolve.alias['@suzume-design/web-react/icon'] = dirIcon;
-    config.resolve.alias['@suzume-design/web-react'] = dirComponent;
+    config.resolve.alias['@byonedot/web-react/icon'] = dirIcon;
+    config.resolve.alias['@byonedot/web-react'] = dirComponent;
     config.resolve.extensions.push('.tsx');
 
     config.resolve.modules = ['node_modules'];

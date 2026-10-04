@@ -15,7 +15,7 @@ title:
 
 ```js
 import React from 'react';
-import { Cascader, Link, Typography, Input, Divider } from '@suzume-design/web-react';
+import { Cascader, Link, Typography, Input, Divider } from '@byonedot/web-react';
 
 const options = [
   {

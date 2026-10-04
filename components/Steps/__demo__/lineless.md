@@ -14,7 +14,7 @@ title:
 Set `lineless` to hide the connection line.
 
 ```js
-import { Steps } from '@suzume-design/web-react';
+import { Steps } from '@byonedot/web-react';
 const Step = Steps.Step;
 
 const App = () => {

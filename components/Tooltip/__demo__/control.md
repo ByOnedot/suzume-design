@@ -17,7 +17,7 @@ The specific trigger timing of onVisibleChange can be found in the [Trigger](../
 
 ```js
 import React from 'react';
-import { Tooltip, Button, Switch, Typography } from '@suzume-design/web-react';
+import { Tooltip, Button, Switch, Typography } from '@byonedot/web-react';
 
 const { Text } = Typography;
 

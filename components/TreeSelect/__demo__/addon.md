@@ -15,7 +15,7 @@ Specify `addBefore` to add elements before the select box. (`2.41.0`)
 
 
 ```js
-import { TreeSelect, Space } from '@suzume-design/web-react';
+import { TreeSelect, Space } from '@byonedot/web-react';
 
 const treeData = [
   {

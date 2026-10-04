@@ -14,7 +14,7 @@ title:
 Basic usage of `Empty` component.
 
 ```js
-import { Empty } from '@suzume-design/web-react';
+import { Empty } from '@byonedot/web-react';
 
 const App = () => {
   return <Empty />;

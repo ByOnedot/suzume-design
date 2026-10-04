@@ -15,8 +15,8 @@ Under single selection, the rendering display can be customized through `renderF
 
 ```js
 import React from 'react';
-import { TreeSelect } from '@suzume-design/web-react';
-import { IconStar  } from '@suzume-design/web-react/icon';
+import { TreeSelect } from '@byonedot/web-react';
+import { IconStar  } from '@byonedot/web-react/icon';
 
 const treeData = [
   {

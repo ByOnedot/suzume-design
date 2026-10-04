@@ -14,7 +14,7 @@ title:
 The error status is specified by the parameter `status`.
 
 ```js
-import { Steps } from '@suzume-design/web-react';
+import { Steps } from '@byonedot/web-react';
 const Step = Steps.Step;
 
 const App = () => {

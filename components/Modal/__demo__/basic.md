@@ -15,7 +15,7 @@ Dialog with text.
 
 ```js
 import React from 'react';
-import { Modal, Button } from '@suzume-design/web-react';
+import { Modal, Button } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = React.useState(false);

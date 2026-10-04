@@ -1,6 +1,6 @@
 {
-  "name": "@suzume-design/color",
-  "version": "1.0.0",
+  "name": "@byonedot/color",
+  "version": "1.0.1",
   "description": "Suzume Design colour palette generation and colour utilities.",
   "keywords": [
     "suzume",

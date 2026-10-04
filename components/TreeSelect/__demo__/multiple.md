@@ -15,8 +15,8 @@ Multiple Selection
 
 ```js
 import React from 'react';
-import { TreeSelect, Space } from '@suzume-design/web-react';
-import { IconCalendar } from '@suzume-design/web-react/icon';
+import { TreeSelect, Space } from '@byonedot/web-react';
+import { IconCalendar } from '@byonedot/web-react/icon';
 
 const treeData = [
   {

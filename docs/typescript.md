@@ -40,9 +40,9 @@ import type {
   ModalProps,
   TriggerProps,
   CSSProperties as SuzumeCSSProperties,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
-import type { Locale } from '@suzume-design/web-react';
+import type { Locale } from '@byonedot/web-react';
 ```
 
 Type-only imports keep the value graph small and are erased at compile time.
@@ -110,8 +110,8 @@ const cls = getPrefixCls('button'); // string
 ## Typing locale dictionaries
 
 ```ts
-import type { Locale } from '@suzume-design/web-react';
-import enUS from '@suzume-design/web-react/es/locale/en-US';
+import type { Locale } from '@byonedot/web-react';
+import enUS from '@byonedot/web-react/es/locale/en-US';
 
 const locale: Locale = {
   ...enUS,
@@ -123,7 +123,7 @@ const locale: Locale = {
 
 | Error | Cause | Fix |
 | --- | --- | --- |
-| `Cannot find module '@suzume-design/web-react'` | Package not installed, or `moduleResolution` is not `node` | `npm i @suzume-design/web-react`, set `moduleResolution: "node"` |
+| `Cannot find module '@byonedot/web-react'` | Package not installed, or `moduleResolution` is not `node` | `npm i @byonedot/web-react`, set `moduleResolution: "node"` |
 | `JSX element type 'Provider' does not have any construct or call signatures` | Two different `@types/react` copies in the tree | Deduplicate: add an `overrides`/`pnpm.overrides` entry pinning `**/@types/react` to a single `^19` version and reinstall |
 | `Type 'Dayjs' is not assignable to type 'Dayjs'` | Two `dayjs` copies (usually a local `link:` of the library) | Map `dayjs` in `paths` to your app's copy, or install from the registry instead of linking |
 | `Type instantiation is excessively deep` | Very deep `Table<User>` / `Form` generics on TS < 4.4 | Upgrade TypeScript to 4.4+ |

@@ -14,7 +14,7 @@ title:
 The `treeCheckable` property can display checkbox.
 
 ```js
-import { TreeSelect, Checkbox } from '@suzume-design/web-react';
+import { TreeSelect, Checkbox } from '@byonedot/web-react';
 import { useState } from 'react';
 const treeData = [
   {

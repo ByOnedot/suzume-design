@@ -14,7 +14,7 @@ title:
 You can use 'trailColor' to set the color of the remaining progress bar.
 
 ```js
-import { Progress } from '@suzume-design/web-react';
+import { Progress } from '@byonedot/web-react';
 
 function Demo() {
   return (

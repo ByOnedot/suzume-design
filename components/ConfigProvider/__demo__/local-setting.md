@@ -23,7 +23,7 @@ If you want to work only inside `ConfigProvider`, you need to use it in combinat
 
 ```js
 import React, { useState } from 'react';
-import { Button, Message, Space, ConfigProvider, Notification, Typography } from '@suzume-design/web-react';
+import { Button, Message, Space, ConfigProvider, Notification, Typography } from '@byonedot/web-react';
 
 function App() {
   const [message, messageHolder] = Message.useMessage();

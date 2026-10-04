@@ -13,8 +13,8 @@ title:
 Customize the display of uploaded files
 
 ```js
-import { Upload, Card, Modal } from '@suzume-design/web-react';
-import { IconEye, IconDelete } from '@suzume-design/web-react/icon';
+import { Upload, Card, Modal } from '@byonedot/web-react';
+import { IconEye, IconDelete } from '@byonedot/web-react/icon';
 
 function App() {
   const renderUploadList = (filesList, props) => (

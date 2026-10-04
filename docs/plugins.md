@@ -1,6 +1,6 @@
 # Build plugins
 
-**You do not need a plugin to use `@suzume-design/web-react`.** The prebuilt
+**You do not need a plugin to use `@byonedot/web-react`.** The prebuilt
 CSS works with every bundler.
 
 The optional plugins in `suzume-plugins` add bundler-level
@@ -8,18 +8,18 @@ integration for projects that want it:
 
 | Package | Bundler | What it does |
 | --- | --- | --- |
-| `@suzume-design/plugin-webpack-react` | webpack 4 / 5 | On-demand style imports through `babel-plugin-import`, theme injection into `less-loader`, font-face removal, icon replacement, default-language replacement |
-| `@suzume-design/plugin-unplugin-react` | Rspack | Same feature set implemented as a Rspack compiler plugin |
-| `@suzume-design/plugin-vite-react` | Vite 2+ | On-demand style imports via a Babel transform, theme tokens written to a temporary Less file, icon replacement through esbuild |
-| `@suzume-design/plugin-utils` | - | Shared helpers used by the plugins above |
+| `@byonedot/plugin-webpack-react` | webpack 4 / 5 | On-demand style imports through `babel-plugin-import`, theme injection into `less-loader`, font-face removal, icon replacement, default-language replacement |
+| `@byonedot/plugin-unplugin-react` | Rspack | Same feature set implemented as a Rspack compiler plugin |
+| `@byonedot/plugin-vite-react` | Vite 2+ | On-demand style imports via a Babel transform, theme tokens written to a temporary Less file, icon replacement through esbuild |
+| `@byonedot/plugin-utils` | - | Shared helpers used by the plugins above |
 
 ```bash
-npm i -D @suzume-design/plugin-webpack-react
+npm i -D @byonedot/plugin-webpack-react
 ```
 
 ```js
 // webpack.config.js
-const SuzumeWebpackPlugin = require('@suzume-design/plugin-webpack-react');
+const SuzumeWebpackPlugin = require('@byonedot/plugin-webpack-react');
 
 module.exports = {
   plugins: [
@@ -37,7 +37,7 @@ Full option tables and examples are in each package's README.
 
 ## When you do NOT need a plugin
 
-- You import `@suzume-design/web-react/dist/css/suzume.css` once (the
+- You import `@byonedot/web-react/dist/css/suzume.css` once (the
   recommended setup).
 - You are on Next.js (App Router or Pages Router) - see
   [nextjs.md](./nextjs.md).
@@ -74,5 +74,5 @@ per-component Less. Keep one.
 entries instead, or change tokens at runtime with `ConfigProvider` /
 `document.body.style.setProperty` (see [theming.md](./theming.md)).
 
-**Icons are missing.** Import them from `@suzume-design/web-react/icon`, or
+**Icons are missing.** Import them from `@byonedot/web-react/icon`, or
 enable the icon-replacement option of the plugin you are using.

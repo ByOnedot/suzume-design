@@ -14,10 +14,7 @@ const ROOT = path.resolve(__dirname, '..');
 const DRY = process.argv.includes('--dry');
 
 // Files that must never be rewritten (upstream copyright / license notices).
-const LEGAL_ALLOWLIST = new Set([
-  'LICENSE',
-  'THIRD_PARTY_NOTICES.md',
-]);
+const LEGAL_ALLOWLIST = new Set(['LICENSE', 'THIRD_PARTY_NOTICES.md']);
 
 const SKIP_DIRS = new Set([
   '.git',
@@ -34,7 +31,7 @@ const SKIP_DIRS = new Set([
 
 // Ordered, case-sensitive brand mapping (most specific first).
 const RULES = [
-  ['@arco-design/', '@suzume-design/'],
+  ['@arco-design/', '@byonedot/'],
   ['arco.design', 'byonedot.in'],
   ['arco-design', 'suzume-design'],
   ['ArcoDesign', 'SuzumeDesign'],

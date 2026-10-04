@@ -16,7 +16,7 @@ You can use `useNotification` to create a dialog that can read the context.
 
 ```js
 import React, { createContext } from 'react';
-import { Notification, Button, Space, ConfigProvider } from '@suzume-design/web-react';
+import { Notification, Button, Space, ConfigProvider } from '@byonedot/web-react';
 
 const ConfigContext = createContext({});
 

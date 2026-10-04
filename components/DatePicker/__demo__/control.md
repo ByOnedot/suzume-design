@@ -15,7 +15,7 @@ title:
 
 ```js
 import { useState, useEffect } from 'react';
-import { DatePicker, Space } from '@suzume-design/web-react';
+import { DatePicker, Space } from '@byonedot/web-react';
 
 function App() {
   const [value, setValue] = useState();

@@ -14,7 +14,7 @@ title:
 DatePicker has a default value.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 import dayjs from 'dayjs';
 const { YearPicker, MonthPicker, WeekPicker, RangePicker } = DatePicker;
 

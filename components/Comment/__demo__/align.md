@@ -15,14 +15,14 @@ Alignment of datetime and actions.
 
 ```js
 import React from 'react';
-import { Comment, Avatar } from '@suzume-design/web-react';
+import { Comment, Avatar } from '@byonedot/web-react';
 import {
   IconHeartFill,
   IconMessage,
   IconStarFill,
   IconHeart,
   IconStar,
-} from '@suzume-design/web-react/icon';
+} from '@byonedot/web-react/icon';
 
 const App = () => {
   const [like, setLike] = React.useState(true);

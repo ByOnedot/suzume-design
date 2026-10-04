@@ -15,8 +15,8 @@ When the task state is happening and the recording is still in progress, ghost n
 
 ```js
 import React from 'react';
-import { Timeline, Grid, Checkbox } from '@suzume-design/web-react';
-import { IconFire } from '@suzume-design/web-react/icon';
+import { Timeline, Grid, Checkbox } from '@byonedot/web-react';
+import { IconFire } from '@byonedot/web-react/icon';
 
 const TimelineItem = Timeline.Item;
 const { Row } = Grid;

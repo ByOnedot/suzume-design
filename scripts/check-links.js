@@ -18,7 +18,7 @@ const SKIP_DIRS = new Set(['.git', 'node_modules']);
 // [link target, containing file]
 const LINK_RE = /\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 // fenced code blocks are stripped before scanning so import specifiers such as
-// `@suzume-design/web-react` are not mistaken for links.
+// `@byonedot/web-react` are not mistaken for links.
 
 function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {

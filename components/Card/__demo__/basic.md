@@ -14,7 +14,7 @@ title:
 Basic usage. Can hold anything from text, lists, pictures, to paragraphs. Normally used for module separation and content overview.
 
 ```js
-import { Card, Link } from '@suzume-design/web-react';
+import { Card, Link } from '@byonedot/web-react';
 
 const App = () => {
   return (

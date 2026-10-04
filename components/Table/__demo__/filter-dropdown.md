@@ -15,8 +15,8 @@ Custom filter dropdown.
 
 ```js
 import { useState, useRef } from 'react';
-import { Table, Input, Button } from '@suzume-design/web-react';
-import { IconSearch } from '@suzume-design/web-react/icon';
+import { Table, Input, Button } from '@byonedot/web-react';
+import { IconSearch } from '@byonedot/web-react/icon';
 const data = [
   {
     key: '1',

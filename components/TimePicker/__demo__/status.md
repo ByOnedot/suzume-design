@@ -14,7 +14,7 @@ title:
   different status
 
 ```js
-import { TimePicker, Space } from '@suzume-design/web-react';
+import { TimePicker, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

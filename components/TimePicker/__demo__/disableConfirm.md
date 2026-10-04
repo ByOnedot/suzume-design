@@ -14,7 +14,7 @@ title:
 Skip the confirm step and click directly to select time.
 
 ```js
-import { TimePicker } from '@suzume-design/web-react';
+import { TimePicker } from '@byonedot/web-react';
 const style = {
   width: 194,
   margin: '0 24px 24px 0',

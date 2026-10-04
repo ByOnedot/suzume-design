@@ -6,14 +6,14 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ```bash
-npm i @suzume-design/web-react
+npm i @byonedot/web-react
 # 或
-yarn add @suzume-design/web-react
+yarn add @byonedot/web-react
 ```
 
 ```tsx
-import { Button, Table, Form, Input, Modal, Typography } from '@suzume-design/web-react';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import { Button, Table, Form, Input, Modal, Typography } from '@byonedot/web-react';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export function SaveButton() {
   return <Button type="primary">保存</Button>;
@@ -52,14 +52,14 @@ export function SaveButton() {
 对等依赖：`react ^19.0.0` 与 `react-dom ^19.0.0`。
 
 ```bash
-npm i @suzume-design/web-react
+npm i @byonedot/web-react
 ```
 
 ### CDN / UMD
 
 ```html
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/@suzume-design/web-react@latest/dist/css/suzume.min.css" />
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@byonedot/web-react@latest/dist/css/suzume.min.css" />
 ```
 
 UMD 全局变量为 `window.suzume`（组件）、`window.suzumeicon`（图标）与
@@ -70,9 +70,9 @@ UMD 全局变量为 `window.suzume`（组件）、`window.suzumeicon`（图标�
 ### React
 
 ```tsx
-import { ConfigProvider, Button } from '@suzume-design/web-react';
-import zhCN from '@suzume-design/web-react/es/locale/zh-CN';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import { ConfigProvider, Button } from '@byonedot/web-react';
+import zhCN from '@byonedot/web-react/es/locale/zh-CN';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export default function App() {
   return (
@@ -92,7 +92,7 @@ Client Component 边界：
 // app/components/save-button.tsx
 'use client';
 
-import { Button } from '@suzume-design/web-react';
+import { Button } from '@byonedot/web-react';
 
 export function SaveButton() {
   return <Button type="primary">保存</Button>;
@@ -101,7 +101,7 @@ export function SaveButton() {
 
 ```tsx
 // app/layout.tsx
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 ```
 
 Server Component、水合、`next/font`、Turbopack、摇树与 `transpilePackages`
@@ -113,8 +113,8 @@ Server Component、水合、`next/font`、Turbopack、摇树与 `transpilePackag
 
 | 方式 | 引入 | 说明 |
 | --- | --- | --- |
-| 预构建 CSS | `import '@suzume-design/web-react/dist/css/suzume.css'` | 推荐，任何环境可用 |
-| 按组件 Less | `import '@suzume-design/web-react/es/Button/style/index.less'` | 需要 Less loader，可配合 `modifyVars` 定制主题 |
+| 预构建 CSS | `import '@byonedot/web-react/dist/css/suzume.css'` | 推荐，任何环境可用 |
+| 按组件 Less | `import '@byonedot/web-react/es/Button/style/index.less'` | 需要 Less loader，可配合 `modifyVars` 定制主题 |
 | CDN | `dist/css/suzume.min.css` | 配合 UMD 使用 |
 
 ## 文档
@@ -133,11 +133,11 @@ Server Component、水合、`next/font`、Turbopack、摇树与 `transpilePackag
 
 | 包 | 用途 |
 | --- | --- |
-| `@suzume-design/web-react` | 本仓库 - React 组件库 |
-| `@suzume-design/color` | 调色板生成与色彩工具 |
-| `@suzume-design/plugin-*` | 可选的 webpack / Rspack / Vite 构建插件 |
+| `@byonedot/web-react` | 本仓库 - React 组件库 |
+| `@byonedot/color` | 调色板生成与色彩工具 |
+| `@byonedot/plugin-*` | 可选的 webpack / Rspack / Vite 构建插件 |
 | `suzume-design-pro` | 中后台模板（Next.js / CRA / Vite） |
-| `suzume-design-skill` | 面向 AI Agent 的 `@suzume-design/web-react` 技能包 |
+| `suzume-design-skill` | 面向 AI Agent 的 `@byonedot/web-react` 技能包 |
 
 ## 版本策略
 

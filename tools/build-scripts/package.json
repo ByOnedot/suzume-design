@@ -1,5 +1,5 @@
 {
-  "name": "@suzume-design/build-scripts",
+  "name": "@byonedot/build-scripts",
   "version": "1.0.0",
   "description": "Suzume Design build tooling (component, style, icon, docs and test builds).",
   "devDependencies": {

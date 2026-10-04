@@ -14,7 +14,7 @@ title:
 Show all configuration items.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return (

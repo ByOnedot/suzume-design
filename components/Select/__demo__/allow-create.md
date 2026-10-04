@@ -14,7 +14,7 @@ title:
 Specify `allowCreate` as `true` to create entries that do not exist in the options. Format user creations via `allowCreate.formatter`.
 
 ```js
-import { Select, Space } from '@suzume-design/web-react';
+import { Select, Space } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = [];
 

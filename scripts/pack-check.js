@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * npm publication gate for `@suzume-design/web-react`.
+ * npm publication gate for `@byonedot/web-react`.
  *
  * 1. `npm pack`
  * 2. extract the tarball into a temporary directory
@@ -29,7 +29,9 @@ console.log('[pack-check] npm pack ...');
 const packOutput = run('npm pack --json');
 const meta = JSON.parse(packOutput);
 const tarball = path.join(ROOT, meta[0].filename);
-console.log(`[pack-check]   ${meta[0].filename} - ${meta[0].entryCount} files, ${meta[0].size} bytes`);
+console.log(
+  `[pack-check]   ${meta[0].filename} - ${meta[0].entryCount} files, ${meta[0].size} bytes`
+);
 
 // ---------------------------------------------------------------------------
 // 2. extract
@@ -43,7 +45,9 @@ const extracted = path.join(tmp, 'package');
 // ---------------------------------------------------------------------------
 console.log('[pack-check] scanning extracted package ...');
 try {
-  run(`node ${JSON.stringify(path.join(ROOT, 'scripts', 'check-branding.js'))} ${JSON.stringify(extracted)}`);
+  run(
+    `node ${JSON.stringify(path.join(ROOT, 'scripts', 'check-branding.js'))} ${JSON.stringify(extracted)}`
+  );
 } catch (e) {
   console.error('[pack-check] FAIL - upstream branding found inside the tarball');
   process.exit(1);
@@ -86,14 +90,20 @@ for (const f of requiredFiles) {
   if (!fs.existsSync(path.join(extracted, f))) problems.push(`missing file: ${f}`);
 }
 
-if (published.name !== '@suzume-design/web-react') problems.push(`unexpected name ${published.name}`);
+if (published.name !== '@byonedot/web-react') problems.push(`unexpected name ${published.name}`);
 if (published.version !== pkg.version) problems.push('version mismatch with source package.json');
 if (published.license !== 'MIT') problems.push(`unexpected license ${published.license}`);
-if (published.dependencies && published.dependencies['@suzume-design/color'] !== `^${pkg.version}`) {
-  problems.push(`@suzume-design/color must be a semver range, got ${published.dependencies['@suzume-design/color']}`);
+if (published.dependencies && published.dependencies['@byonedot/color'] !== `^${pkg.version}`) {
+  problems.push(
+    `@byonedot/color must be a semver range, got ${published.dependencies['@byonedot/color']}`
+  );
 }
 for (const key of Object.keys(published.dependencies || {})) {
-  if (key.startsWith('@arco-design/') || key.startsWith('@arco-plugins/') || key.startsWith('@arco-themes/')) {
+  if (
+    key.startsWith('@arco-design/') ||
+    key.startsWith('@arco-plugins/') ||
+    key.startsWith('@arco-themes/')
+  ) {
     problems.push(`upstream runtime dependency: ${key}`);
   }
   if (/^(file|link|portal|workspace):/.test(published.dependencies[key])) {
@@ -105,11 +115,13 @@ if (!published.scripts || !published.scripts.prepack) problems.push('prepack scr
 // every entry point must resolve
 const entryChecks = [published.main, published.module, published.types, published.unpkg];
 for (const entry of entryChecks) {
-  if (entry && !fs.existsSync(path.join(extracted, entry))) problems.push(`entry point missing: ${entry}`);
+  if (entry && !fs.existsSync(path.join(extracted, entry)))
+    problems.push(`entry point missing: ${entry}`);
 }
 
 // no upstream branding in the JS/CSS/LESS/d.ts output
-const forbidden = /@arco-design|arco-design|ArcoDesign|arcodesign|arco\.design|arcoblue|@arco-plugins|@arco-themes|byteui|bytedesign/i;
+const forbidden =
+  /@arco-design|arco-design|ArcoDesign|arcodesign|arco\.design|arcoblue|@arco-plugins|@arco-themes|byteui|bytedesign/i;
 function scanOutput(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);

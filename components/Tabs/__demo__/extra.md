@@ -14,7 +14,7 @@ title:
 You can add extra content on the right side of the tabs through `extra`.
 
 ```js
-import { Tabs, Button, Typography } from '@suzume-design/web-react';
+import { Tabs, Button, Typography } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

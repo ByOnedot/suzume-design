@@ -14,8 +14,8 @@ title:
 Set the prefix via the `prefix` property
 
 ```js
-import { DatePicker, Space } from '@suzume-design/web-react';
-import { IconInfoCircle } from '@suzume-design/web-react/icon';
+import { DatePicker, Space } from '@byonedot/web-react';
+import { IconInfoCircle } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

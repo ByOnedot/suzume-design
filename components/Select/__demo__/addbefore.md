@@ -15,7 +15,7 @@ Specify `addBefore` to add elements before the select box. (`2.41.0`)
 
 
 ```js
-import { Select, Message, Space } from '@suzume-design/web-react';
+import { Select, Message, Space } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = ['Beijing', 'Shanghai', 'Guangzhou', 'Tianjin'];
 

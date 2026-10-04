@@ -16,8 +16,8 @@ Of course, we provide richer functions for use. You can specify the transition e
 
 ```js
 import { useState } from 'react';
-import { BackTop, Button, Select, Input, Typography, Space } from '@suzume-design/web-react';
-import { IconCaretUp } from '@suzume-design/web-react/icon';
+import { BackTop, Button, Select, Input, Typography, Space } from '@byonedot/web-react';
+import { IconCaretUp } from '@byonedot/web-react/icon';
 const { Paragraph, Text } = Typography;
 const easingTypes = [
   'linear',

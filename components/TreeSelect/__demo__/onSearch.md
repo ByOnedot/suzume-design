@@ -15,8 +15,8 @@ Custom search can be enabled when the passed `onSearch` is a function, and data 
 
 ```js
 import React from 'react';
-import { TreeSelect, Spin } from '@suzume-design/web-react';
-import { IconCalendar } from '@suzume-design/web-react/icon';
+import { TreeSelect, Spin } from '@byonedot/web-react';
+import { IconCalendar } from '@byonedot/web-react/icon';
 
 const TreeData = [
   {

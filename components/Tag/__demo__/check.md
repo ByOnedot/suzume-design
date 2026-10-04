@@ -14,7 +14,7 @@ title:
 Through the prop `checkable`, the effect of clicking and selecting can be achieved.
 
 ```js
-import { Tag, Space } from '@suzume-design/web-react';
+import { Tag, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

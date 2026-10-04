@@ -2,7 +2,7 @@
 
 ## Provenance
 
-`@suzume-design/color` is a modified redistribution of the upstream
+`@byonedot/color` is a modified redistribution of the upstream
 **ArcoDesign color utils** package (`@arco-design/color`), published under the
 MIT License.
 
@@ -14,7 +14,7 @@ MIT License.
 The upstream MIT copyright and permission notices are preserved exactly as
 required. Modifications performed for this distribution include:
 
-- Renaming the package to `@suzume-design/color`.
+- Renaming the package to `@byonedot/color`.
 - Renaming the primary palette preset `arcoblue` to `suzumeblue`.
 - Rewriting the README and metadata for this distribution.
 

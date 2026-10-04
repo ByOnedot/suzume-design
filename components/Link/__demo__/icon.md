@@ -13,8 +13,8 @@ title:
 Customize icon node. If true, the default icon will be displayed.
 
 ```js
-import { Link, Space } from '@suzume-design/web-react';
-import { IconEdit } from '@suzume-design/web-react/icon';
+import { Link, Space } from '@byonedot/web-react';
+import { IconEdit } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

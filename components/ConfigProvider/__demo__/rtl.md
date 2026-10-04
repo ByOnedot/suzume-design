@@ -26,7 +26,7 @@ import {
   Tag,
   DatePicker,
   Pagination,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
 const TabPane = Tabs.TabPane;
 

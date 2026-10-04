@@ -15,7 +15,7 @@ There are four sizes.
 
 ```js
 import { useState } from 'react';
-import { TimePicker, Radio } from '@suzume-design/web-react';
+import { TimePicker, Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 
 function App() {

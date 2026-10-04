@@ -14,8 +14,8 @@ title:
 Set `icon` to customize the icon.
 
 ```js
-import { Notification, Button, Icon, Space } from '@suzume-design/web-react';
-import { IconFaceSmileFill } from '@suzume-design/web-react/icon';
+import { Notification, Button, Icon, Space } from '@byonedot/web-react';
+import { IconFaceSmileFill } from '@byonedot/web-react/icon';
 const IconFont = Icon.addFromIconFontCn({
   src: '//at.alicdn.com/t/font_180975_26f1p759rvn.js',
 });

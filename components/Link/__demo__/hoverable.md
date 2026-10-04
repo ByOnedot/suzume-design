@@ -14,7 +14,7 @@ title:
 You can use the `hoverable` property to set whether to hide the background color of the Link component when it is hovering.
 
 ```js
-import { Link, Space } from '@suzume-design/web-react';
+import { Link, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

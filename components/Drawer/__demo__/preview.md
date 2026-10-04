@@ -15,7 +15,7 @@ Used for quick preview of the information. Click the mask area to close.
 
 ```js
 import { useState } from 'react';
-import { Drawer, Button, Divider, Link, Descriptions } from '@suzume-design/web-react';
+import { Drawer, Button, Divider, Link, Descriptions } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = useState(false);

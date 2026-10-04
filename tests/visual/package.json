@@ -1,5 +1,5 @@
 {
-  "name": "@suzume-design/visual-harness",
+  "name": "@byonedot/visual-harness",
   "private": true,
   "version": "0.0.0",
   "description": "Deterministic browser harness used by the Playwright visual regression suite. Never published.",

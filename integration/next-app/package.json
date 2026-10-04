@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@suzume-design/web-react": "file:../../suzume-design-web-react-1.0.0.tgz",
+    "@byonedot/web-react": "file:../../byonedot-web-react-1.0.0.tgz",
     "next": "16.3.8",
     "react": "19.3.0",
     "react-dom": "19.3.0"

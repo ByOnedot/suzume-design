@@ -14,7 +14,7 @@ title:
 Limit the maximum number of uploaded files.
 
 ```js
-import { Upload, Message } from '@suzume-design/web-react';
+import { Upload, Message } from '@byonedot/web-react';
 
 function App() {
   return (

@@ -15,7 +15,7 @@ When loading dynamically, you can monitor scroll events through `onPopupScroll`.
 
 ```js
 import { useRef, useCallback, useState } from 'react';
-import { Select, Spin, Avatar } from '@suzume-design/web-react';
+import { Select, Spin, Avatar } from '@byonedot/web-react';
 import debounce from 'lodash/debounce';
 
 function App() {

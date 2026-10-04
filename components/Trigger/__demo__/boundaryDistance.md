@@ -16,7 +16,7 @@ title:
 The default pop-up layer position will be positioned and fine-tuned according to the viewport boundary. The `boundaryDistance` parameter can be set to adjust the positioning when it is a certain distance from the viewport boundary. Only takes effect when autoFitPosition=true and alignPoint=false.
 
 ```js
-import { Trigger, Button, Input, Skeleton, Typography } from '@suzume-design/web-react';
+import { Trigger, Button, Input, Skeleton, Typography } from '@byonedot/web-react';
 
 function Popup() {
   return <Skeleton className="demo-trigger-popup" style={{ width: 600 }} />;

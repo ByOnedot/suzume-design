@@ -14,7 +14,7 @@ title:
 Input box with search button for content retrieval.
 
 ```js
-import { Input, Space } from '@suzume-design/web-react';
+import { Input, Space } from '@byonedot/web-react';
 const InputSearch = Input.Search;
 
 const App = () => {

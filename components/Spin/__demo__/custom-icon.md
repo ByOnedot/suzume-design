@@ -14,8 +14,8 @@ title:
 By specifying `icon`, you can specify a custom icon as a loading component.
 
 ```js
-import { Spin, Card, Link } from '@suzume-design/web-react';
-import { IconLoading } from '@suzume-design/web-react/icon';
+import { Spin, Card, Link } from '@byonedot/web-react';
+import { IconLoading } from '@byonedot/web-react/icon';
 
 function App() {
   return (

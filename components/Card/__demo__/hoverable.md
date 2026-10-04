@@ -14,7 +14,7 @@ title:
 Use `hoverable` to add a hover style to the card. The hover style can also be customized through style override.
 
 ```js
-import { Card, Link, Space } from '@suzume-design/web-react';
+import { Card, Link, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

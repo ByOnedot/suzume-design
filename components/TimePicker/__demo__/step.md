@@ -14,7 +14,7 @@ title:
 By setting `step`, you can customize the step length of the hour, minute, and second.
 
 ```js
-import { TimePicker } from '@suzume-design/web-react';
+import { TimePicker } from '@byonedot/web-react';
 
 const App = () => {
   return (

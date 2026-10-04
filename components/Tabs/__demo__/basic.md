@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ```js
-import { Tabs, Typography } from '@suzume-design/web-react';
+import { Tabs, Typography } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

@@ -14,7 +14,7 @@ title:
 Use `dateRender` to customize date cells.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 const highlightStyle = {
   border: '1px solid rgb(var(--suzumeblue-6))',
 };

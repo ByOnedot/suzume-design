@@ -15,8 +15,8 @@ Vertical step bar.
 
 ```js
 import { useState, useRef } from 'react';
-import { Steps, Button, Divider } from '@suzume-design/web-react';
-import { IconLeft, IconRight } from '@suzume-design/web-react/icon';
+import { Steps, Button, Divider } from '@byonedot/web-react';
+import { IconLeft, IconRight } from '@byonedot/web-react/icon';
 const Step = Steps.Step;
 
 function App() {

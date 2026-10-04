@@ -14,7 +14,7 @@ title:
 Customize the return value through the `treeCheckStrategy` property.
 
 ```js
-import { TreeSelect, Radio } from '@suzume-design/web-react';
+import { TreeSelect, Radio } from '@byonedot/web-react';
 import { useState } from 'react';
 const treeData = [
   {

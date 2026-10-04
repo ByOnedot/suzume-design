@@ -15,7 +15,7 @@ Dialog with horizontal step bar.
 
 ```js
 import React from 'react';
-import { Modal, Button, Table, Alert, Steps, Divider } from '@suzume-design/web-react';
+import { Modal, Button, Table, Alert, Steps, Divider } from '@byonedot/web-react';
 const Step = Steps.Step;
 
 function App() {

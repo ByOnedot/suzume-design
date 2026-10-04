@@ -14,8 +14,8 @@ title:
 Specify `icon` to customize the icon of the node.
 
 ```js
-import { Steps } from '@suzume-design/web-react';
-import { IconHome, IconLoading, IconThumbUp } from '@suzume-design/web-react/icon';
+import { Steps } from '@byonedot/web-react';
+import { IconHome, IconLoading, IconThumbUp } from '@byonedot/web-react/icon';
 const Step = Steps.Step;
 
 const App = () => {

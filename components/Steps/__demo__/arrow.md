@@ -14,7 +14,7 @@ title:
 By specifying `type:'arrow'`, you can use arrow type step bar. **Note**: Only horizontal step bar are supported.
 
 ```js
-import { Steps } from '@suzume-design/web-react';
+import { Steps } from '@byonedot/web-react';
 const Step = Steps.Step;
 
 const App = () => {

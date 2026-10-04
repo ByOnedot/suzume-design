@@ -14,8 +14,8 @@ title:
 Custom node content
 
 ```js
-import { Switch, Timeline, Grid } from '@suzume-design/web-react';
-import { IconExclamationCircleFill } from '@suzume-design/web-react/icon';
+import { Switch, Timeline, Grid } from '@byonedot/web-react';
+import { IconExclamationCircleFill } from '@byonedot/web-react/icon';
 const TimelineItem = Timeline.Item;
 
 const App = () => {

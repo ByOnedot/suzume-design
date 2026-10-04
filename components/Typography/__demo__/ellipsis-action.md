@@ -15,8 +15,8 @@ Customize action buttons through `expandRender`.
 
 ```js
 import { useState } from 'react';
-import { Typography } from '@suzume-design/web-react';
-import { IconDoubleUp, IconDoubleDown } from '@suzume-design/web-react/icon';
+import { Typography } from '@byonedot/web-react';
+import { IconDoubleUp, IconDoubleDown } from '@byonedot/web-react/icon';
 
 const text = 'A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design. A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design. The verb to design expresses the process of developing a design.';
 

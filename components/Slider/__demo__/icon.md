@@ -15,8 +15,8 @@ There are icons on both sides of the slider to indicate status.
 
 ```js
 import { useState } from 'react';
-import { Slider, Space } from '@suzume-design/web-react';
-import { IconSound, IconMute } from '@suzume-design/web-react/icon';
+import { Slider, Space } from '@byonedot/web-react';
+import { IconSound, IconMute } from '@byonedot/web-react/icon';
 
 function App() {
   const [value, setValue] = useState(10);

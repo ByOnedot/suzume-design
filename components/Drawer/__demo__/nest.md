@@ -15,7 +15,7 @@ Nested drawer.
 
 ```js
 import { useState } from 'react';
-import { Drawer, Button } from '@suzume-design/web-react';
+import { Drawer, Button } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = useState(false);

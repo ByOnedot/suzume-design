@@ -14,7 +14,7 @@ title:
 Use `size` to set the size of the avatar, which defaults to `40px`. Two `shape`s are available for the avatar: `circle` and `square`.
 
 ```js
-import { Avatar, Space } from '@suzume-design/web-react';
+import { Avatar, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

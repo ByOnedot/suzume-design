@@ -14,7 +14,7 @@ title:
 Use `<Image.PreviewGroup>` to wrap the `<Image>` component to preview multiple images.
 
 ```js
-import { Image, Space } from '@suzume-design/web-react';
+import { Image, Space } from '@byonedot/web-react';
 
 function App() {
   const srcList = [

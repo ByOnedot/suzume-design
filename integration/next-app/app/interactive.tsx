@@ -20,8 +20,8 @@ import {
   Tooltip,
   Tree,
   Upload,
-} from '@suzume-design/web-react';
-import { IconPlus, IconUpload } from '@suzume-design/web-react/icon';
+} from '@byonedot/web-react';
+import { IconPlus, IconUpload } from '@byonedot/web-react/icon';
 
 const columns = [
   { title: 'Name', dataIndex: 'name' },
@@ -125,19 +125,38 @@ export function InteractivePanel() {
             <Table rowKey="key" columns={columns} data={rows} pagination={false} />
           </Tabs.TabPane>
           <Tabs.TabPane title="Tree" key="2">
-            <Tree defaultExpandedKeys={['0-0']} defaultSelectedKeys={['0-0-0']} treeData={treeData} />
+            <Tree
+              defaultExpandedKeys={['0-0']}
+              defaultSelectedKeys={['0-0-0']}
+              treeData={treeData}
+            />
           </Tabs.TabPane>
         </Tabs>
 
-        <Modal title="Modal title" visible={modal} onCancel={() => setModal(false)} onOk={() => setModal(false)}>
+        <Modal
+          title="Modal title"
+          visible={modal}
+          onCancel={() => setModal(false)}
+          onOk={() => setModal(false)}
+        >
           Modal body rendered through a portal.
         </Modal>
 
-        <Drawer title="Drawer title" visible={drawer} width={320} onCancel={() => setDrawer(false)} onOk={() => setDrawer(false)}>
+        <Drawer
+          title="Drawer title"
+          visible={drawer}
+          width={320}
+          onCancel={() => setDrawer(false)}
+          onOk={() => setDrawer(false)}
+        >
           Drawer body rendered through a portal.
         </Drawer>
 
-        <Alert type="success" title="Interactive panel ready" content="Hydration completed without warnings." />
+        <Alert
+          type="success"
+          title="Interactive panel ready"
+          content="Hydration completed without warnings."
+        />
       </Space>
     </section>
   );

@@ -14,7 +14,7 @@ file imported by it). The Suzume stylesheet is global:
 ```tsx
 // app/layout.tsx
 import type { Metadata } from 'next';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export const metadata: Metadata = {
   title: 'Acme',
@@ -39,7 +39,7 @@ client boundary in **your** component file:
 // app/components/save-button.tsx
 'use client';
 
-import { Button, message } from '@suzume-design/web-react';
+import { Button, message } from '@byonedot/web-react';
 
 export function SaveButton() {
   return (
@@ -50,8 +50,8 @@ export function SaveButton() {
 }
 ```
 
-The package entry points (`@suzume-design/web-react`,
-`@suzume-design/web-react/icon`, `@suzume-design/web-react/hooks`) already
+The package entry points (`@byonedot/web-react`,
+`@byonedot/web-react/icon`, `@byonedot/web-react/hooks`) already
 carry a `'use client'` directive, so importing them from a Server Component
 file resolves to a client boundary automatically. Keeping the directive in
 your own wrapper file is still recommended: it makes the boundary explicit
@@ -82,7 +82,7 @@ export default function Page() {
 // 2. Pass plain serialisable props across the boundary
 // app/components/stat.tsx
 'use client';
-import { Statistic } from '@suzume-design/web-react';
+import { Statistic } from '@byonedot/web-react';
 export function Stat({ value }: { value: number }) {
   return <Statistic value={value} />;
 }
@@ -96,7 +96,7 @@ therefore returns `undefined`:
 
 ```tsx
 // app/page.tsx (Server Component) - does not work
-import { Grid, Typography } from '@suzume-design/web-react';
+import { Grid, Typography } from '@byonedot/web-react';
 const { Row, Col } = Grid; // Grid is a client reference here
 ```
 
@@ -106,7 +106,7 @@ Server Component:
 ```tsx
 // app/server-grid.tsx
 'use client';
-import { Grid } from '@suzume-design/web-react';
+import { Grid } from '@byonedot/web-react';
 const { Row, Col } = Grid;
 export function ServerGrid() {
   return (
@@ -130,7 +130,7 @@ Works unchanged:
 ```tsx
 // pages/_app.tsx
 import type { AppProps } from 'next/app';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
@@ -209,7 +209,7 @@ The Less-compilation path and the bundler plugins are **webpack only** today.
   `lib/**/style/*` and `*.less` as side-effectful, everything else as pure.
 - Import components from the package root; unused ones are dropped in
   production builds.
-- Icons are separate: `import { IconSearch } from '@suzume-design/web-react/icon'`
+- Icons are separate: `import { IconSearch } from '@byonedot/web-react/icon'`
   only pulls in the icons you reference.
 
 See [tree-shaking.md](./tree-shaking.md).

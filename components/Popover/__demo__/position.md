@@ -14,7 +14,7 @@ title:
 `Popover` supports 12 different positions. `top left` `top` `top right` `bottom left` `bottom` `bottom right` `top left` `left` `bottom left` `top right` `right` `bottom right`.
 
 ```js
-import { Popover, Button } from '@suzume-design/web-react';
+import { Popover, Button } from '@byonedot/web-react';
 const style = {
   margin: 0,
 };

@@ -15,7 +15,7 @@ Open the controlled mode through `activeTab`.
 
 ```js
 import { useState } from 'react';
-import { Tabs, Typography } from '@suzume-design/web-react';
+import { Tabs, Typography } from '@byonedot/web-react';
 const TabPane = Tabs.TabPane;
 const style = {
   textAlign: 'center',

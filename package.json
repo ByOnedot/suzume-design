@@ -1,6 +1,6 @@
 {
-  "name": "@suzume-design/web-react",
-  "version": "1.0.0",
+  "name": "@byonedot/web-react",
+  "version": "1.0.1",
   "description": "Suzume Design - React and Next.js UI component library by byonedot.in.",
   "module": "./es/index.js",
   "main": "./lib/index.js",
@@ -110,7 +110,7 @@
     "nunjucks": "^3.2.2",
     "postcss-less": "4.0.1",
     "prettier": "^3.9.9",
-    "pretty-quick": "^3.1.2",
+    "pretty-quick": "^4.2.2",
     "react": "catalog:",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
@@ -132,7 +132,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
-    "@suzume-design/color": "workspace:^",
+    "@byonedot/color": "^1.0.1",
     "b-tween": "^0.3.3",
     "b-validate": "^1.4.2",
     "compute-scroll-into-view": "^1.0.17",

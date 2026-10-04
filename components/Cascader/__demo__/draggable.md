@@ -14,7 +14,7 @@ title:
 In multiple mode, specify the `dragToSort` property to allow sort the entered values by dragging.
 
 ```js
-import { Cascader } from '@suzume-design/web-react';
+import { Cascader } from '@byonedot/web-react';
 const options = [
   {
     id: 'beijing',

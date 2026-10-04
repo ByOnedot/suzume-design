@@ -14,7 +14,7 @@ title:
 Add an extra footer to meet the needs of some customized information.
 
 ```js
-import { DatePicker } from '@suzume-design/web-react';
+import { DatePicker } from '@byonedot/web-react';
 
 const App = () => {
   return (

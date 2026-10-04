@@ -14,8 +14,8 @@ title:
 Manually update and close the dialog which created by `Modal`.
 
 ```js
-import { Modal, Button, Spin } from '@suzume-design/web-react';
-import { IconCheckCircleFill, IconInfoCircleFill } from '@suzume-design/web-react/icon';
+import { Modal, Button, Spin } from '@byonedot/web-react';
+import { IconCheckCircleFill, IconInfoCircleFill } from '@byonedot/web-react/icon';
 
 const sleep = async (time) => {
   return new Promise((resolve) => {

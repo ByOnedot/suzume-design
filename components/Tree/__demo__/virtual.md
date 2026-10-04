@@ -15,7 +15,7 @@ By specifying `virtualListProps` to turn on the virtual list, high performance c
 
 ```js
 import React from 'react';
-import { Tree, Button } from '@suzume-design/web-react';
+import { Tree, Button } from '@byonedot/web-react';
 
 function loop(path = '0', level = 2) {
   const list = [];

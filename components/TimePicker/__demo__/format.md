@@ -14,7 +14,7 @@ title:
 By setting `format`, you can customize the hour, minute, and second.
 
 ```js
-import { TimePicker } from '@suzume-design/web-react';
+import { TimePicker } from '@byonedot/web-react';
 import dayjs from 'dayjs';
 
 const App = () => {

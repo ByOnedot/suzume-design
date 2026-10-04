@@ -14,7 +14,7 @@ title:
 A simple loading state.
 
 ```js
-import { Spin } from '@suzume-design/web-react';
+import { Spin } from '@byonedot/web-react';
 
 const App = () => {
   return <Spin />;

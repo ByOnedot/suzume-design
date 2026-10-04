@@ -6,9 +6,9 @@ Suzume Design follows [Semantic Versioning](https://semver.org/).
 
 - **Public release history starts at `1.0.0`.** `CHANGELOG.md` records
   Suzume releases only.
-- The npm scope is `@suzume-design/*`; there are no upgrade paths from
+- The npm scope is `@byonedot/*`; there are no upgrade paths from
   upstream package names, because this distribution is a new namespace.
-- Internal packages (`@suzume-design/color`, the bundler plugins, the Pro
+- Internal packages (`@byonedot/color`, the bundler plugins, the Pro
   templates) version independently but are released together when they change
   in concert.
 
@@ -23,17 +23,17 @@ below.
 
 ```bash
 # application code
-npx -p @suzume-design/web-react@latest true  # package installed
+npx -p @byonedot/web-react@latest true  # package installed
 ```
 
 Then apply these replacements across your repository:
 
 | Find | Replace |
 | --- | --- |
-| `@arco-design/web-react` | `@suzume-design/web-react` |
-| `@arco-design/web-react/icon` | `@suzume-design/web-react/icon` |
-| `@arco-design/web-react/hooks` | `@suzume-design/web-react/hooks` |
-| `@arco-design/color` | `@suzume-design/color` |
+| `@arco-design/web-react` | `@byonedot/web-react` |
+| `@arco-design/web-react/icon` | `@byonedot/web-react/icon` |
+| `@arco-design/web-react/hooks` | `@byonedot/web-react/hooks` |
+| `@arco-design/color` | `@byonedot/color` |
 | `arco-design` (import paths) | `suzume-design` |
 | `.arco-` (class selectors in your CSS/tests) | `.suzume-` |
 | `--arco-` (CSS variable names, if you prefixed) | `--suzume-` |
@@ -50,7 +50,7 @@ Example:
 ```bash
 rg -l "@arco-design/web-react|\.arco-|arcoblue|arco-theme" src tests styles \
   | xargs sed -i '' \
-      -e 's|@arco-design/web-react|@suzume-design/web-react|g' \
+      -e 's|@arco-design/web-react|@byonedot/web-react|g' \
       -e 's|\.arco-|.suzume-|g' \
       -e 's|arcoblue|suzumeblue|g' \
       -e 's|arco-theme|suzume-theme|g'
@@ -60,7 +60,7 @@ rg -l "@arco-design/web-react|\.arco-|arcoblue|arco-theme" src tests styles \
 
 | Area | Change |
 | --- | --- |
-| npm packages | `@suzume-design/web-react`, `@suzume-design/color`, `@suzume-design/plugin-*` |
+| npm packages | `@byonedot/web-react`, `@byonedot/color`, `@byonedot/plugin-*` |
 | Class prefix | `arco` -> `suzume` (`.arco-btn` -> `.suzume-btn`) |
 | CSS variables | Unprefixed tokens are unchanged (`--color-text-1`); the primary ramp `--arcoblue-*` -> `--suzumeblue-*` |
 | Less prefix variables | `@arco-*` -> `@suzume-*` (`@prefix`, `@suzume-vars-prefix`, `@suzume-cssvars-prefix`, `@suzume-theme-tag`) |
@@ -107,7 +107,7 @@ Everything else is scanned in CI by `pnpm check:branding`
 ## Upgrading Suzume Design
 
 ```bash
-npm i @suzume-design/web-react@latest
+npm i @byonedot/web-react@latest
 ```
 
 Read `CHANGELOG.md` for the release you are moving to. Breaking changes are

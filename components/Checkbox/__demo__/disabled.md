@@ -13,7 +13,7 @@ title:
 Disable the checkbox.
 
 ```js
-import { Checkbox } from '@suzume-design/web-react';
+import { Checkbox } from '@byonedot/web-react';
 
 const App = () => {
   return (

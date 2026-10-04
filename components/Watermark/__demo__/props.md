@@ -27,7 +27,7 @@ import {
   Slider,
   ColorPicker,
   Space
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
 const defaultValue = {
   content: 'Suzume Design',

@@ -14,7 +14,7 @@ title:
 Notification has 4 different positions, `Top Left`, `Top Right (default)`, `Bottom Left`, `Bottom Right`.
 
 ```js
-import { Notification, Button, Space } from '@suzume-design/web-react';
+import { Notification, Button, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

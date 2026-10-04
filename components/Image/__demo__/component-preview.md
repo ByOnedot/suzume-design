@@ -15,7 +15,7 @@ title:
 
 ```js
 import React from 'react';
-import { Image, Button } from '@suzume-design/web-react';
+import { Image, Button } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = React.useState(false);

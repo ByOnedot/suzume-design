@@ -15,8 +15,8 @@ Use `react-dnd` to realize the drag and drop of tabs.
 
 ```tsx
 import React, { useRef, useState } from 'react';
-import { Tabs } from '@suzume-design/web-react';
-import { TabPaneProps } from '@suzume-design/web-react/es/Tabs';
+import { Tabs } from '@byonedot/web-react';
+import { TabPaneProps } from '@byonedot/web-react/es/Tabs';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import type { Identifier, XYCoord } from 'dnd-core';

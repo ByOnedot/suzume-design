@@ -2,7 +2,7 @@
 
 ## Provenance of this distribution
 
-`suzume-design` / `@suzume-design/web-react` is a **modified redistribution**
+`suzume-design` / `@byonedot/web-react` is a **modified redistribution**
 of the upstream **Arco Design** React component library
 (`github.com/arco-design/arco-design`), which is published under the MIT
 License.
@@ -15,7 +15,7 @@ The upstream MIT copyright notice and permission notice are preserved exactly
 as required by the license. Modifications made for this distribution include:
 
 - Renaming the product ("Arco Design" -> "Suzume Design") and the npm scope
-  (`@arco-design/*` -> `@suzume-design/*`).
+  (`@arco-design/*` -> `@byonedot/*`).
 - Renaming the CSS / class / Less / CSS-variable prefixes
   (`arco` -> `suzume`, `arcoblue` -> `suzumeblue`).
 - Removing the upstream documentation website, marketing assets, upstream
@@ -57,13 +57,13 @@ package, and `devDependencies` are never installed by consumers.
 
 ## Runtime dependencies
 
-`@suzume-design/web-react` declares these runtime dependencies, all MIT (or
+`@byonedot/web-react` declares these runtime dependencies, all MIT (or
 compatible) licensed third-party packages from the public npm registry:
 
 | Package | License |
 | --- | --- |
 | `@babel/runtime` | MIT |
-| `@suzume-design/color` | MIT (this ecosystem) |
+| `@byonedot/color` | MIT (this ecosystem) |
 | `b-tween` | MIT |
 | `b-validate` | MIT |
 | `compute-scroll-into-view` | MIT |

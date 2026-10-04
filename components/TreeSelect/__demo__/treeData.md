@@ -14,8 +14,8 @@ title:
 Generate a tree structure by `treeData`.
 
 ```js
-import { TreeSelect } from '@suzume-design/web-react';
-import { IconCalendar } from '@suzume-design/web-react/icon';
+import { TreeSelect } from '@byonedot/web-react';
+import { IconCalendar } from '@byonedot/web-react/icon';
 const treeData = [
   {
     key: 'node1',

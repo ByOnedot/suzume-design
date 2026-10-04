@@ -14,7 +14,7 @@ title:
 Select time range.
 
 ```js
-import { TimePicker } from '@suzume-design/web-react';
+import { TimePicker } from '@byonedot/web-react';
 
 const App = () => {
   return (

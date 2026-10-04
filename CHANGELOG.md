@@ -17,11 +17,11 @@ MIT-licensed upstream component library.
 
 ### Added
 
-- `@suzume-design/web-react` - 71 components, 2 hooks, 19 locales,
+- `@byonedot/web-react` - 71 components, 2 hooks, 19 locales,
   277 icons.
-- `@suzume-design/color` - palette generation and colour utilities, with the
+- `@byonedot/color` - palette generation and colour utilities, with the
   `suzumeblue` primary preset.
-- `@suzume-design/plugin-*` - optional webpack / Rspack / Vite build plugins.
+- `@byonedot/plugin-*` - optional webpack / Rspack / Vite build plugins.
 - `suzume-design-pro` - Next.js / CRA / Vite admin dashboard templates with a
   vendored, rebranded Pro theme.
 - `suzume-design-skill` - AI-agent skill teaching the Suzume Design APIs.
@@ -35,7 +35,7 @@ MIT-licensed upstream component library.
 
 ### Changed
 
-- npm scope: `@arco-design/*` -> `@suzume-design/*`.
+- npm scope: `@arco-design/*` -> `@byonedot/*`.
 - Class-name / Less prefix: `arco` -> `suzume` (`.arco-btn` -> `.suzume-btn`).
 - Primary palette token: `arcoblue` -> `suzumeblue` (`--suzumeblue-6`,
   `@suzumeblue-6`).

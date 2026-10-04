@@ -1,5 +1,5 @@
 {
-  "name": "@suzume-design/web-react-hooks",
+  "name": "@byonedot/web-react-hooks",
   "private": true,
   "version": "0.0.0",
   "main": "./lib/index.js",

@@ -27,7 +27,7 @@ import {
   TreeSelect,
   TimePicker,
   Radio,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 
 const FormItem = Form.Item;
 

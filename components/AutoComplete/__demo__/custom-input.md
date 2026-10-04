@@ -15,7 +15,7 @@ Support custom input components.
 
 ```js
 import { useState } from 'react';
-import { AutoComplete, Input } from '@suzume-design/web-react';
+import { AutoComplete, Input } from '@byonedot/web-react';
 const { TextArea } = Input;
 
 function App() {

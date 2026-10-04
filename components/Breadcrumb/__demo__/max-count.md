@@ -14,7 +14,7 @@ title:
 Use `maxCount` to set the maximum number of breadcrumbs to render. The rest will be displayed as an ellipsis.
 
 ```js
-import { Breadcrumb } from '@suzume-design/web-react';
+import { Breadcrumb } from '@byonedot/web-react';
 const BreadcrumbItem = Breadcrumb.Item;
 
 const App = () => {

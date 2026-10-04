@@ -14,7 +14,7 @@ title:
 Use `labelInValue=true` to get label of the selected option
 
 ```js
-import { InputTag } from '@suzume-design/web-react';
+import { InputTag } from '@byonedot/web-react';
 
 const App = () => {
   return (

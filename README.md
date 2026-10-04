@@ -7,14 +7,14 @@ Built for https://byonedot.in
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](./.github/workflows/ci.yml)
 
 ```bash
-npm i @suzume-design/web-react
+npm i @byonedot/web-react
 # or
-yarn add @suzume-design/web-react
+yarn add @byonedot/web-react
 ```
 
 ```tsx
-import { Button, Table, Form, Input, Modal, Typography } from '@suzume-design/web-react';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import { Button, Table, Form, Input, Modal, Typography } from '@byonedot/web-react';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export function SaveButton() {
   return <Button type="primary">Save</Button>;
@@ -58,26 +58,26 @@ Peer requirements: `react ^19.0.0` and `react-dom ^19.0.0`.
 
 ```bash
 # npm
-npm i @suzume-design/web-react
+npm i @byonedot/web-react
 
 # yarn
-yarn add @suzume-design/web-react
+yarn add @byonedot/web-react
 
 # pnpm
-pnpm add @suzume-design/web-react
+pnpm add @byonedot/web-react
 ```
 
 ### CDN / UMD
 
 ```html
 <!-- production -->
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume.min.js"></script>
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume.min.js"></script>
 
 <!-- development (unminified, with warnings) -->
-<script src="https://unpkg.com/@suzume-design/web-react@latest/dist/suzume.development.js"></script>
+<script src="https://unpkg.com/@byonedot/web-react@latest/dist/suzume.development.js"></script>
 
 <!-- styles -->
-<link rel="stylesheet" href="https://unpkg.com/@suzume-design/web-react@latest/dist/css/suzume.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/@byonedot/web-react@latest/dist/css/suzume.min.css" />
 ```
 
 The UMD bundles expose the global `window.suzume` (components),
@@ -89,9 +89,9 @@ The UMD bundles expose the global `window.suzume` (components),
 
 ```tsx
 // App.tsx
-import { ConfigProvider, Button } from '@suzume-design/web-react';
-import zhCN from '@suzume-design/web-react/es/locale/zh-CN';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import { ConfigProvider, Button } from '@byonedot/web-react';
+import zhCN from '@byonedot/web-react/es/locale/zh-CN';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export default function App() {
   return (
@@ -111,7 +111,7 @@ Interactive components need a Client Component boundary:
 // app/components/save-button.tsx
 'use client';
 
-import { Button } from '@suzume-design/web-react';
+import { Button } from '@byonedot/web-react';
 
 export function SaveButton() {
   return <Button type="primary">Save</Button>;
@@ -121,7 +121,7 @@ export function SaveButton() {
 ```tsx
 // app/layout.tsx
 import type { Metadata } from 'next';
-import '@suzume-design/web-react/dist/css/suzume.css';
+import '@byonedot/web-react/dist/css/suzume.css';
 
 export const metadata: Metadata = { title: 'My App' };
 
@@ -144,8 +144,8 @@ Three ways to load styles, pick one:
 
 | Style | Import | Notes |
 | --- | --- | --- |
-| Prebuilt CSS | `import '@suzume-design/web-react/dist/css/suzume.css'` | Recommended. Works everywhere, no bundler config. |
-| Per-component Less | `import '@suzume-design/web-react/es/Button/style/index.less'` | Requires a Less loader; enables `modifyVars` theming. |
+| Prebuilt CSS | `import '@byonedot/web-react/dist/css/suzume.css'` | Recommended. Works everywhere, no bundler config. |
+| Per-component Less | `import '@byonedot/web-react/es/Button/style/index.less'` | Requires a Less loader; enables `modifyVars` theming. |
 | CDN | `dist/css/suzume.min.css` | For UMD usage. |
 
 ## Documentation
@@ -175,11 +175,11 @@ Three ways to load styles, pick one:
 
 | Package | Purpose |
 | --- | --- |
-| [`@suzume-design/web-react`](https://www.npmjs.com/package/@suzume-design/web-react) | This repository - the React component library. |
-| `@suzume-design/color` | Palette generation and colour utilities used by the token system. |
-| `@suzume-design/plugin-*` | Optional webpack / Rspack / Vite build plugins. |
+| [`@byonedot/web-react`](https://www.npmjs.com/package/@byonedot/web-react) | This repository - the React component library. |
+| `@byonedot/color` | Palette generation and colour utilities used by the token system. |
+| `@byonedot/plugin-*` | Optional webpack / Rspack / Vite build plugins. |
 | `suzume-design-pro` | Admin dashboard templates (Next.js, CRA, Vite). |
-| `suzume-design-skill` | AI-agent skill that teaches `@suzume-design/web-react` APIs. |
+| `suzume-design-skill` | AI-agent skill that teaches `@byonedot/web-react` APIs. |
 
 ## Versioning
 
@@ -197,8 +197,8 @@ This repository is a pnpm workspace:
 
 | path | package | published |
 | --- | --- | --- |
-| `.` | `@suzume-design/web-react` | yes |
-| `packages/color` | `@suzume-design/color` | yes |
+| `.` | `@byonedot/web-react` | yes |
+| `packages/color` | `@byonedot/color` | yes |
 | `hooks/`, `icon/` | sub-packages of the library | no (`private`) |
 | `tools/build-scripts` | vendored build tooling | no (`private`) |
 | `tests/visual`, `integration/next-app` | test harnesses | no (`private`) |

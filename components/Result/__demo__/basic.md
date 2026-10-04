@@ -14,7 +14,7 @@ title:
 Show successful results.
 
 ```js
-import { Result, Button } from '@suzume-design/web-react';
+import { Result, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

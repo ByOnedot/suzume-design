@@ -14,7 +14,7 @@ title:
 Allow clear.
 
 ```js
-import { Cascader } from '@suzume-design/web-react';
+import { Cascader } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

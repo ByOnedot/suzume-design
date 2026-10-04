@@ -14,7 +14,7 @@ title:
 Validate input via validate. Additionally, non-boolean types can be returned to format user-entered strings into a specific format.
 
 ```js
-import { Grid, VerificationCode, Typography } from '@suzume-design/web-react';
+import { Grid, VerificationCode, Typography } from '@byonedot/web-react';
 
 const App = () => {
 

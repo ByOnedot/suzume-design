@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Upload, Modal, Progress, Empty, Typography, Spin } from '@suzume-design/web-react';
+import { Upload, Modal, Progress, Empty, Typography, Spin } from '@byonedot/web-react';
 import Axios from 'axios';
-import * as icons from '@suzume-design/web-react/icon/index.es.js';
+import * as icons from '@byonedot/web-react/icon/index.es.js';
 import { teaLog } from '@suzume-materials/site-utils';
 
 const locale = {

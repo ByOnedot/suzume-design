@@ -14,7 +14,7 @@ title:
 Use `justify` to customize horizontal layout.
 
 ```js
-import { Grid, Typography } from '@suzume-design/web-react';
+import { Grid, Typography } from '@byonedot/web-react';
 const Row = Grid.Row;
 const Col = Grid.Col;
 const rowStyle = {

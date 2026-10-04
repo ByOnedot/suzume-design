@@ -13,7 +13,7 @@ title:
 The Basic usage.
 
 ```js
-import { Upload } from '@suzume-design/web-react';
+import { Upload } from '@byonedot/web-react';
 
 const App = () => {
   return (

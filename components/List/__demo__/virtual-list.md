@@ -20,7 +20,7 @@ When using a virtual list, if the height of the list items varies greatly, it ma
 **Because the virtual list uses the `ref` of ListItem internally, if you return a custom function component through `render`, please use `React.forwardRef` to wrap it.**
 
 ```js
-import { List, Avatar } from '@suzume-design/web-react';
+import { List, Avatar } from '@byonedot/web-react';
 
 const App = () => {
   return (

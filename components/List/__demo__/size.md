@@ -15,7 +15,7 @@ There are three sizes (`small` `default` `large`) that you can select according 
 
 ```js
 import { useState } from 'react';
-import { List, Radio } from '@suzume-design/web-react';
+import { List, Radio } from '@byonedot/web-react';
 const RadioGroup = Radio.Group;
 
 function App() {

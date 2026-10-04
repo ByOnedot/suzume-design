@@ -14,7 +14,7 @@ title:
 Create a score component of any total count by specifying `count`.
 
 ```js
-import { Rate } from '@suzume-design/web-react';
+import { Rate } from '@byonedot/web-react';
 
 const App = () => {
   return <Rate count={10} allowHalf />;

@@ -15,7 +15,7 @@ Built-in 4 sizes, `mini-4px` `small-8px (default)` `medium-16px` `large-24px`, a
 
 ```js
 import { useState } from 'react';
-import { Space, Button, Radio } from '@suzume-design/web-react';
+import { Space, Button, Radio } from '@byonedot/web-react';
 
 function App() {
   const [size, setSize] = useState('small');

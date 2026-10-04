@@ -15,8 +15,8 @@ Use `dropdownRender` to freely customize the drop-down menu.
 
 ```js
 import { useState } from 'react';
-import { Select, Divider, Input, Button } from '@suzume-design/web-react';
-import { IconPlus } from '@suzume-design/web-react/icon';
+import { Select, Divider, Input, Button } from '@byonedot/web-react';
+import { IconPlus } from '@byonedot/web-react/icon';
 const Option = Select.Option;
 
 function App() {

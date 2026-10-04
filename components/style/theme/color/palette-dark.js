@@ -1,4 +1,4 @@
-const { generate } = require('@suzume-design/color');
+const { generate } = require('@byonedot/color');
 
 module.exports = {
   install(_, __, functions) {

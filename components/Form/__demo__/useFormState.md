@@ -16,7 +16,7 @@ You can use `Form.useFormState` to monitor the changes of status inside the form
 
 
 ```js
-import { Form, Typography, Input, InputNumber, Space, Button } from '@suzume-design/web-react';
+import { Form, Typography, Input, InputNumber, Space, Button } from '@byonedot/web-react';
 
 function App() {
   const [form] = Form.useForm();

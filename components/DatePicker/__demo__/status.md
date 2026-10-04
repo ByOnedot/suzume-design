@@ -14,7 +14,7 @@ title:
 date inputter in different states
 
 ```js
-import { DatePicker, Space } from '@suzume-design/web-react';
+import { DatePicker, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

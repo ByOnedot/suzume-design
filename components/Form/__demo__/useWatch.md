@@ -16,7 +16,7 @@ You can use `Form.useWatch` to monitor the changes of field values inside the fo
 
 
 ```js
-import { Form, Typography, Input, InputNumber } from '@suzume-design/web-react';
+import { Form, Typography, Input, InputNumber } from '@byonedot/web-react';
 
 function App() {
   const [form] = Form.useForm();

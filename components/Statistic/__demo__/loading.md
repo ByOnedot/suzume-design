@@ -15,7 +15,7 @@ You can control whether to display the loading status through `loading`.
 
 ```js
 import { useState } from 'react';
-import { Statistic, Switch, Typography } from '@suzume-design/web-react';
+import { Statistic, Switch, Typography } from '@byonedot/web-react';
 
 function App() {
   const [loading, setLoading] = useState(true);

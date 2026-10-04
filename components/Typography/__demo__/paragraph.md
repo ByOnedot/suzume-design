@@ -14,7 +14,7 @@ title:
 Paragraph style.
 
 ```js
-import { Typography, Divider } from '@suzume-design/web-react';
+import { Typography, Divider } from '@byonedot/web-react';
 const { Title, Paragraph } = Typography;
 
 const App = () => {

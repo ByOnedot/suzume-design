@@ -14,7 +14,7 @@ title:
 Support responsive layout.
 
 ```js
-import { Descriptions } from '@suzume-design/web-react';
+import { Descriptions } from '@byonedot/web-react';
 const data = [
   {
     label: 'Name',

@@ -19,8 +19,8 @@ At this point the width of the sidebar is fully controlled by `width`.
 
 ```js
 import { useState } from 'react';
-import { Layout, Menu } from '@suzume-design/web-react';
-import { IconHome, IconCalendar } from '@suzume-design/web-react/icon';
+import { Layout, Menu } from '@byonedot/web-react';
+import { IconHome, IconCalendar } from '@byonedot/web-react/icon';
 const MenuItem = Menu.Item;
 const SubMenu = Menu.SubMenu;
 const Sider = Layout.Sider;

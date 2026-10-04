@@ -15,7 +15,7 @@ When the table has no data, a centered prompt message will be displayed by defau
 
 ```tsx
 import React from 'react';
-import { Table, TableColumnProps } from "@suzume-design/web-react";
+import { Table, TableColumnProps } from "@byonedot/web-react";
 
 const columns: TableColumnProps[] = [
   {

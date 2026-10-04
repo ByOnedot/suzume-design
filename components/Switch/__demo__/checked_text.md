@@ -14,8 +14,8 @@ title:
 Customize the text or icon to be displayed when the switch is turned on (off).
 
 ```js
-import { Switch, Space } from '@suzume-design/web-react';
-import { IconCheck, IconClose } from '@suzume-design/web-react/icon';
+import { Switch, Space } from '@byonedot/web-react';
+import { IconCheck, IconClose } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

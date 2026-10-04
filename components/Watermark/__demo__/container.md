@@ -14,7 +14,7 @@ title:
 set target node by `getContainer` property
 
 ```js
-import { Watermark, Grid } from '@suzume-design/web-react';
+import { Watermark, Grid } from '@byonedot/web-react';
 
 const App = () => {
   const [current, setCurrent] = React.useState('#demo-watermark-1');

@@ -14,7 +14,7 @@ title:
 Specify `separator` to customize the rendering separator
 
 ```js
-import { VerificationCode } from '@suzume-design/web-react';
+import { VerificationCode } from '@byonedot/web-react';
 
 const App = () => {
   return (

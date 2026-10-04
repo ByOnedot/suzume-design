@@ -20,7 +20,7 @@ For details on triggering onVisibleChange, please refer to [Trigger](../../Trigg
 
 ```js
 import React from 'react';
-import { TreeSelect } from '@suzume-design/web-react';
+import { TreeSelect } from '@byonedot/web-react';
 
 const TreeNode = TreeSelect.Node;
 

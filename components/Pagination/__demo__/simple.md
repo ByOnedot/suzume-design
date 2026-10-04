@@ -14,7 +14,7 @@ title:
 When page space is limited, you can set `simple` to `true`.
 
 ```js
-import { Pagination } from '@suzume-design/web-react';
+import { Pagination } from '@byonedot/web-react';
 
 const App = () => {
   return <Pagination simple total={50} size="small" />;

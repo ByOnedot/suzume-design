@@ -14,7 +14,7 @@ title:
 You can set `style` and `className` to customize the style.
 
 ```js
-import { Notification, Button } from '@suzume-design/web-react';
+import { Notification, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

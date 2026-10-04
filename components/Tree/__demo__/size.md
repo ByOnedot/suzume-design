@@ -7,7 +7,7 @@ title:
 
 ```js
 import React from 'react';
-import { Tree, Radio } from '@suzume-design/web-react';
+import { Tree, Radio } from '@byonedot/web-react';
 
 const TreeNode = Tree.Node;
 

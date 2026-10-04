@@ -15,7 +15,7 @@ Set `triggerElement` to customize the display.
 
 ```js
 import { useState } from 'react';
-import { TreeSelect, Typography, Link } from '@suzume-design/web-react';
+import { TreeSelect, Typography, Link } from '@byonedot/web-react';
 const TreeNode = TreeSelect.Node;
 
 const DemoTreeSelect = () => {

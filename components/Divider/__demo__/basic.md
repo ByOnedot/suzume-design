@@ -14,8 +14,8 @@ title:
 Can be used to separate paragraphs of different chapters. The default is a horizontal dividing line. Text can be added within divider.
 
 ```js
-import { Divider, Typography } from '@suzume-design/web-react';
-import { IconFileImage, IconUser, IconPen } from '@suzume-design/web-react/icon';
+import { Divider, Typography } from '@byonedot/web-react';
+import { IconFileImage, IconUser, IconPen } from '@byonedot/web-react/icon';
 const { Paragraph, Title } = Typography;
 
 const App = () => {

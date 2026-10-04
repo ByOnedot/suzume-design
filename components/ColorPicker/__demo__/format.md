@@ -14,7 +14,7 @@ title:
 Set the format of the color value through `format`, supporting `hex` and `rgb`.
 
 ```js
-import { ColorPicker, Radio } from '@suzume-design/web-react';
+import { ColorPicker, Radio } from '@byonedot/web-react';
 import { useState } from 'react';
 
 const RadioGroup = Radio.Group;

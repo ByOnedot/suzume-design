@@ -13,7 +13,7 @@ The function will be executed before each file upload. Uploading will be aborted
 
 
 ```js
-import { Upload, Modal } from '@suzume-design/web-react';
+import { Upload, Modal } from '@byonedot/web-react';
 
 function App() {
   return (

@@ -14,7 +14,7 @@ title:
 A link text.
 
 ```js
-import { Link, Space } from '@suzume-design/web-react';
+import { Link, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

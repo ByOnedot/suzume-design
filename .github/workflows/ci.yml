@@ -86,6 +86,6 @@ jobs:
         if: matrix.node == 22
         uses: actions/upload-artifact@v4
         with:
-          name: suzume-design-web-react-tarball
+          name: byonedot-web-react-tarball
           path: '*.tgz'
           if-no-files-found: error

@@ -14,8 +14,8 @@ title:
 Customize icons in content.
 
 ```js
-import { Breadcrumb, Space } from '@suzume-design/web-react';
-import { IconHome } from '@suzume-design/web-react/icon';
+import { Breadcrumb, Space } from '@byonedot/web-react';
+import { IconHome } from '@byonedot/web-react/icon';
 const BreadcrumbItem = Breadcrumb.Item;
 
 const App = () => {

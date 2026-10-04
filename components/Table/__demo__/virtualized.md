@@ -19,7 +19,7 @@ Built-in virtual scrolling logic, set `virtualized=true` to enable.
 
 ```tsx
 import React, { useRef } from 'react';
-import { Table, Button, TableInstance } from '@suzume-design/web-react';
+import { Table, Button, TableInstance } from '@byonedot/web-react';
 const columns = [
   {
     title: 'Name',

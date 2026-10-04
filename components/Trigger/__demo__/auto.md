@@ -8,7 +8,7 @@ skip: true
 
 ```js
 import React from 'react';
-import { Button, Popconfirm, Message, ResizeBox } from '@suzume-design/web-react';
+import { Button, Popconfirm, Message, ResizeBox } from '@byonedot/web-react';
 
 const props = {
   getPopupContainer: () => document.querySelector('.popup-container'),

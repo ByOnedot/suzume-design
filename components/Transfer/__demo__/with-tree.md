@@ -15,7 +15,7 @@ Use `Tree` component as a custom rendering list.
 
 ```js
 import { useState } from 'react';
-import { Transfer, Tree } from '@suzume-design/web-react';
+import { Transfer, Tree } from '@byonedot/web-react';
 
 const TreeTransfer = ({ dataSource, targetKeys, ...restProps }) => {
   const generateTreeData = (treeNodes = [], checkedKeys = []) => {

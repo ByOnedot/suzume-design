@@ -14,7 +14,7 @@ title:
 Set the color mode to single color or gradient color through `mode`.
 
 ```js
-import { Button, ColorPicker } from '@suzume-design/web-react';
+import { Button, ColorPicker } from '@byonedot/web-react';
 import { useState } from 'react';
 
 const App = () => {

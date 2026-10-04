@@ -16,8 +16,8 @@ Manage the form structure of array type through `Form.List`. When setting valida
 
 ```js
 import { useRef, useState } from 'react';
-import { Form, Input, Button, Grid, Space } from '@suzume-design/web-react';
-import { IconArrowRise, IconArrowFall, IconDelete } from '@suzume-design/web-react/icon';
+import { Form, Input, Button, Grid, Space } from '@byonedot/web-react';
+import { IconArrowRise, IconArrowFall, IconDelete } from '@byonedot/web-react/icon';
 
 function App() {
   const [form] = Form.useForm();

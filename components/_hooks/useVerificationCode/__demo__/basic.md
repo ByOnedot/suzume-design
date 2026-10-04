@@ -15,8 +15,8 @@ title:
 
 
 ```js
-import { Space } from "@suzume-design/web-react";
-import { useVerificationCode } from "@suzume-design/web-react/hooks";
+import { Space } from "@byonedot/web-react";
+import { useVerificationCode } from "@byonedot/web-react/hooks";
 
 
 const App = () => {

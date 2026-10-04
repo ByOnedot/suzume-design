@@ -15,7 +15,7 @@ Different styles of text.
 
 ```js
 import React from 'react';
-import { Typography, Divider } from '@suzume-design/web-react';
+import { Typography, Divider } from '@byonedot/web-react';
 
 function Layout(props) {
   return React.Children.map(props.children, (child) => {

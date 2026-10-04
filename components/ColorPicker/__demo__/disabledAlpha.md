@@ -18,7 +18,7 @@ Set `disabledAlpha` to hide the slider and value for Alpha.
 If the `defaultValue` has alpha (like `#165DFF80`), then the alpha value is retained for the intial render. The alpha value is reset and locked to 100 once the user clicks on the palette. 
 
 ```js
-import { ColorPicker } from '@suzume-design/web-react';
+import { ColorPicker } from '@byonedot/web-react';
 
 
 const App = () => {

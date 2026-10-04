@@ -16,8 +16,8 @@ The count will be animated as it changes.
 
 ```tsx
 import React from 'react';
-import { Badge, Avatar, Button, Switch, Space } from '@suzume-design/web-react';
-import { IconPlus, IconMinus } from '@suzume-design/web-react/icon';
+import { Badge, Avatar, Button, Switch, Space } from '@byonedot/web-react';
+import { IconPlus, IconMinus } from '@byonedot/web-react/icon';
 
 function App() {
   const [count, setCount] = React.useState<number>(12);

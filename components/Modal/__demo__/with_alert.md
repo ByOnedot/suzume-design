@@ -15,7 +15,7 @@ Show Alert in dialog.
 
 ```js
 import React from 'react';
-import { Modal, Button, Table, Alert } from '@suzume-design/web-react';
+import { Modal, Button, Table, Alert } from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = React.useState(false); // table

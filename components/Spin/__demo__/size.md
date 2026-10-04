@@ -14,7 +14,7 @@ title:
 Set `size` to get different sizes of loading icons.
 
 ```js
-import { Spin, Space } from '@suzume-design/web-react';
+import { Spin, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

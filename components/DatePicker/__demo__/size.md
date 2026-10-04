@@ -15,7 +15,7 @@ Setting `size` can use four sizes (`mini` `small` `default` `large`). The height
 
 ```js
 import React from 'react';
-import { Radio, DatePicker } from '@suzume-design/web-react';
+import { Radio, DatePicker } from '@byonedot/web-react';
 
 const RadioGroup = Radio.Group;
 

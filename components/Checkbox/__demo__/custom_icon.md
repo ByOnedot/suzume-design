@@ -15,8 +15,8 @@ title:
 Customize the selected icon through the `icon` property.
 
 ```js
-import { Checkbox } from '@suzume-design/web-react';
-import { IconAt } from '@suzume-design/web-react/icon';
+import { Checkbox } from '@byonedot/web-react';
+import { IconAt } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

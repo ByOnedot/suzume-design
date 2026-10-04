@@ -71,7 +71,7 @@ import {
   Upload,
   VerificationCode,
   Watermark,
-} from '@suzume-design/web-react';
+} from '@byonedot/web-react';
 import {
   IconDelete,
   IconHome,
@@ -81,7 +81,7 @@ import {
   IconSearch,
   IconSettings,
   IconUpload,
-} from '@suzume-design/web-react/icon';
+} from '@byonedot/web-react/icon';
 
 export type Scenario = {
   /** Stable identifier - used in the screenshot file name. */
@@ -140,9 +140,18 @@ export const scenarios: Scenario[] = [
     variants: ['default', 'info', 'success', 'warning', 'error', 'closable'],
     render: (v) => (
       <div style={{ ...box, display: 'grid', gap: 12 }}>
-        <Alert type={v === 'default' ? 'info' : (v as any)} title="Suzume Design" content="A descriptive message goes here." />
+        <Alert
+          type={v === 'default' ? 'info' : (v as any)}
+          title="Suzume Design"
+          content="A descriptive message goes here."
+        />
         {v === 'closable' && (
-          <Alert closable type="warning" title="Storage almost full" content="Free up space to continue." />
+          <Alert
+            closable
+            type="warning"
+            title="Storage almost full"
+            content="Free up space to continue."
+          />
         )}
       </div>
     ),
@@ -226,10 +235,15 @@ export const scenarios: Scenario[] = [
     render: (v) => (
       <div style={{ ...box, display: 'flex', gap: 32, alignItems: 'center' }}>
         <Badge count={5}>
-          <div className="suzume-badge-status-wrapper" style={{ width: 40, height: 40, background: 'var(--color-fill-2)', borderRadius: 4 }} />
+          <div
+            className="suzume-badge-status-wrapper"
+            style={{ width: 40, height: 40, background: 'var(--color-fill-2)', borderRadius: 4 }}
+          />
         </Badge>
         <Badge dot>
-          <div style={{ width: 40, height: 40, background: 'var(--color-fill-2)', borderRadius: 4 }} />
+          <div
+            style={{ width: 40, height: 40, background: 'var(--color-fill-2)', borderRadius: 4 }}
+          />
         </Badge>
         <Badge status="processing" text="Processing" />
         <Badge status="success" text="Done" />
@@ -403,10 +417,7 @@ export const scenarios: Scenario[] = [
     variants: ['default', 'expanded', 'accordion'],
     render: (v) => (
       <div style={box}>
-        <Collapse
-          defaultActiveKey={v === 'expanded' ? ['1'] : []}
-          accordion={v === 'accordion'}
-        >
+        <Collapse defaultActiveKey={v === 'expanded' ? ['1'] : []} accordion={v === 'accordion'}>
           <Collapse.Item header="Panel one" key="1">
             Content for panel one.
           </Collapse.Item>
@@ -673,8 +684,17 @@ export const scenarios: Scenario[] = [
     expectText: false,
     render: (v) => (
       <div style={{ ...box, display: 'grid', gap: 12 }}>
-        <Input data-act placeholder="Default" defaultValue={v === 'filled' ? 'Filled value' : ''} disabled={v === 'disabled'} />
-        <Input data-act status={v === 'error' ? 'error' : v === 'success' ? 'success' : undefined} placeholder="Status" />
+        <Input
+          data-act
+          placeholder="Default"
+          defaultValue={v === 'filled' ? 'Filled value' : ''}
+          disabled={v === 'disabled'}
+        />
+        <Input
+          data-act
+          status={v === 'error' ? 'error' : v === 'success' ? 'success' : undefined}
+          placeholder="Status"
+        />
         <Input data-act prefix={<IconSearch />} placeholder="Search" allowClear />
       </div>
     ),
@@ -705,7 +725,12 @@ export const scenarios: Scenario[] = [
     variants: ['default', 'disabled'],
     render: (v) => (
       <div style={box}>
-        <InputTag data-act defaultValue={['design', 'system']} disabled={v === 'disabled'} placeholder="Add a tag" />
+        <InputTag
+          data-act
+          defaultValue={['design', 'system']}
+          disabled={v === 'disabled'}
+          placeholder="Add a tag"
+        />
       </div>
     ),
     act: '.suzume-input-tag',
@@ -717,13 +742,21 @@ export const scenarios: Scenario[] = [
     render: (v) => (
       <div style={{ width: 720, maxWidth: '100%' }}>
         <Layout style={{ minHeight: 240 }}>
-          <Layout.Sider collapsed={v === 'collapsed'} width={180} style={{ background: 'var(--color-fill-2)' }}>
+          <Layout.Sider
+            collapsed={v === 'collapsed'}
+            width={180}
+            style={{ background: 'var(--color-fill-2)' }}
+          >
             <div style={{ padding: 12 }}>Sider</div>
           </Layout.Sider>
           <Layout>
-            <Layout.Header style={{ background: 'var(--color-fill-1)', padding: '0 16px' }}>Header</Layout.Header>
+            <Layout.Header style={{ background: 'var(--color-fill-1)', padding: '0 16px' }}>
+              Header
+            </Layout.Header>
             <Layout.Content style={{ padding: 16 }}>Content</Layout.Content>
-            <Layout.Footer style={{ background: 'var(--color-fill-1)', padding: '0 16px' }}>Footer</Layout.Footer>
+            <Layout.Footer style={{ background: 'var(--color-fill-1)', padding: '0 16px' }}>
+              Footer
+            </Layout.Footer>
           </Layout>
         </Layout>
       </div>
@@ -818,7 +851,14 @@ export const scenarios: Scenario[] = [
     variants: ['closed', 'open'],
     render: (v) => (
       <div style={box}>
-        <Modal title="Modal title" visible={v === 'open'} onCancel={() => {}} onOk={() => {}} okText="Confirm" cancelText="Cancel">
+        <Modal
+          title="Modal title"
+          visible={v === 'open'}
+          onCancel={() => {}}
+          onOk={() => {}}
+          okText="Confirm"
+          cancelText="Cancel"
+        >
           <p>Modal body content with a short description.</p>
         </Modal>
         <Button data-act>Open modal</Button>
@@ -938,8 +978,15 @@ export const scenarios: Scenario[] = [
     variants: ['default', 'success', 'error', 'circle'],
     render: (v) => (
       <div style={{ ...box, display: 'grid', gap: 16 }}>
-        <Progress percent={v === 'success' ? 100 : v === 'error' ? 40 : 65} status={v === 'error' ? 'error' : v === 'success' ? 'success' : undefined} />
-        <Progress percent={v === 'success' ? 100 : 72} type="circle" status={v === 'error' ? 'error' : undefined} />
+        <Progress
+          percent={v === 'success' ? 100 : v === 'error' ? 40 : 65}
+          status={v === 'error' ? 'error' : v === 'success' ? 'success' : undefined}
+        />
+        <Progress
+          percent={v === 'success' ? 100 : 72}
+          type="circle"
+          status={v === 'error' ? 'error' : undefined}
+        />
       </div>
     ),
   },
@@ -998,9 +1045,7 @@ export const scenarios: Scenario[] = [
         <ResizeBox style={{ width: 320, height: 120, border: '1px solid var(--color-border)' }}>
           <div style={{ padding: 12 }}>Drag the handles</div>
         </ResizeBox>
-        {v === 'split-group' && (
-          <div style={{ height: 12 }} />
-        )}
+        {v === 'split-group' && <div style={{ height: 12 }} />}
       </div>
     ),
     act: '.suzume-resizebox-trigger',
@@ -1086,7 +1131,11 @@ export const scenarios: Scenario[] = [
     variants: ['default', 'vertical', 'wrap'],
     render: (v) => (
       <div style={box}>
-        <Space direction={v === 'vertical' ? 'vertical' : 'horizontal'} wrap={v === 'wrap'} size="middle">
+        <Space
+          direction={v === 'vertical' ? 'vertical' : 'horizontal'}
+          wrap={v === 'wrap'}
+          size="middle"
+        >
           <Button>One</Button>
           <Button>Two</Button>
           <Button>Three</Button>
@@ -1148,7 +1197,12 @@ export const scenarios: Scenario[] = [
     expectText: false,
     render: (v) => (
       <div style={{ ...box, display: 'flex', gap: 20, alignItems: 'center' }}>
-        <Switch data-act defaultChecked={v === 'checked'} disabled={v === 'disabled'} loading={v === 'loading'} />
+        <Switch
+          data-act
+          defaultChecked={v === 'checked'}
+          disabled={v === 'disabled'}
+          loading={v === 'loading'}
+        />
         <Switch data-act checked disabled />
         <Switch data-act defaultChecked size="large" />
       </div>
@@ -1380,8 +1434,8 @@ export const scenarios: Scenario[] = [
         <Typography.Text underline>Underlined</Typography.Text>
         <br />
         <Typography.Paragraph ellipsis={{ rows: 1, showTooltip: false }}>
-          This paragraph is intentionally longer than the available width so the ellipsis behaviour is
-          visible in the screenshot.
+          This paragraph is intentionally longer than the available width so the ellipsis behaviour
+          is visible in the screenshot.
         </Typography.Paragraph>
         <Typography.Paragraph editable={v === 'editing'} style={{ marginTop: 8 }}>
           Editable paragraph text

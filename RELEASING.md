@@ -4,15 +4,15 @@ Suzume Design publishes two version-locked packages:
 
 | package | path | published |
 | --- | --- | --- |
-| `@suzume-design/color` | `packages/color` | yes |
-| `@suzume-design/web-react` | `.` (workspace root) | yes |
+| `@byonedot/color` | `packages/color` | yes |
+| `@byonedot/web-react` | `.` (workspace root) | yes |
 
 Every other workspace package (`hooks/`, `icon/`, `tools/build-scripts`,
 `tests/visual`, `integration/next-app`) is `"private": true` and is never
 published.
 
 Both packages always share one version: `web-react` declares
-`@suzume-design/color` as `^<version>` (rewritten at pack time by
+`@byonedot/color` as `^<version>` (rewritten at pack time by
 `scripts/sync-color-dep.js`) and `scripts/pack-check.js` fails if that range
 does not match the library's own version.
 
@@ -20,7 +20,7 @@ does not match the library's own version.
 
 ### npm Trusted Publishing (preferred, no stored token)
 
-1. Sign in at <https://www.npmjs.com> as a member of the `@suzume-design`
+1. Sign in at <https://www.npmjs.com> as a member of the `@byonedot`
    organisation.
 2. For **each** package → *Settings* → *Trusted Publisher* → *GitHub Actions*:
    - Repository owner: `byonedot`
@@ -34,7 +34,7 @@ does not match the library's own version.
 ### Fallback token
 
 If trusted publishing is not configured yet, create an npm **automation** token
-(granular, *Read and write*, scoped to `@suzume-design`) and add it as the
+(granular, *Read and write*, scoped to `@byonedot`) and add it as the
 repository secret `NPM_TOKEN`. The workflow prefers it when present.
 
 ### Repository rules
@@ -60,7 +60,7 @@ The workflow then, in order:
    `components/index.tsx`
 4. commits `chore(release): vX.Y.Z` and pushes it to `main`
 5. tags `vX.Y.Z` and pushes the tag
-6. publishes `@suzume-design/color`, then `@suzume-design/web-react`, both with
+6. publishes `@byonedot/color`, then `@byonedot/web-react`, both with
    `--provenance`
 7. creates the GitHub release
 
@@ -81,14 +81,14 @@ git push origin v1.2.0
 ## Verifying a release
 
 ```bash
-npm view @suzume-design/color version
-npm view @suzume-design/web-react version
-npm view @suzume-design/web-react dist.attestations   # provenance URL
+npm view @byonedot/color version
+npm view @byonedot/web-react version
+npm view @byonedot/web-react dist.attestations   # provenance URL
 
 # clean-consumer smoke test (see integration/next-app for the fixture)
 npx create-next-app@latest --ts --app /tmp/suzume-smoke
 cd /tmp/suzume-smoke
-npm i @suzume-design/web-react react react-dom
+npm i @byonedot/web-react react react-dom
 ```
 
 ## Local rehearsal

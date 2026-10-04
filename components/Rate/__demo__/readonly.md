@@ -14,7 +14,7 @@ title:
 Specify `Rate` as read-only via `readonly`.
 
 ```js
-import { Rate } from '@suzume-design/web-react';
+import { Rate } from '@byonedot/web-react';
 
 const App = () => {
   return <Rate readonly defaultValue={3.5} allowHalf />;

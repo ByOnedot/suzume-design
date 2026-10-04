@@ -15,7 +15,7 @@ title:
 In functional components, you can use `Form.useForm` to get a form instance, You can call all form methods through this instance, such as setting form value, reset form, etc. If you are using class component, you can get it by `ref`.
 
 ```js
-import { Form, Input, Button, InputNumber } from '@suzume-design/web-react';
+import { Form, Input, Button, InputNumber } from '@byonedot/web-react';
 const FormItem = Form.Item;
 
 function App() {

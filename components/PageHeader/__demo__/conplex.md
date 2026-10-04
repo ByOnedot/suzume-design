@@ -14,7 +14,7 @@ title:
 Complete capabilities provided by components
 
 ```js
-import { PageHeader, Button, Tag, Message, Typography } from '@suzume-design/web-react';
+import { PageHeader, Button, Tag, Message, Typography } from '@byonedot/web-react';
 
 const App = () => {
   return (

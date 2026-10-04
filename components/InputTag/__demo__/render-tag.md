@@ -14,7 +14,7 @@ title:
 Use `renderTag` to customize tag rendering
 
 ```js
-import { InputTag, Tag } from '@suzume-design/web-react';
+import { InputTag, Tag } from '@byonedot/web-react';
 const options = ['suzumeblue', 'orange', 'lime'];
 
 function tagRender(props) {

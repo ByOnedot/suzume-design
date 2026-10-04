@@ -14,8 +14,8 @@ title:
 This is an example including paging, content on the right, and list operations.
 
 ```js
-import { List, Avatar } from '@suzume-design/web-react';
-import { IconHeart, IconMessage, IconStar } from '@suzume-design/web-react/icon';
+import { List, Avatar } from '@byonedot/web-react';
+import { IconHeart, IconMessage, IconStar } from '@byonedot/web-react/icon';
 const names = ['Socrates', 'Balzac', 'Plato'];
 const avatarSrc = [
   'data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27160%27%20height%3D%27160%27%3E%3Crect%20width%3D%27160%27%20height%3D%27160%27%20fill%3D%27%23F77234%27%2F%3E%3Ccircle%20cx%3D%2780%27%20cy%3D%2762%27%20r%3D%2730%27%20fill%3D%27%23ffffffdd%27%2F%3E%3Cpath%20d%3D%27M36%20160a44%2044%200%200188%200z%27%20fill%3D%27%23ffffffdd%27%2F%3E%3C%2Fsvg%3E',

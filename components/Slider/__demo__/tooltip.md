@@ -6,7 +6,7 @@ title:
 ---
 
 ```js
-import { Slider, Space } from '@suzume-design/web-react';
+import { Slider, Space } from '@byonedot/web-react';
 
 function App() {
   return (

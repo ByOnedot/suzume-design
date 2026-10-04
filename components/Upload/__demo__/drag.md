@@ -14,7 +14,7 @@ title:
 Drag files to a specific area, to upload.
 
 ```js
-import { Upload, Message } from '@suzume-design/web-react';
+import { Upload, Message } from '@byonedot/web-react';
 
 const isAcceptFile = (file, accept) => {
   if (accept && file) {

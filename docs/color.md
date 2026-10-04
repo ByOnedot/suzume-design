@@ -1,14 +1,14 @@
-# Colour utilities - `@suzume-design/color`
+# Colour utilities - `@byonedot/color`
 
 The palette generation that powers Suzume Design's tokens lives in a separate,
-framework-free package: `@suzume-design/color`.
+framework-free package: `@byonedot/color`.
 
 ```bash
-npm i @suzume-design/color
+npm i @byonedot/color
 ```
 
 ```js
-const { generate, getRgbStr, getPresetColors } = require('@suzume-design/color');
+const { generate, getRgbStr, getPresetColors } = require('@byonedot/color');
 ```
 
 ## API
@@ -82,7 +82,7 @@ npm test     # 15 tests covering light/dark generation and every preset
 
 ## Relationship to the component library
 
-`@suzume-design/web-react` declares `@suzume-design/color` as a regular
+`@byonedot/web-react` declares `@byonedot/color` as a regular
 dependency, so installing the component library also brings the colour
 utilities. You can import it directly in application code (for example to
 build a chart palette that matches the design system).

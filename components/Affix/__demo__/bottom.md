@@ -14,7 +14,7 @@ title:
 The element will be fixed when it scrolls down to a certain distance from the bottom of the viewport.
 
 ```js
-import { Affix, Button } from '@suzume-design/web-react';
+import { Affix, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (

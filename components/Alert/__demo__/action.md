@@ -14,7 +14,7 @@ title:
 Customize the action items through `action`.
 
 ```js
-import { Alert, Button, Space } from '@suzume-design/web-react';
+import { Alert, Button, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

@@ -24,19 +24,19 @@ import {
   Popconfirm,
   Button,
   Modal,
-} from '@suzume-design/web-react';
-import zhCN from '@suzume-design/web-react/es/locale/zh-CN';
-import enUS from '@suzume-design/web-react/es/locale/en-US';
-import jaJP from '@suzume-design/web-react/es/locale/ja-JP';
-import koKR from '@suzume-design/web-react/es/locale/ko-KR';
-import idID from '@suzume-design/web-react/es/locale/id-ID';
-import thTH from '@suzume-design/web-react/es/locale/th-TH';
-import zhHK from '@suzume-design/web-react/es/locale/zh-HK';
-import frFR from '@suzume-design/web-react/es/locale/fr-FR';
-import esES from '@suzume-design/web-react/es/locale/es-ES';
-import deDE from '@suzume-design/web-react/es/locale/de-DE';
-import itIT from '@suzume-design/web-react/es/locale/it-IT';
-import viVN from '@suzume-design/web-react/es/locale/vi-VN';
+} from '@byonedot/web-react';
+import zhCN from '@byonedot/web-react/es/locale/zh-CN';
+import enUS from '@byonedot/web-react/es/locale/en-US';
+import jaJP from '@byonedot/web-react/es/locale/ja-JP';
+import koKR from '@byonedot/web-react/es/locale/ko-KR';
+import idID from '@byonedot/web-react/es/locale/id-ID';
+import thTH from '@byonedot/web-react/es/locale/th-TH';
+import zhHK from '@byonedot/web-react/es/locale/zh-HK';
+import frFR from '@byonedot/web-react/es/locale/fr-FR';
+import esES from '@byonedot/web-react/es/locale/es-ES';
+import deDE from '@byonedot/web-react/es/locale/de-DE';
+import itIT from '@byonedot/web-react/es/locale/it-IT';
+import viVN from '@byonedot/web-react/es/locale/vi-VN';
 
 function App() {
   const [locale, setLocale] = useState('zh-CN');

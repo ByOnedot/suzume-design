@@ -18,7 +18,7 @@ Used to perform certain operations asynchronously, and close the popup after the
 **Usage**: Return a `Promise` for asynchronous closing.
 
 ```js
-import { Popconfirm, Message, Button } from '@suzume-design/web-react';
+import { Popconfirm, Message, Button } from '@byonedot/web-react';
 
 function delayClose() {
   return new Promise((resolve, reject) => {

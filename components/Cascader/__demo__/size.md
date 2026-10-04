@@ -16,7 +16,7 @@ There are four sizes available: `mini`, `small`, `default` and `large`. Their he
 
 ```js
 import React from 'react';
-import { Cascader, Radio } from '@suzume-design/web-react';
+import { Cascader, Radio } from '@byonedot/web-react';
 
 const RadioGroup = Radio.Group;
 const options = [

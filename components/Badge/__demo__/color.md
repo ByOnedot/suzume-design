@@ -14,7 +14,7 @@ title:
 We provide a variety of preset colors for the badge. You can also set a custom color with `color` property.
 
 ```js
-import { Badge, Divider } from '@suzume-design/web-react';
+import { Badge, Divider } from '@byonedot/web-react';
 const COLORS = [
   'red',
   'orangered',

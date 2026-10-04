@@ -14,7 +14,7 @@ title:
 Callback when the fixed state changes.
 
 ```js
-import { Affix, Button, Message } from '@suzume-design/web-react';
+import { Affix, Button, Message } from '@byonedot/web-react';
 
 const App = () => {
   return (

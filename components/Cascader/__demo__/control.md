@@ -15,7 +15,7 @@ Control the selected value.
 
 ```js
 import React from 'react';
-import { Cascader, Space } from '@suzume-design/web-react';
+import { Cascader, Space } from '@byonedot/web-react';
 
 const options = [
   {

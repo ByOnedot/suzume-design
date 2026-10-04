@@ -14,7 +14,7 @@ title:
 By `resizeDirections`, you can use the mouse to drag the sidebar to zoom in and out.
 
 ```js
-import { Layout } from '@suzume-design/web-react';
+import { Layout } from '@byonedot/web-react';
 const Sider = Layout.Sider;
 const Header = Layout.Header;
 const Footer = Layout.Footer;

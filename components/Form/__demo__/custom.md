@@ -15,7 +15,7 @@ title:
 
 ```js
 import { useRef, useState, useEffect } from 'react';
-import { Form, Input, Select, Typography } from '@suzume-design/web-react';
+import { Form, Input, Select, Typography } from '@byonedot/web-react';
 
 function CustomInput(props) {
   const value = props.value || {};

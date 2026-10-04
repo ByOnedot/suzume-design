@@ -15,7 +15,7 @@ title:
 Dynamically set the number of columns occupied by each item through parameters such as `grid.sm`. Be careful not to set `grid.span` at this time.
 
 ```js
-import { List, Card } from '@suzume-design/web-react';
+import { List, Card } from '@byonedot/web-react';
 const data = [
   {
     title: 'Platform',

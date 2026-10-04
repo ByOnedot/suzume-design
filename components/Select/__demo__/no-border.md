@@ -14,7 +14,7 @@ title:
 Use `bordered = false` to use Select without borders.
 
 ```js
-import { Select, Message, Space } from '@suzume-design/web-react';
+import { Select, Message, Space } from '@byonedot/web-react';
 const Option = Select.Option;
 const options = ['Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Chengdu', 'Wuhan'];
 

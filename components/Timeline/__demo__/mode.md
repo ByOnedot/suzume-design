@@ -14,7 +14,7 @@ title:
 The content will be displayed alternately when `mode=alternate` is set. At the same time, you can control the position of the timeline node by setting the positon property of TimelineItem.
 
 ```js
-import { Timeline, Grid } from '@suzume-design/web-react';
+import { Timeline, Grid } from '@byonedot/web-react';
 const TimelineItem = Timeline.Item;
 
 function Demo({ mode }) {

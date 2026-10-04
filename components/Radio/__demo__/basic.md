@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```js
-import { Radio, Message, Space } from '@suzume-design/web-react';
+import { Radio, Message, Space } from '@byonedot/web-react';
 
 const App = () => {
   return (

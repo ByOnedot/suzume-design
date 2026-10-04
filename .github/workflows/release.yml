@@ -1,6 +1,6 @@
 name: Release
 
-# Publishes @suzume-design/color and @suzume-design/web-react to npm.
+# Publishes @byonedot/color and @byonedot/web-react to npm.
 #
 # Preferred path is npm Trusted Publishing (OIDC): configure a trusted publisher
 # for both packages on npmjs.com pointing at this repository and this workflow
@@ -125,12 +125,12 @@ jobs:
           fi
           npm whoami || echo "no interactive npm user - relying on trusted publishing (OIDC)"
 
-      - name: Publish @suzume-design/color
+      - name: Publish @byonedot/color
         if: steps.version.outputs.dry_run != 'true'
         run: npm publish --provenance --access public
         working-directory: packages/color
 
-      - name: Publish @suzume-design/web-react
+      - name: Publish @byonedot/web-react
         if: steps.version.outputs.dry_run != 'true'
         run: npm publish --provenance --access public
 
@@ -145,6 +145,6 @@ jobs:
             exit 0
           fi
           gh release create "v$v" \
-            --title "@suzume-design/web-react v$v" \
+            --title "@byonedot/web-react v$v" \
             --notes "See [CHANGELOG.md](https://github.com/byonedot/suzume-design/blob/main/CHANGELOG.md) for details." \
             --verify-tag

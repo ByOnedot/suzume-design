@@ -28,7 +28,7 @@ Set the initial value by setting initialValue to Form.Control instead of default
 
 ```js
 import React from 'react';
-import { Form, Input, InputNumber, Message } from '@suzume-design/web-react';
+import { Form, Input, InputNumber, Message } from '@byonedot/web-react';
 
 const FormItem = Form.Item;
 const FormControl = Form.Control;

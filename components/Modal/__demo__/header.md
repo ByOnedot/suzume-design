@@ -15,7 +15,7 @@ The `title` parameter supports text or react nodes, which can support title bar 
 
 ```js
 import React from 'react';
-import { Modal, Button, Space} from '@suzume-design/web-react';
+import { Modal, Button, Space} from '@byonedot/web-react';
 
 function App() {
   const [visible, setVisible] = React.useState(false);

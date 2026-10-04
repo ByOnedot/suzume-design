@@ -14,7 +14,7 @@ title:
 The content of trigger in all directions can be customized through the property `resizeTriggers`.
 
 ```js
-import { ResizeBox, Divider, Typography } from '@suzume-design/web-react';
+import { ResizeBox, Divider, Typography } from '@byonedot/web-react';
 const { Paragraph } = Typography;
 
 const TriggerContent = function ({ className }) {

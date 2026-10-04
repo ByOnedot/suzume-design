@@ -14,8 +14,8 @@ title:
 All features.
 
 ```js
-import { Result, Button, Typography } from '@suzume-design/web-react';
-import { IconFaceFrownFill } from '@suzume-design/web-react/icon';
+import { Result, Button, Typography } from '@byonedot/web-react';
+import { IconFaceFrownFill } from '@byonedot/web-react/icon';
 
 const App = () => {
   return (

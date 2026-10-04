@@ -14,7 +14,7 @@ title:
 Use `Rate` with text description.
 
 ```js
-import { Rate, Typography } from '@suzume-design/web-react';
+import { Rate, Typography } from '@byonedot/web-react';
 import { useState } from 'react';
 
 function App() {

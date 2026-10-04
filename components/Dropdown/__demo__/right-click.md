@@ -15,7 +15,7 @@ Right click to trigger menu.
 
 ```js
 import { useState } from 'react';
-import { Dropdown, Menu, Grid } from '@suzume-design/web-react';
+import { Dropdown, Menu, Grid } from '@byonedot/web-react';
 
 function App() {
   return (

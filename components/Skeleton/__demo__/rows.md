@@ -14,7 +14,7 @@ title:
 Set the number of text lines and text width.
 
 ```js
-import { Skeleton } from '@suzume-design/web-react';
+import { Skeleton } from '@byonedot/web-react';
 
 const App = () => {
   return (

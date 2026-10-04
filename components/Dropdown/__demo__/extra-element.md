@@ -14,8 +14,8 @@ title:
 Disable menu items and insert dividing lines.
 
 ```js
-import { Dropdown, Menu, Button, Divider } from '@suzume-design/web-react';
-import { IconDown } from '@suzume-design/web-react/icon';
+import { Dropdown, Menu, Button, Divider } from '@byonedot/web-react';
+import { IconDown } from '@byonedot/web-react/icon';
 const dropList = (
   <Menu>
     <Menu.Item key="1">Beijing</Menu.Item>

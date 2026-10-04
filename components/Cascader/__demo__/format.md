@@ -14,7 +14,7 @@ title:
 The return value will be displayed in the input box
 
 ```js
-import { Cascader } from '@suzume-design/web-react';
+import { Cascader } from '@byonedot/web-react';
 const options = [
   {
     value: 'beijing',

@@ -14,8 +14,8 @@ title:
 You can display icons in children.
 
 ```js
-import { Radio } from '@suzume-design/web-react';
-import { IconXiguaColor, IconLarkColor, IconTiktokColor } from '@suzume-design/web-react/icon';
+import { Radio } from '@byonedot/web-react';
+import { IconXiguaColor, IconLarkColor, IconTiktokColor } from '@byonedot/web-react/icon';
 const RadioGroup = Radio.Group;
 const imgStyle = {
   width: 30,

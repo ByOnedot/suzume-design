@@ -14,7 +14,7 @@ title:
 You can set the spacing in the vertical direction.
 
 ```js
-import { Space, Button } from '@suzume-design/web-react';
+import { Space, Button } from '@byonedot/web-react';
 
 const App = () => {
   return (
