@@ -1,5 +1,4 @@
 import { transformSync } from '@babel/core';
-import template from '@babel/template';
 
 /**
  * Turns a `__demo__/*.md` file into a module that default-exports the demo
@@ -14,11 +13,37 @@ const CODE_FENCE = /^(([ \t]*`{3,4})([^\n]*)([\s\S]+?)(^[ \t]*\2))/m;
 const LANGUAGES = ['js', 'javascript', 'jsx', 'tsx'];
 
 function createDemoPlugin({ types }: any) {
-  const importReact = template('import React from "react";import ReactDOM from "react-dom";');
+  const declaresDefault = (body: any[], source: string, local: string) =>
+    body.some(
+      (node: any) =>
+        node.type === 'ImportDeclaration' &&
+        node.source.value === source &&
+        node.specifiers.some(
+          (spec: any) =>
+            (spec.type === 'ImportDefaultSpecifier' || spec.type === 'ImportNamespaceSpecifier') &&
+            spec.local.name === local
+        )
+    );
+
+  const defaultImport = (source: string, local: string) =>
+    types.importDeclaration(
+      [types.importDefaultSpecifier(types.identifier(local))],
+      types.stringLiteral(source)
+    );
+
   return {
     visitor: {
       Program(path: any) {
-        path.unshiftContainer('body', importReact());
+        // Many demos already import React/ReactDOM themselves. Injecting a
+        // second binding of the same name is a duplicate declaration, which
+        // @babel/traverse now rejects while resolving scopes.
+        const body = path.node.body;
+        const missing: any[] = [];
+        if (!declaresDefault(body, 'react', 'React')) missing.push(defaultImport('react', 'React'));
+        if (!declaresDefault(body, 'react-dom', 'ReactDOM')) {
+          missing.push(defaultImport('react-dom', 'ReactDOM'));
+        }
+        if (missing.length) path.unshiftContainer('body', missing);
       },
       CallExpression(path: any) {
         const callee = path.node.callee as any;
@@ -70,10 +95,10 @@ export function transformDemoMarkdown(code: string, id: string): string {
     configFile: false,
     presets: [
       ...BASE_PRESETS,
-      [
-        '@babel/preset-typescript',
-        isTsx ? { isTSX: true, allExtensions: true } : {},
-      ] as [string, object],
+      ['@babel/preset-typescript', isTsx ? { isTSX: true, allExtensions: true } : {}] as [
+        string,
+        object,
+      ],
     ],
     plugins: [...BASE_PLUGINS, createDemoPlugin],
   });
