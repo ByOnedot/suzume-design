@@ -53,11 +53,11 @@ jobs:
       - name: Lint (stylelint)
         run: pnpm stylelint
 
-      - name: Typecheck
-        run: pnpm typecheck
-
       - name: Generate icons
         run: pnpm icon
+
+      - name: Typecheck
+        run: pnpm typecheck
 
       - name: Build (es / cjs / dist / css / hooks)
         run: pnpm build

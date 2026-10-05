@@ -71,6 +71,12 @@ dist/
 hooks/es/
 hooks/lib/
 
+# Required sources that a machine-level gitignore may swallow. A global rule
+# such as `build/` silently drops these from a fresh commit, which breaks
+# `pnpm icon` and `suzume-build` for every fresh clone.
+!icon/build/
+!tools/build-scripts/lib/scripts/build/
+
 # typescript cache
 .rpt2_cache/
 

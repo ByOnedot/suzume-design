@@ -67,11 +67,11 @@ jobs:
           pnpm eslint
           pnpm stylelint
 
-      - name: Typecheck
-        run: pnpm typecheck
-
       - name: Generate icons
         run: pnpm icon
+
+      - name: Typecheck
+        run: pnpm typecheck
 
       - name: Build (es / cjs / dist / css / hooks)
         run: pnpm build
@@ -103,6 +103,18 @@ jobs:
           echo "version=$v" >> "$GITHUB_OUTPUT"
           echo "dry_run=${{ inputs.dry_run || false }}" >> "$GITHUB_OUTPUT"
 
+      - name: Detect already-published versions
+        id: published
+        run: |
+          v="${{ steps.version.outputs.version }}"
+          c=false
+          w=false
+          if npm view "@byonedot/color@$v" version >/dev/null 2>&1; then c=true; fi
+          if npm view "@byonedot/web-react@$v" version >/dev/null 2>&1; then w=true; fi
+          echo "color=$c" >> "$GITHUB_OUTPUT"
+          echo "web=$w" >> "$GITHUB_OUTPUT"
+          echo "v$v already on npm: color=$c web=$w"
+
       - name: Bump version and tag
         if: github.event_name == 'workflow_dispatch' && inputs.dry_run != true
         run: |
@@ -126,12 +138,12 @@ jobs:
           npm whoami || echo "no interactive npm user - relying on trusted publishing (OIDC)"
 
       - name: Publish @byonedot/color
-        if: steps.version.outputs.dry_run != 'true'
+        if: steps.version.outputs.dry_run != 'true' && steps.published.outputs.color != 'true'
         run: npm publish --provenance --access public
         working-directory: packages/color
 
       - name: Publish @byonedot/web-react
-        if: steps.version.outputs.dry_run != 'true'
+        if: steps.version.outputs.dry_run != 'true' && steps.published.outputs.web != 'true'
         run: npm publish --provenance --access public
 
       - name: GitHub release
