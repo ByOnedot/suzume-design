@@ -79,8 +79,19 @@ jobs:
 
       - name: npm publish --dry-run
         run: |
-          npm publish --dry-run
-          (cd packages/color && npm publish --dry-run)
+          root_pkg=$(node -p "require('./package.json').name")
+          root_ver=$(node -p "require('./package.json').version")
+          color_ver=$(node -p "require('./packages/color/package.json').version")
+          if [ -z "$(npm view "${root_pkg}@${root_ver}" version 2>/dev/null)" ]; then
+            npm publish --dry-run
+          else
+            echo "${root_pkg}@${root_ver} already published - skipping dry-run"
+          fi
+          if [ -z "$(npm view "@byonedot/color@${color_ver}" version 2>/dev/null)" ]; then
+            (cd packages/color && npm publish --dry-run)
+          else
+            echo "@byonedot/color@${color_ver} already published - skipping dry-run"
+          fi
 
       - name: Upload tarball
         if: matrix.node == 22

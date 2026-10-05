@@ -4,7 +4,7 @@ import mountTest from '../../../tests/mountTest';
 import componentConfigTest from '../../../tests/componentConfigTest';
 import Slider from '..';
 import { SliderProps } from '../interface';
-import { fireEvent, render, sleep } from '../../../tests/util';
+import { fireEvent, render, sleep, waitFor } from '../../../tests/util';
 
 mountTest(Slider);
 componentConfigTest(Slider, 'Slider');
@@ -40,17 +40,16 @@ describe('Slider ', () => {
     document.body.innerHTML = '';
   });
 
-  it('render correctly', (done) => {
+  it('render correctly', async () => {
     const component = render(<Test />);
     expect(component.find('.suzume-slider').length).toBe(1);
     expect(component.find('.suzume-slider-road').length).toBe(1);
     expect(component.find('.suzume-slider-button').length).toBe(1);
     act(() => {
       fireEvent.mouseEnter(component.find('.suzume-slider-button')[0]);
-      setTimeout(() => {
-        expect(component.find('.suzume-tooltip-content-inner')[0].innerHTML).toEqual('20');
-        done();
-      }, 200);
+    });
+    await waitFor(() => {
+      expect(component.find('.suzume-tooltip-content-inner')[0]?.innerHTML).toEqual('20');
     });
   });
 
@@ -170,25 +169,24 @@ describe('Slider ', () => {
     expect(component.find('.suzume-slider-button:last-child')[0].style.left).toEqual('60%');
   });
 
-  it('should show tooltip when hovering slider button', (done) => {
+  it('should show tooltip when hovering slider button', async () => {
     const component = render(<Test />);
 
     act(() => {
       fireEvent.mouseEnter(component.find('.suzume-slider-button')[0]);
     });
 
-    setTimeout(() => {
+    await waitFor(() => {
       expect(document.querySelectorAll('.suzume-tooltip').length).toBe(1);
+    });
 
-      act(() => {
-        fireEvent.mouseLeave(component.find('.suzume-slider-button')[0]);
-      });
+    act(() => {
+      fireEvent.mouseLeave(component.find('.suzume-slider-button')[0]);
+    });
 
-      setTimeout(() => {
-        expect(document.querySelectorAll('.suzume-tooltip').length).toBe(0);
-        done();
-      }, 400);
-    }, 200);
+    await waitFor(() => {
+      expect(document.querySelectorAll('.suzume-tooltip').length).toBe(0);
+    });
   });
 
   it('should button onMoving/onMoveEnd/onMoveBegin event been called', async () => {
